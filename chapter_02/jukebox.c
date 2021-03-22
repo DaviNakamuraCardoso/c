@@ -4,17 +4,21 @@
 
 
 
+const int length = 6;
 char tracks[][80] = {
     "I left my heart in San Francisco",
-    "New York, New York - a wonderful town",
-    "Dancing with a Dork",
-    "The Girl from Ipanema"
-}; 
+    "(Theme from) New York, New York",
+    "Dancing in the Dark",
+    "The Girl from Ipanema",
+    "My Way",
+    "That's Life"
+};
+
 
 void find_track(char search_for[])
 {
     int i;
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < length; i++)
     {
         if (strstr(tracks[i], search_for))
         {

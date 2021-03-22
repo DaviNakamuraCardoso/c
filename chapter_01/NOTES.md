@@ -28,7 +28,7 @@ int main()
     if (card_name[0] == 'K') {
     val = 10;
     } else if (card_name[0] == 'Q') {
-        val = 10; 
+        val = 10;
     } else if (card_name[0] == 'J') {
         val = 10;
     } else if (card_name[0] == 'A')
@@ -43,3 +43,20 @@ int main()
 }
 
 ```
+
+
+#### Be the compiler
+A. Won't compile
+B. Will run as intended
+C. Won't compile
+D. Won't compile
+
+
+#### Code mojo
+| Code | Output     |
+| :------------- | :------------- |
+| ```y = x - y;```       | ```00 11 21 32 42```       |
+| ```y = y + x;``` | ```00 11 23 36 410```|
+| ```y = y + 2; \n if (i > 4)\n y = y - 1;```| ```02 14 25 36 47```|
+| ```x = x + 1; \n y = y + x``` | ```11 34 59``` |
+| ```if (y < 5) {x = x + 1; if (y < 3) {x = x - 1;}}``` | ```02 14 36 48``` | 

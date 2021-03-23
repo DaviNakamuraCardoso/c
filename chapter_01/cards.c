@@ -49,7 +49,6 @@ int main(void)
             }
         }
 
-
         if ((val > 2) && (val < 7))
         {
             count++;

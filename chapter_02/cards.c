@@ -6,7 +6,7 @@
 int main(void)
 {
     // Declares a pointer to a constant called 'deck'
-    // const char* deck = "JQK";
+    const char* deck = "JQK";
 
     // Copies the literal string "JQK" to an array with a pointer called cards
     char cards[] = "JQK";

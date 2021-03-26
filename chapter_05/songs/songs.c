@@ -15,6 +15,7 @@ typedef struct _band
 {
     const char* band_name;
     ARTIST* members[10];
+
 } BAND;
 
 
@@ -54,9 +55,18 @@ void song_catalog(SONG* s)
     }
     else
     {
-        printf("Song: %s\nBand: %s\nReleased: %i\n",
+        printf("Song: %s\nBand: %s\nReleased: %i\nArtists: ",
             s->name, s->releaser->band->band_name, s->year_of_release
         );
+
+         unsigned short i;
+         while (s->releaser->band->members[i] != NULL)
+         {
+            printf("\n-%s", s->releaser->band->members[i]->name);
+            i++;
+        }
+        printf("\n"); 
+
     }
 
     return;
@@ -75,12 +85,8 @@ int main(void)
     ARTIST mx = {"Maxene Andrews", 1916,};
     ARTIST p = {"Patty Andrews", 1918};
 
-    ARTIST* group[10];
-    group[0] = &lv;
-    group[1] = &mx;
-    group[2] = &p;
 
-    BAND tas = {"The Andrew Sisters", group};
+    BAND tas = {"The Andrew Sisters", {&lv, &mx, &p}};
     RELEASER t = {.band=&tas};
 
     SONG racc = {"Rum and Coca Cola", 1945, &t, B};

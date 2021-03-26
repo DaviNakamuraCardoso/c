@@ -81,3 +81,11 @@ float day = length_of_day * hours;
 - [ ] popcorn.o
 - [ ] juicer.o
 - [x] galley
+
+#### Make magnets
+```
+oggswing: oggswing.c oggswing.h  
+[TAB] gcc oggswing.c -o oggswing
+swing.ogg: whitennerdy.ogg oggswing
+[TAB] oggswing whitennerdy.ogg swing.ogg 
+```

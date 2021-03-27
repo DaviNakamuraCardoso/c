@@ -5,7 +5,7 @@ typedef struct _trie
 } TRIE;
 
 
-TRIE* create(int a);
+TRIE* create(void);
 void add_word(char* word, TRIE* root);
 void release(TRIE* root);
 unsigned int exists(char* word, TRIE* root);

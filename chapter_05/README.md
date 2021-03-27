@@ -142,3 +142,17 @@ m = {2.0, 1.0, {0.5}};
 [ ] Compiles
 [x] Does not compile
 *Explanation: if the declaration and the assignment are in different lines, the compiler thinks you are creating an array*
+
+
+#### Exercise
+```c
+typedef struct
+{
+    unsigned int first_visit: 1;
+    unsigned int come_again: 1;
+    unsigned int fingers_lost: 4;
+    unsigned int shark_attack: 1;
+    unsigned int day_a_week: 3; 
+}
+
+```

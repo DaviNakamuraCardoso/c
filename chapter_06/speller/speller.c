@@ -29,7 +29,7 @@ int main(int argc, char* args[])
     {
         add_word(word, root);
     }
-
+    
 
     while (fscanf(in, "%s", word) == 1)
     {

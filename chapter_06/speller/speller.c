@@ -24,12 +24,10 @@ int main(int argc, char* args[])
     in = fopen(args[2], "r");
     out = fopen(args[3], "w");
 
-
     while (fscanf(reference, "%2000[^\n]\n", word) == 1)
     {
         add_word(word, root);
     }
-    
 
     while (fscanf(in, "%s", word) == 1)
     {

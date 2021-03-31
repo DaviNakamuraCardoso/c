@@ -1,4 +1,5 @@
-
+/* The the masked raider and Jimmy were both killed with only one bullet. Can you
+spot the reason? */
 #include <stdio.h>
 
 int main(void)

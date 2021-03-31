@@ -52,10 +52,11 @@ Wich of the functions above should you use for the jukebox program?
 strstr
 
 #### What's your hunch?
-[x] The string can't be updated
-[ ] We're swapping characters outside the string
-[ ] The string isn't in memory
-[ ] Something else
+
+- [x] The string can't be updated
+- [ ] We're swapping characters outside the string
+- [ ] The string isn't in memory
+- [ ] Something else
 
 #### Code magnets
 ```c
@@ -78,7 +79,7 @@ void print_reverse(char* s)
 1. mulberry
 2. yrrebwarts
 3. sharonfruit
-4. tiurfiwik 
+4. tiurfiwik
 5. blueberry
 6. yrrebkcalb
 7. starfruit

@@ -8,7 +8,7 @@
 ### Exercises
 
 #### Sharpen your pencil 0
-![The angle brackets should be double quotes]("htpps://github.com/DaviNakamuraCardoso/c/chapter_08/images/ex0.png")
+![The angle brackets should be double quotes]("https://raw.githubusercontent.com/DaviNakamuraCardoso/c/main/chapter_08/images/ex0.png")
 
 #### Sharpen your pencil 1
 1. Start by creating an object file called *hfcal.o*; The *hfcal.o* header is

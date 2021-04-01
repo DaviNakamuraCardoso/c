@@ -78,13 +78,13 @@ void loop()
 enum status get_status(int a)
 {
     /* Given the small size of the plant,
-        it is dry when the current is below 300 */
-    if (a <= 300)
+        it is dry when the current is below 400 */
+    if (a <= 400)
     {
         return DRY;
     }
-    // Borderline between 300 and 450
-    else if (a <= 450)
+    // Borderline between 400 and 550
+    else if (a <= 550)
     {
         return BORDERLINE;
     }

@@ -48,14 +48,17 @@ for o, a in opts:
         assert False, "unhandled option"
 
 searcher = re.compile(args[0], re.IGNORECASE)
-site_re = re.compile(r"http(.*).com")
+site_re = re.compile(r"http(s)?://rss(feeds)?.(.*).com")
 
 for url in os.environ['RSS_FEED'].split():
     feed = requests.get(url).content
     dom = xmltodict.parse(feed)
 
-    fmt_url = site_re.search(url).group(0)
-    print(f"\n\n______________ Searching on {fmt_url} __________________\n\n\n")
+    fmt_url = site_re.search(url)
+    print(f"\n\n______________ Searching on {fmt_url.group(3).capitalize()} __________________\n\n\n")
+    if (include_urls):
+        print(f"Site url: {fmt_url.group(0)}")
+        
     forecasts = []
     for desc in dom['rss']['channel']['item']:
         if match := searcher.search(desc['title']):

@@ -11,11 +11,6 @@ int main(int argc, char* argv[])
 {
     char* phrase = argv[1];
     char* vars[] = {"RSS_FEED=https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", NULL};
-    FILE* f = fopen("stories.txt", "w");
-    if (!f)
-    {
-        error("Couldn't open file!");
-    }
     pid_t pid = fork();
 
     if (pid == -1)
@@ -38,7 +33,7 @@ int main(int argc, char* argv[])
     int pid_status;
     if (waitpid(pid, &pid_status, 0) == -1)
     {
-        error("Couldn't wait for process."); 
+        error("Couldn't wait for process.");
     }
 
     return 0;

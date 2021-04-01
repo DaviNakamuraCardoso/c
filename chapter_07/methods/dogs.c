@@ -19,6 +19,7 @@ DOG* init(char* name, float weight)
     d->free = _free;
 
     return d;
+
 }
 
 void _bark(DOG* d)

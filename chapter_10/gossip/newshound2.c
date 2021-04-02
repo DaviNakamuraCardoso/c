@@ -3,7 +3,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <errno.h>
-#include <sys/waith.h>
+#include <sys/wait.h>
 #include "newshound2.h"
 
 

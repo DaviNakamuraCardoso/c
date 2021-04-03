@@ -118,3 +118,6 @@ close(fd[1]);
 | 2 | Standard Error |
 | 3 | Read end of the pipe|
 | 4 | ~~Write end to the pipe~~ |
+
+### What's my purpose?
+![](./ex.png)

@@ -61,7 +61,7 @@ void register_site(char* name, TRIE* root, SITE* site)
 
 
 
-TRIE* create_trie()
+ TRIE* create_trie()
 {
     TRIE* t;
     t = malloc(sizeof(TRIE));
@@ -75,17 +75,22 @@ TRIE* create_trie()
 }
 
 
-unsigned short exists(char* site_name, TRIE* root)
+SITE* get_site(char* site_name, TRIE* root)
 {
     TRIE* current = root;
     int i;
+
+    if (root == NULL)
+    {
+        return NULL;
+    }
     for (i = 0; site_name[i] != '\0'; i++)
     {
         int a = ascii(site_name[i]);
         // If there is no next trie, return false
         if (current->next[a] == NULL)
         {
-            return 0;
+            return NULL;
         }
 
         current = current->next[a];
@@ -93,10 +98,14 @@ unsigned short exists(char* site_name, TRIE* root)
 
     if (current == NULL)
     {
-        return 0;
+        return NULL;
+    }
+    if (current->address == NULL)
+    {
+        return NULL;
     }
 
-    return current->address == NULL;
+    return current->address;
 }
 
 
@@ -107,9 +116,10 @@ SITE* create_site(char* name)
     site = malloc(sizeof(SITE));
 
     site->name = strdup(name);
-    for (int i = 0; i < 40; i++)
+    for (int i = 0; i < 600; i++)
     {
         site->from[i] = NULL;
+        site->next[i] = NULL;
     }
 
     return site;
@@ -118,14 +128,20 @@ SITE* create_site(char* name)
 
 void add_site(SITE* from, SITE* new, TRIE* root)
 {
-    int i;
+    int i = 0;
     while (new->from[i] != NULL)
     {
         i++;
     }
     new->from[i] = from;
 
-    register_site(new->name, root, new);
+    int j = 0;
+    while (from->next[j] != NULL)
+    {
+        j++;
+    }
+    from->next[j] = new;
+
 
     return;
 }

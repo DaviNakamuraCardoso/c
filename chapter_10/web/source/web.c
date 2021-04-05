@@ -45,7 +45,7 @@ void get_urls(char* article_name, char* target, int index, TRIE* root)
         return;
     }
 
-    
+
     if (index == 2)
     {
         return;

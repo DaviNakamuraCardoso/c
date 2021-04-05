@@ -86,6 +86,7 @@ int main(void)
         close(connect_d);
 
     }
+    return 0;
 
 }
 

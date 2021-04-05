@@ -11,12 +11,13 @@
 int main(int argc, char* argv[])
 {
     int d_sock;
-    d_sock = open_socket("", "80");
+    d_sock = open_socket("en.wikipedia.org", "80");
     char buff[255];
 
-    say(d_sock, "GET / HTTP/1.1\r\n");
+    sprintf(buff, "GET /wiki/%s HTTP/1.1\r\n", argv[1]);
+    say(d_sock,buff); 
 
-    say(d_sock, "Host: \r\n\n\r\n");
+    say(d_sock, "Host: en.wikipedia.org\r\n\n\r\n");
 
     char rec[255];
 

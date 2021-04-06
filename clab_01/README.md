@@ -1,4 +1,4 @@
-# C Lab 1: Arduino
+# C Lab 01: Arduino
 ## Talking house plant
 
 ### Project

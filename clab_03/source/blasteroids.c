@@ -92,7 +92,6 @@ void draw(GAME* game)
     if(game->redraw && al_is_event_queue_empty(game->queue))
     {
         al_clear_to_color(al_map_rgb(19, 22, 45));
-        al_draw_text(game->font, al_map_rgb(255, 255, 255), 0, 0, 0, "Hello world!");
         draw_spaceship(game->spaceship);
         al_flip_display();
 
@@ -110,6 +109,7 @@ void destroy(GAME* game)
     al_destroy_timer(game->timer);
     al_destroy_event_queue(game->queue);
 
+    destroy_spaceship(game->spaceship);
     free(game);
 
     return;

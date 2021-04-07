@@ -6,9 +6,11 @@ H = ./include/
 # Allegro libraries
 ALLEGRO = -lallegro -lallegro_font -lallegro_primitives
 
+$(L)blasts.o: $(S)blasts.c
+	gcc -I$(H) -c $(S)blasts.c -o $(L)blasts.o
 $(L)spaceship.o: $(S)spaceship.c
 	gcc -I$(H) -c $(S)spaceship.c -o $(L)spaceship.o
 $(L)blasteroids.o: $(S)blasteroids.c
 	gcc -I$(H) -c $(S)blasteroids.c -o $(L)blasteroids.o
-blasteroids: $(L)spaceship.o $(L)blasteroids.o
-	gcc $(L)spaceship.o $(L)blasteroids.o -o blasteroids -lm $(ALLEGRO)
+blasteroids: $(L)blasts.o $(L)spaceship.o $(L)blasteroids.o
+	gcc $(L)blasts.o $(L)spaceship.o $(L)blasteroids.o -o blasteroids -lm $(ALLEGRO)

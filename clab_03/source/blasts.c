@@ -3,16 +3,13 @@
 #include <allegro5/allegro_primitives.h>
 #include <stdlib.h>
 #include <math.h>
+#include <mathutils.h>
 #include <spaceship.h>
 #include <blasteroids.h>
 #include <blasts.h>
 
 #define size 10
 
-float pi(float deg)
-{
-    return (3.14 * (deg / 180));
-}
 
 BLAST* init_blast(SPACESHIP* s)
 {

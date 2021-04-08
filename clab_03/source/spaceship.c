@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
+#include <mathutils.h>
 #include <spaceship.h>
 #include <blasteroids.h>
 #include <blasts.h>
@@ -12,11 +13,6 @@
 #define MAX(X, Y) (((X) < (Y)) ? (Y) : (X))
 #define r 30
 
-
-float local_pi(float deg)
-{
-    return (3.14 * (deg / 180));
-}
 
 SPACESHIP* init_spaceship(void)
 {
@@ -30,7 +26,7 @@ SPACESHIP* init_spaceship(void)
 
     // 0 degree of inclination, 30 pixels of speed
     s->heading = 0;
-    s->speed = 150;
+    s->speed = 250;
 
     // Alive
     s->gone = 0;
@@ -54,11 +50,11 @@ void draw_spaceship(SPACESHIP* s)
 
     float thickness = 3.0;
 
-    float xo = cos(local_pi(s->heading + 70));
-    float yo = sin(local_pi(s->heading + 70));
+    float xo = cos(pi(s->heading + 70));
+    float yo = sin(pi(s->heading + 70));
 
-    float xo2 = cos(local_pi(s->heading + 110));
-    float yo2 = sin(local_pi(s->heading + 110));
+    float xo2 = cos(pi(s->heading + 110));
+    float yo2 = sin(pi(s->heading + 110));
 
 
     al_draw_line(x1 + (xo2 * r), y1 - (yo2 * r), x1, y1, s->color, thickness);
@@ -77,8 +73,8 @@ void draw_spaceship(SPACESHIP* s)
 
 void update_spaceship(SPACESHIP* s, ALLEGRO_EVENT event, long double dt)
 {
-    float incline_x = cos(local_pi(s->heading+90));
-    float incline_y = sin(local_pi(s->heading+90));
+    float incline_x = cos(pi(s->heading+90));
+    float incline_y = sin(pi(s->heading+90));
 
     s->sx -= (s->speed* dt * incline_x);
     s->sy += (s->speed* dt * incline_y);
@@ -149,7 +145,7 @@ void shoot(SPACESHIP* s)
     s->blasts = b;
     b->next = temp;
 
-    s->shoot_cooldown = 0.5;
+    s->shoot_cooldown = 0.2;
     return;
 }
 

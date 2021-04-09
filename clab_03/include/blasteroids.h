@@ -4,7 +4,10 @@ typedef struct _game
     ALLEGRO_EVENT_QUEUE  *queue;
     ALLEGRO_DISPLAY *display;
     ALLEGRO_FONT *font;
+
+    ALLEGRO_COLOR color;
     ALLEGRO_EVENT event;
+
     unsigned int redraw:1;
     long double previous;
 
@@ -21,10 +24,15 @@ typedef struct _game
 #define WINDOW_WIDTH 1280
 #define WINDOW_HEIGHT 720
 
-
 GAME* setup(void);
-unsigned int update(GAME* game);
-void draw(GAME* game);
-void destroy(GAME* game);
 
-void check_collisions(GAME* game, long double dt); 
+unsigned int update(GAME* game);
+void check_collisions(GAME* game, long double dt);
+
+// Graphic functions
+void draw(GAME* game);
+void display_points(GAME* game);
+
+
+// Setup
+void destroy(GAME* game);

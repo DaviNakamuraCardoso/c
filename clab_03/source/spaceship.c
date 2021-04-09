@@ -62,6 +62,7 @@ void draw_spaceship(SPACESHIP* s)
     al_draw_line((x1 + (xo2* r/ 1.4) + x1 + (xo * r / 1.4)) / 2,
     (y1 - (yo2 * r / 1.4) + y1 - (yo * r / 1.4)) / 2, (x1 + (xo2 * r) + x1 + (xo * r)) / 2, (y1 - (yo * r) + y1 - (yo2 * r)) / 2, al_map_rgb(19, 22, 45), thickness);
 
+    al_draw_line((x1 + (xo2 * r/2) + x1 + (xo * r/2)) / 2, (y1 - (yo2 * r/2) + y1 - (yo * r/2)) / 2, x1, y1, al_map_rgb(255, 0, 0), thickness);
 
     draw_all_blasts(s);
 
@@ -200,4 +201,25 @@ void destroy_spaceship(SPACESHIP* s)
 
 
     return;
+}
+
+
+float* spaceship_center(SPACESHIP* s)
+{
+    float x1, y1, xo, xo2, yo, yo2;
+    float* coords = malloc(2*sizeof(float));
+
+    x1 = s->sx;
+    y1 = s->sy;
+
+    xo = cos(pi(s->heading + 70));
+    yo = sin(pi(s->heading + 70));
+
+    xo2 = cos(pi(s->heading + 110));
+    yo2 = sin(pi(s->heading + 110));
+
+    coords[0] = (x1 + (xo2 * r/2) + x1 + (xo * r/2)) / 2;
+    coords[1] = (y1 - (yo2 * r/2) + y1 - (yo * r/2)) / 2;
+
+    return coords;
 }

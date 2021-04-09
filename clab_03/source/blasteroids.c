@@ -44,6 +44,7 @@ GAME* setup(void)
     game->queue = al_create_event_queue();
     game->font = al_create_builtin_font();
     game->display = al_create_display(WINDOW_WIDTH, WINDOW_HEIGHT);
+    game->color = al_map_rgb(255, 255, 255);
     game->redraw = 1;
     game->event;
 
@@ -139,8 +140,6 @@ void check_collisions(GAME* game, long double dt)
         ASTEROID* a_next = a->next;
         ASTEROID* b = (ASTEROID* ) game->asteroids;
 
-
-
         while (b != NULL)
         {
             ASTEROID* b_next  = b->next;
@@ -190,15 +189,46 @@ void check_collisions(GAME* game, long double dt)
             BLAST* blast_next = blast->next;
             float d = distance(blast->sx, blast->sy, coords[0], coords[1]);
 
-            if (d < (a->scale * 25))
+            if (d < (a->scale * 20))
             {
                 destroy_blast(game->spaceship, blast);
                 blow(game, a);
             }
             blast = blast_next;
         }
+
+        // Check collisions with the spaceship
+        float* s_center = spaceship_center(game->spaceship);
+
+        if (distance(s_center[0], s_center[1], coords[0], coords[1]) < (a->scale * 20) &&
+            !game->spaceship->gone)
+        {
+            game->spaceship->lives--;
+            game->spaceship->gone = 1;
+            printf("Lives: %i\n", game->spaceship->lives);
+        }
+
+        free(s_center);
         free(coords);
+
         a = a_next;
     }
     return;
+}
+
+void display_points(GAME* game)
+{
+    // SPACESHIP* s = game->spaceship;
+    printf("About to display the points.\n");
+
+    // if (s->point_counter < s->points)
+    // {
+        // s->point_counter += 4;
+    // }
+
+    // char points[30];
+    // sprintf(points, "%i", s->point_counter);
+    // al_draw_text(game->font, game->color, 20, 20, 0, points);
+    return;
+
 }

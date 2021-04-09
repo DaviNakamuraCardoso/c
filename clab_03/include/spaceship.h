@@ -10,6 +10,7 @@ typedef struct _spaceship
 
     unsigned int lives:2;
     unsigned int gone:1;
+
     ALLEGRO_COLOR color;
     void* blasts;
 
@@ -23,3 +24,4 @@ void destroy_spaceship(SPACESHIP* s);
 void shoot(SPACESHIP* s);
 void update_all_blasts(SPACESHIP* s, long double dt);
 void draw_all_blasts(SPACESHIP* s);
+float* spaceship_center(SPACESHIP* s);

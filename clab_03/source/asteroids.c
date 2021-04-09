@@ -176,6 +176,13 @@ void destroy_asteroid(GAME* game, ASTEROID* a)
     }
 
     ASTEROID* current = (ASTEROID*) game->asteroids;
+    if (a == current)
+    {
+        game->asteroids = NULL;
+        free(a);
+        return; 
+    }
+
     while (current->next != a)
     {
         current = current->next;

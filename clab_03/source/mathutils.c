@@ -87,3 +87,12 @@ int compare_numbers(const void* a, const void* b)
 
     return (na-nb);
 }
+
+float distance(float ax, float ay, float bx, float by)
+{
+    float dist;
+    dist = sqrt(pow(ax-bx, 2) + pow(ay-by, 2));
+
+    return dist; 
+
+}

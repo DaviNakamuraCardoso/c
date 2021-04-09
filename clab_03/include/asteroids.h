@@ -25,4 +25,7 @@ void update_all_asteroids(GAME* game, long double dt);
 
 void cicle_asteroids(GAME* game, void (*handler) (ASTEROID*));
 float get_distance(ASTEROID* a, ASTEROID* b);
-void destroy_asteroid(GAME* game, ASTEROID* a); 
+float* asteroid_center(ASTEROID* a);
+void destroy_asteroid(GAME* game, ASTEROID* a);
+
+void blow(GAME* game, ASTEROID* a); 

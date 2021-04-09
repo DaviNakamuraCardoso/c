@@ -11,7 +11,6 @@
 
 ASTEROID* init_asteroid(ASTEROID* previous)
 {
-
     ASTEROID* a;
     a = malloc(sizeof(ASTEROID));
 
@@ -52,7 +51,6 @@ ASTEROID* init_asteroid(ASTEROID* previous)
 
 void draw_asteroid(ASTEROID* a)
 {
-
     ALLEGRO_TRANSFORM transform, original;
 
     original = *al_get_current_transform();
@@ -79,7 +77,6 @@ void draw_asteroid(ASTEROID* a)
     al_draw_line(0, 15, -20, 20, a->color, 2.0f);
 
     al_use_transform(&original);
-
 }
 
 void cicle_asteroids(GAME* game, void (*handler) (ASTEROID*))
@@ -91,8 +88,8 @@ void cicle_asteroids(GAME* game, void (*handler) (ASTEROID*))
         previous = previous->next;
     }
     return;
-
 }
+
 
 void update_asteroid(ASTEROID* a, long double dt)
 {
@@ -150,25 +147,22 @@ void add_asteroid(GAME* game, ASTEROID* a)
 
 float get_distance(ASTEROID* a, ASTEROID* b)
 {
+    float center_xa, center_ya, center_xb, center_yb, dist;
 
     // Center a
-    float ratio = 20*a->scale;
-
-    float point_xa = a->sx + ratio - cos(pi(a->twist)) * ratio ;
-    float point_ya = a->sy - ratio - sin(pi(a->twist)) * ratio ;
-    float center_xa = point_xa + cos(pi(a->twist+90)) * ratio;
-    float center_ya = point_ya + sin(pi(a->twist+90)) * ratio;
+    float* center_a = asteroid_center(a);
+    center_xa = center_a[0];
+    center_ya = center_a[1];
 
     // Center b
-    float ratio_b = 20*b->scale;
+    float* center_b = asteroid_center(b);
+    center_xb = center_b[0];
+    center_yb = center_b[1];
 
-    float point_xb = b->sx + ratio_b - cos(pi(b->twist)) * ratio_b ;
-    float point_yb = b->sy - ratio_b - sin(pi(b->twist)) * ratio_b ;
-    float center_xb = point_xb + cos(pi(b->twist+90)) * ratio_b;
-    float center_yb = point_yb + sin(pi(b->twist+90)) * ratio_b;
+    dist = distance(center_xa, center_ya, center_xb, center_yb);
 
-
-    float dist = sqrt(pow(center_xa-center_xb, 2) + pow(center_ya-center_yb, 2));
+    free(center_a);
+    free(center_b);
 
     return dist;
 
@@ -196,6 +190,46 @@ void destroy_asteroid(GAME* game, ASTEROID* a)
     free(a);
     game->asteroid_count--;
 
+
+    return;
+}
+
+float* asteroid_center(ASTEROID* a)
+{
+    float* coordinates = malloc(2*sizeof(float));
+    // Center a
+    float ratio = 20*a->scale;
+
+    float point_xa = a->sx + ratio - cos(pi(a->twist)) * ratio ;
+    float point_ya = a->sy - ratio - sin(pi(a->twist)) * ratio ;
+    float center_xa = point_xa + cos(pi(a->twist+90)) * ratio;
+    float center_ya = point_ya + sin(pi(a->twist+90)) * ratio;
+
+    coordinates[0] = center_xa;
+    coordinates[1] = center_ya;
+
+    return coordinates;
+}
+
+
+void blow(GAME* game, ASTEROID* a)
+{
+    ASTEROID* child1;
+    ASTEROID* child2;
+
+    if (a->scale <= 1)
+    {
+        destroy_asteroid(game, a);
+        return;
+    }
+
+    child1 = init_asteroid(a);
+    child2 = init_asteroid(a);
+
+    add_asteroid(game, child1);
+    add_asteroid(game, child2);
+
+    destroy_asteroid(game, a);
 
     return;
 }

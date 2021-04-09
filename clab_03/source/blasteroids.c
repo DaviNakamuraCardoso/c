@@ -5,6 +5,7 @@
 #include <spaceship.h>
 #include <blasteroids.h>
 #include <asteroids.h>
+#include <blasts.h>
 #include <mathutils.h>
 #include <math.h>
 
@@ -186,10 +187,22 @@ void check_collisions(GAME* game, long double dt)
 
             b = b->next;
         }
-        // BLAST* blast = game->spaceship->blasts;
-        // while (blast != NULL)
-        // {
-        // }
+        BLAST* blast = (BLAST*) game->spaceship->blasts;
+        float* coords = asteroid_center(a);
+
+        while (blast != NULL)
+        {
+            float d = distance(blast->sx, blast->sy, coords[0], coords[1]);
+
+            if (d < (a->scale * 25))
+            {
+                blow(game, a);
+                free(coords);
+                return;
+            }
+            blast = blast->next;
+        }
+        free(coords);
         a = a->next;
 
     }

@@ -23,4 +23,6 @@ void draw_asteroid(ASTEROID* a);
 void update_asteroid(ASTEROID* a, long double dt);
 void update_all_asteroids(GAME* game, long double dt);
 
-void cicle_asteroids(GAME* game, void (*handler) (ASTEROID*)); 
+void cicle_asteroids(GAME* game, void (*handler) (ASTEROID*));
+float get_distance(ASTEROID* a, ASTEROID* b);
+void destroy_asteroid(GAME* game, ASTEROID* a); 

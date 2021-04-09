@@ -27,4 +27,4 @@ unsigned int update(GAME* game);
 void draw(GAME* game);
 void destroy(GAME* game);
 
-void check_collisions(GAME* game); 
+void check_collisions(GAME* game, long double dt); 

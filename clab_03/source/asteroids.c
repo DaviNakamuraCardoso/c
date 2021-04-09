@@ -29,8 +29,8 @@ ASTEROID* init_asteroid(ASTEROID* previous)
         a->speed = 100;
 
         // Starts at random position
-        a->sx = random() % WINDOW_WIDTH;
-        a->sy = random() % WINDOW_HEIGHT;
+        a->sx = (random() % 2 == 0) ? (random() + WINDOW_WIDTH) : (-random());
+        a->sy = random();
 
         a->scale = 2;
         a->rot_velocity = 5;
@@ -103,6 +103,7 @@ void update_asteroid(ASTEROID* a, long double dt)
     a->sy += incline_y * dt * a->speed;
 
     a->twist = a->twist + a->rot_velocity * dt * 10;
+    a->speed = MIN(a->speed, 200);
 
     check_bounds(&(a->sx), &(a->sy), a->scale*50);
 
@@ -120,7 +121,7 @@ void update_all_asteroids(GAME* game, long double dt)
 
     game->asteroid_cooldown -= dt;
 
-    if (game->asteroid_cooldown <= 0)
+    if (game->asteroid_cooldown <= 0 && game->asteroid_count <= 5)
     {
         ASTEROID* a = init_asteroid(NULL);
         add_asteroid(game, a);
@@ -132,11 +133,69 @@ void update_all_asteroids(GAME* game, long double dt)
 
 void add_asteroid(GAME* game, ASTEROID* a)
 {
+    if (a->scale < 0.5)
+    {
+        destroy_asteroid(game, a);
+        return;
+    }
     ASTEROID* tmp = (ASTEROID*) game->asteroids;
     game->asteroids = a;
     a->next = tmp;
 
     game->asteroid_count++;
+
+    return;
+}
+
+
+float get_distance(ASTEROID* a, ASTEROID* b)
+{
+
+    // Center a
+    float ratio = 20*a->scale;
+
+    float point_xa = a->sx + ratio - cos(pi(a->twist)) * ratio ;
+    float point_ya = a->sy - ratio - sin(pi(a->twist)) * ratio ;
+    float center_xa = point_xa + cos(pi(a->twist+90)) * ratio;
+    float center_ya = point_ya + sin(pi(a->twist+90)) * ratio;
+
+    // Center b
+    float ratio_b = 20*b->scale;
+
+    float point_xb = b->sx + ratio_b - cos(pi(b->twist)) * ratio_b ;
+    float point_yb = b->sy - ratio_b - sin(pi(b->twist)) * ratio_b ;
+    float center_xb = point_xb + cos(pi(b->twist+90)) * ratio_b;
+    float center_yb = point_yb + sin(pi(b->twist+90)) * ratio_b;
+
+
+    float dist = sqrt(pow(center_xa-center_xb, 2) + pow(center_ya-center_yb, 2));
+
+    return dist;
+
+}
+
+void destroy_asteroid(GAME* game, ASTEROID* a)
+{
+    if (a == NULL)
+    {
+        return;
+    }
+
+    ASTEROID* current = (ASTEROID*) game->asteroids;
+    while (current->next != a)
+    {
+        current = current->next;
+        if (current ==  NULL)
+        {
+            return;
+        }
+    }
+
+    current->next = a->next;
+
+    free(a);
+    game->asteroid_count--;
+
 
     return;
 }

@@ -58,6 +58,7 @@ GAME* setup(void)
     game->previous = time;
 
     game->asteroids = NULL;
+    game->asteroid_count = 0;
 
     game->asteroid_cooldown = 3;
 
@@ -88,7 +89,7 @@ unsigned int update(GAME* game)
     update_spaceship(game->spaceship, game->event, dt);
     update_all_asteroids(game, dt);
 
-    check_collisions(game);
+    check_collisions(game, dt);
 
     // Update timer
     game->previous = time;
@@ -128,36 +129,69 @@ void destroy(GAME* game)
 }
 
 
-void check_collisions(GAME* game)
+void check_collisions(GAME* game, long double dt)
 {
     ASTEROID* a = (ASTEROID*) game->asteroids;
 
     while (a != NULL)
     {
         ASTEROID* b = (ASTEROID* ) game->asteroids;
+
+
         while (b != NULL)
         {
             if (a != b)
             {
-                float center_ax = a->sx + (20*a->scale*cos(pi(a->twist)));
-                float center_ay = a->sy + (20*a->scale*sin(pi(a->twist)));
-                float center_bx = b->sx + (20*b->scale*cos(pi(b->twist)));
-                float center_by = b->sy + (20*b->scale*sin(pi(b->twist)));
 
-                float dist = sqrt(pow(center_ax-center_bx, 2) + pow(center_ay-center_by, 2));
-                if ((dist) < (20*a->scale + 20*b->scale))
+                float limit = (25*a->scale + 25*b->scale);
+                if (get_distance(a, b) < limit)
                 {
-                    a->heading -= 180;
-                    b->heading -= 180;
+                    a->sx = a->sx - a->speed * dt * cos(pi(a->heading + 90));
+                    a->sy = a->sy - 4 * a->speed * dt * sin(pi(a->heading + 90));
 
-                    a->sx += cos(pi(a->heading)) * 30;
-                    b->sx += cos(pi(b->heading)) * 30;
+                    b->sx = b->sx - 4 * b->speed * dt * cos(pi(b->heading + 90));
+                    b->sy = b->sy - 4 * b->speed * dt * sin(pi(b->heading + 90));
+
+                    a->heading = a->heading + 180;
+                    b->heading = a->heading + 180;
+
+                    int counter = 0;
+
+                    while (get_distance(a, b) < limit)
+                    {
+                        a->sx = a->sx + 4 * a->speed * dt * cos(pi(a->heading + 90));
+                        a->sy = a->sy + 4 * a->speed * dt * sin(pi(a->heading + 90));
+
+                        b->sx = b->sx + 4 * b->speed * dt * cos(pi(b->heading + 90));
+                        b->sy = b->sy + 4 * b->speed * dt * sin(pi(b->heading + 90));
+
+                        a->speed *= 1.25;
+                        b->speed *= 1.25;
+                        counter++;
+                        if (counter >= 5)
+                        {
+
+                            ASTEROID* child1 = init_asteroid(b);
+                            ASTEROID* child2 = init_asteroid(b);
+
+                            add_asteroid(game, child1);
+                            add_asteroid(game, child2);
+                            destroy_asteroid(game, b);
+                            return;
+
+                        }
+                    }
                 }
-
             }
+
             b = b->next;
         }
+        // BLAST* blast = game->spaceship->blasts;
+        // while (blast != NULL)
+        // {
+        // }
         a = a->next;
+
     }
 
     return;

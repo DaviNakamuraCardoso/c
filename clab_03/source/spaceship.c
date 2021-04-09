@@ -9,8 +9,6 @@
 #include <blasteroids.h>
 #include <blasts.h>
 
-#define MIN(X, Y) (((X) < (Y)) ? (X) : (Y))
-#define MAX(X, Y) (((X) < (Y)) ? (Y) : (X))
 #define r 30
 
 

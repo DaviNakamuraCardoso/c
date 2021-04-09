@@ -4,10 +4,13 @@ typedef struct _spaceship
     float sy;
     float heading;
     float speed;
-    float shoot_cooldown; 
+    float shoot_cooldown;
+    float acceleration;
+    float acceleration_heading;
+
+    unsigned int lives:2;
     unsigned int gone:1;
     ALLEGRO_COLOR color;
-    ALLEGRO_BITMAP* bitmap;
     void* blasts;
 
 

@@ -28,7 +28,7 @@ BLAST* init_blast(SPACESHIP* s)
 
 }
 
-void update_blast(BLAST* b, long double dt)
+void update_blast(SPACESHIP* s, BLAST* b, long double dt)
 {
     float xo = cos(pi(b->heading + 90));
     float yo = sin(pi(b->heading + 90));
@@ -38,20 +38,20 @@ void update_blast(BLAST* b, long double dt)
 
     if (b->sx >= WINDOW_WIDTH + size)
     {
-        b->sx = 0;
+        destroy_blast(s, b);
     }
     else if (b->sx <= 0 - size)
     {
-        b->sx = WINDOW_WIDTH;
+        destroy_blast(s, b);
     }
 
     if (b->sy >= WINDOW_HEIGHT + size)
     {
-        b->sy = 0;
+        destroy_blast(s, b);
     }
     else if (b->sy <= 0 - size)
     {
-        b->sy = WINDOW_HEIGHT;
+        destroy_blast(s, b);
     }
 
     return;
@@ -69,5 +69,29 @@ void draw_blast(BLAST* b)
 
     al_draw_line(x, y, x - (size * xo), y + (size * yo), b->color, thickness);
 
+    return;
+}
+
+void destroy_blast(SPACESHIP* s, BLAST* b)
+{
+    BLAST* current = (BLAST*) s->blasts;
+    if (current == b)
+    {
+        s->blasts = b->next;
+        free(b);
+        return;
+    }
+    while ((current->next) != b)
+    {
+        current = current->next;
+        if (current == NULL)
+        {
+            return;
+        }
+    }
+
+    current->next = b->next;
+
+    free(b);
     return;
 }

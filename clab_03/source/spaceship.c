@@ -24,21 +24,22 @@ SPACESHIP* init_spaceship(void)
 
     // 0 degree of inclination, 30 pixels of speed
     s->heading = 0;
-    s->speed = 250;
+    s->speed = 50;
+    s->acceleration = 5.0;
+    s->acceleration_heading = 0;
 
     // Alive
     s->gone = 0;
+    s->lives = 3;
 
     // Green
     s->color = al_map_rgb(170, 255, 170);
-    s->bitmap = al_create_bitmap(20, 30);
 
     // No blasts and 0 for cooldown timer
     s->blasts = NULL;
     s->shoot_cooldown = 0;
 
     return s;
-
 }
 
 void draw_spaceship(SPACESHIP* s)
@@ -71,41 +72,48 @@ void draw_spaceship(SPACESHIP* s)
 
 void update_spaceship(SPACESHIP* s, ALLEGRO_EVENT event, long double dt)
 {
-    float incline_x = cos(pi(s->heading+90));
-    float incline_y = sin(pi(s->heading+90));
+    float incline_x = cos(pi(s->acceleration_heading+90));
+    float incline_y = sin(pi(s->acceleration_heading+90));
 
-    s->sx -= (s->speed* dt * incline_x);
-    s->sy += (s->speed* dt * incline_y);
+    s->speed = MAX(70, s->speed + s->acceleration * dt);
+
+    s->sx -= (s->speed* dt * incline_x) + (s->acceleration) * pow(dt, 2) / 2;
+    s->sy += (s->speed* dt * incline_y) + (s->acceleration) * pow(dt, 2) / 2;
+
 
     switch (event.keyboard.keycode)
     {
         case ALLEGRO_KEY_UP:
         case ALLEGRO_KEY_W:
         {
-            s->speed = MIN(400, s->speed + 50 * dt);
+            s->speed = 800;
+            s->acceleration = -1000;
+            s->acceleration_heading = s->heading;
             break;
         }
         case ALLEGRO_KEY_DOWN:
         case ALLEGRO_KEY_S:
         {
-            s->speed = MAX(10, s->speed - 50 * dt);
+            s->acceleration = s->acceleration - 100;
+            s->acceleration_heading = -s->heading;
             break;
         }
         case ALLEGRO_KEY_LEFT:
         case ALLEGRO_KEY_A:
         {
-            s->heading += 10 * (dt) * 25;
+            s->heading += 10 * (dt) * 50;
             break;
         }
         case ALLEGRO_KEY_RIGHT:
         case ALLEGRO_KEY_D:
         {
-            s->heading -= 10 * (dt) * 25;
+            s->heading -= 10 * (dt) * 50;
             break;
         }
         case ALLEGRO_KEY_SPACE:
         {
             shoot(s);
+            break;
         }
     }
 
@@ -149,11 +157,13 @@ void shoot(SPACESHIP* s)
 
 void update_all_blasts(SPACESHIP* s, long double dt)
 {
-    BLAST* current = s->blasts;
+    BLAST* current = (BLAST*) s->blasts;
     while (current != NULL)
     {
-        update_blast(current, dt);
-        current = current->next;
+        BLAST* tmp = current->next;
+        update_blast(s, current, dt);
+
+        current = tmp;
     }
 
     s->shoot_cooldown = MAX(0, s->shoot_cooldown - dt);
@@ -163,7 +173,7 @@ void update_all_blasts(SPACESHIP* s, long double dt)
 
 void draw_all_blasts(SPACESHIP* s)
 {
-    BLAST* current = s->blasts;
+    BLAST* current = (BLAST* )s->blasts;
     while (current != NULL)
     {
         draw_blast(current);
@@ -176,10 +186,18 @@ void draw_all_blasts(SPACESHIP* s)
 
 void destroy_spaceship(SPACESHIP* s)
 {
+    BLAST* b = (BLAST*) s->blasts;
+    while (b != NULL)
+    {
+        BLAST* tmp = b->next;
+        free(b);
+        b = tmp;
+    }
     if (s != NULL)
     {
         free(s);
     }
+
 
     return;
 }

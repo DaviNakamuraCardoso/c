@@ -10,6 +10,6 @@ typedef struct _blast
 } BLAST;
 
 BLAST* init_blast(SPACESHIP* s);
-void destroy_blast(BLAST* b, SPACESHIP* s);
-void update_blast(BLAST* b, long double dt);
+void destroy_blast(SPACESHIP* s, BLAST* b);
+void update_blast(SPACESHIP* s, BLAST* b, long double dt);
 void draw_blast(BLAST* b);

@@ -136,11 +136,14 @@ void check_collisions(GAME* game, long double dt)
 
     while (a != NULL)
     {
+        ASTEROID* a_next = a->next;
         ASTEROID* b = (ASTEROID* ) game->asteroids;
+
 
 
         while (b != NULL)
         {
+            ASTEROID* b_next  = b->next;
             if (a != b)
             {
 
@@ -171,41 +174,31 @@ void check_collisions(GAME* game, long double dt)
                         counter++;
                         if (counter >= 5)
                         {
-
-                            ASTEROID* child1 = init_asteroid(b);
-                            ASTEROID* child2 = init_asteroid(b);
-
-                            add_asteroid(game, child1);
-                            add_asteroid(game, child2);
-                            destroy_asteroid(game, b);
+                            blow(game, b);
                             return;
-
                         }
                     }
                 }
             }
-
-            b = b->next;
+            b = b_next;
         }
-        BLAST* blast = (BLAST*) game->spaceship->blasts;
+        BLAST* blast = (BLAST*) (game->spaceship->blasts);
         float* coords = asteroid_center(a);
 
         while (blast != NULL)
         {
+            BLAST* blast_next = blast->next;
             float d = distance(blast->sx, blast->sy, coords[0], coords[1]);
 
             if (d < (a->scale * 25))
             {
+                destroy_blast(game->spaceship, blast);
                 blow(game, a);
-                free(coords);
-                return;
             }
-            blast = blast->next;
+            blast = blast_next;
         }
         free(coords);
-        a = a->next;
-
+        a = a_next;
     }
-
     return;
 }

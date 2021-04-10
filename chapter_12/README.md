@@ -1,4 +1,4 @@
-# It's a parallel world
+# Chapter 12:  It's a parallel world
 ## Threads
 
 
@@ -51,5 +51,5 @@ int main(void)
 The variable is not reduced to zero because multiple threads try to update it at
 the same time and end up writing the wrong value;
 
-#### Long exercise 
+#### Long exercise
 ![Version B is correct](./ex0.png)

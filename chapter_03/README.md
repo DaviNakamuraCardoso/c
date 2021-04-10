@@ -1,5 +1,3 @@
-
-
 # Chapter 03 - Do one thing and do it well
 ## Creating small tools
 In this chapter we will build a program that parses data from CSV to JSON
@@ -27,7 +25,7 @@ int main(void)
 
         }
     }
-    return 0; 
+    return 0;
 
 }
 

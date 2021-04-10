@@ -65,7 +65,7 @@ void song_catalog(SONG* s)
             printf("\n-%s", s->releaser->band->members[i]->name);
             i++;
         }
-        printf("\n"); 
+        printf("\n");
 
     }
 

@@ -193,6 +193,7 @@ void check_collisions(GAME* game, long double dt)
             if (d < (a->scale * 25))
             {
                 destroy_blast(game->spaceship, blast);
+                game->spaceship->points += 50 * a->scale; 
                 blow(game, a);
             }
             blast = blast_next;

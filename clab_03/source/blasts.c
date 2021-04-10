@@ -75,7 +75,11 @@ void draw_blast(BLAST* b)
 void destroy_blast(SPACESHIP* s, BLAST* b)
 {
     BLAST* current = (BLAST*) s->blasts;
-    if (current == b)
+    if (current == NULL)
+    {
+        return;
+    }
+    else if (current == b)
     {
         s->blasts = b->next;
         free(b);

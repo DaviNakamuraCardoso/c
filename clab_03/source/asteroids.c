@@ -178,9 +178,9 @@ void destroy_asteroid(GAME* game, ASTEROID* a)
     ASTEROID* current = (ASTEROID*) game->asteroids;
     if (a == current)
     {
-        game->asteroids = NULL;
+        game->asteroids = a->next;
         free(a);
-        return; 
+        return;
     }
 
     while (current->next != a)
@@ -233,10 +233,11 @@ void blow(GAME* game, ASTEROID* a)
     child1 = init_asteroid(a);
     child2 = init_asteroid(a);
 
+    destroy_asteroid(game, a);
+    
     add_asteroid(game, child1);
     add_asteroid(game, child2);
 
-    destroy_asteroid(game, a);
 
     return;
 }

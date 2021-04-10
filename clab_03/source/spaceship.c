@@ -32,6 +32,10 @@ SPACESHIP* init_spaceship(void)
     s->gone = 0;
     s->lives = 3;
 
+    // Points
+    s->points = 0;
+    s->point_counter = 0; 
+
     // Green
     s->color = al_map_rgb(170, 255, 170);
 

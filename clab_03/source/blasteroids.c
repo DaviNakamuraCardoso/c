@@ -108,6 +108,8 @@ void draw(GAME* game)
         al_clear_to_color(al_map_rgb(19, 22, 45));
         draw_spaceship(game->spaceship);
         cicle_asteroids(game, draw_asteroid);
+
+        display_points(game);
         al_flip_display();
 
         game->redraw = 0;
@@ -174,7 +176,6 @@ void check_collisions(GAME* game, long double dt)
                         if (counter >= 5)
                         {
                             blow(game, b);
-                            return;
                         }
                     }
                 }
@@ -189,7 +190,7 @@ void check_collisions(GAME* game, long double dt)
             BLAST* blast_next = blast->next;
             float d = distance(blast->sx, blast->sy, coords[0], coords[1]);
 
-            if (d < (a->scale * 20))
+            if (d < (a->scale * 25))
             {
                 destroy_blast(game->spaceship, blast);
                 blow(game, a);
@@ -216,19 +217,19 @@ void check_collisions(GAME* game, long double dt)
     return;
 }
 
+
 void display_points(GAME* game)
 {
-    // SPACESHIP* s = game->spaceship;
-    printf("About to display the points.\n");
+    SPACESHIP* s = game->spaceship;
 
-    // if (s->point_counter < s->points)
-    // {
-        // s->point_counter += 4;
-    // }
+    if (s->point_counter < s->points)
+    {
+        s->point_counter += 4;
+    }
 
-    // char points[30];
-    // sprintf(points, "%i", s->point_counter);
-    // al_draw_text(game->font, game->color, 20, 20, 0, points);
+    char points[30];
+    sprintf(points, "%i", s->point_counter);
+    al_draw_text(game->font, game->color, 20, 20, 0, points);
     return;
 
 }

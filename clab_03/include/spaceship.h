@@ -8,6 +8,9 @@ typedef struct _spaceship
     float acceleration;
     float acceleration_heading;
 
+    unsigned int points;
+    unsigned int point_counter; 
+
     unsigned int lives:2;
     unsigned int gone:1;
 

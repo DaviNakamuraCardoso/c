@@ -5,7 +5,7 @@ H = ./include/
 A = ./arch/
 
 # Allegro libraries
-ALLEGRO = -lallegro -lallegro_font -lallegro_primitives
+ALLEGRO = -lallegro -lallegro_font -lallegro_primitives -lallegro_ttf
 
 
 # Common math functions

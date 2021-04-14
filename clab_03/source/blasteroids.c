@@ -1,5 +1,6 @@
 #include <allegro5/allegro5.h>
 #include <allegro5/allegro_font.h>
+#include <allegro5/allegro_ttf.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <spaceship.h>
@@ -34,6 +35,8 @@ GAME* setup(void)
     // Allegro init functions
     al_init();
     al_install_keyboard();
+    al_init_font_addon();
+    al_init_ttf_addon();
 
     // Create the game structure
     GAME* game;
@@ -42,7 +45,7 @@ GAME* setup(void)
     // Set all the game variables
     game->timer = al_create_timer(1.0/60.0);
     game->queue = al_create_event_queue();
-    game->font = al_create_builtin_font();
+    game->font = al_load_ttf_font("./fonts/gamer.ttf", 70, 0);
     game->display = al_create_display(WINDOW_WIDTH, WINDOW_HEIGHT);
     game->color = al_map_rgb(255, 255, 255);
     game->redraw = 1;
@@ -125,8 +128,10 @@ void destroy(GAME* game)
     al_destroy_display(game->display);
     al_destroy_timer(game->timer);
     al_destroy_event_queue(game->queue);
+    al_destroy_font(game->font);
 
     destroy_spaceship(game->spaceship);
+
     free(game);
 
     return;
@@ -207,7 +212,6 @@ void check_collisions(GAME* game, long double dt)
         {
             game->spaceship->lives--;
             game->spaceship->gone = 1;
-            printf("Lives: %i\n", game->spaceship->lives);
         }
 
         free(s_center);
@@ -225,12 +229,12 @@ void display_points(GAME* game)
 
     if (s->point_counter < s->points)
     {
-        s->point_counter += 4;
+        s->point_counter += 2;
     }
 
     char points[30];
     sprintf(points, "%i", s->point_counter);
-    al_draw_text(game->font, game->color, 20, 20, 0, points);
+    al_draw_text(game->font, game->color, 20, 20, 40, points);
     return;
 
 }

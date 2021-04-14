@@ -234,7 +234,7 @@ void blow(GAME* game, ASTEROID* a)
     child2 = init_asteroid(a);
 
     destroy_asteroid(game, a);
-    
+
     add_asteroid(game, child1);
     add_asteroid(game, child2);
 

@@ -27,45 +27,40 @@ int main(int argc, const char** argv)
     return 0;
 }
 
+
+void loop(FILE* stream, Hash** dictionary, void (*handler) (Hash**, char*))
+{
+    char c, word[46];
+
+    for (int i = 0; (c = fgetc(stream)) != EOF; i++)
+    {
+        if (!isalpha(c) && c != '\'')
+        {
+            word[i] = '\0';
+            
+            handler(dictionary, word);
+
+            i = -1;
+            word[0] = '\0'; 
+            continue;
+        }
+
+        word[i] = c;
+
+    }
+}
+
+void print_notf(Hash** dictionary, char* word)
+{
+    if (!search_hash(dictionary, word)) puts(word);
+}
+
 void mismatch(FILE* f, FILE* dict)
 {
     Hash** dictionary = create_table();
-    char c, word[46];
 
-    for (int i = 0; (c = fgetc(dict)) != EOF; i++)
-    {
-        if (!isalpha(c) && c != '\'')
-        {
-            word[i] = '\0';
-            
-            add_hash(dictionary, word);
-            i = -1;
-            word[0] = '\0'; 
-            continue;
-        }
-
-        word[i] = c;
-    }
-
-    for (int i = 0; (c = fgetc(f)) != EOF; i++)
-    {
-        if (!isalpha(c) && c != '\'')
-        {
-            word[i] = '\0';
-            
-            if (!search_hash(dictionary, word))
-            {
-                printf("%s\n", word);
-            }
-
-            i = -1;
-            word[0] = '\0'; 
-
-            continue;
-        }
-
-        word[i] = c;
-    }
+    loop(dict, dictionary, &add_hash);
+    loop(f, dictionary, &print_notf);
 
 }
 

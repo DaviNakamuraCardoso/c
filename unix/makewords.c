@@ -21,13 +21,19 @@ void makewords(FILE* f)
 
     for (int i = 0; (c = fgetc(f)) != EOF; i++)
     {
-        if (isalpha(c)) word[i] = c;
-        else { 
+        if (!isalpha(c) && c != '\'') { 
+
+            if (c == '\r') continue;
+
             word[i] = '\0';
             if (i != 0) printf("%s\n", word);
             i = -1;
             word[0] = '\0';
+
+            continue;
         }
+
+        word[i] = c;
     } 
 
 }

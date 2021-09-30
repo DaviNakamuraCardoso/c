@@ -59,8 +59,8 @@ void mismatch(FILE* f, FILE* dict)
 {
     Hash** dictionary = create_table();
 
-    loop(dict, dictionary, &add_hash);
-    loop(f, dictionary, &print_notf);
+    loop(dict, dictionary, add_hash);
+    loop(f, dictionary, print_notf);
 
 }
 

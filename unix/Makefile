@@ -5,3 +5,4 @@ unique: unique.c hash.c
 
 mismatch: mismatch.c hash.c
 	$(CC) $^ -o $@
+

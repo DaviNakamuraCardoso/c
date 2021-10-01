@@ -32,20 +32,16 @@ void loop(FILE* stream, Hash** dictionary, void (*handler) (Hash**, char*))
 {
     char c, word[46];
 
-    for (int i = 0; (c = fgetc(stream)) != EOF; i++)
+    for (int i = 0; (c = fgetc(stream)) != EOF;)
     {
         if (!isalpha(c) && c != '\'')
         {
             word[i] = '\0';
             
             handler(dictionary, word);
-
-            i = -1;
-            word[0] = '\0'; 
-            continue;
+            i = 0;
         }
-
-        word[i] = c;
+        else word[i++] = c;
 
     }
 }

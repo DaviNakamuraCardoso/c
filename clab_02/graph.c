@@ -1,20 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include "graph.h"
 
-typedef bool gc_t; 
-
-typedef struct {
-    unsigned int size;
-    gc_t** elems;
-
-} graph_t;
-
-static graph_t* new_graph(unsigned int size)
+graph_t* new_graph(char* article, unsigned int size)
 {
     graph_t* g = (graph_t*) malloc(sizeof(graph_t));
-    g->size = size;
+
+    g->current = article; 
     g->elems = calloc(sizeof(gc_t*), size);
+
+    g->size = size;
+    g->i = 0;
+    g->full = 0;
+
+    g->buff = calloc(sizeof (char), 10000);
+    g->index = new_hash();
+    g->names = calloc(sizeof(char*), size);
 
     for (int i = 0; i < size; i++)
     {
@@ -52,23 +54,23 @@ void printg(graph_t *g)
     {
         for (int j = 0; j < size; j++)
         {
-            if (isrelated(g, i, j)) printf("%i -> %i\n", i, j);
+            if (isrelated(g, i, j)) printf("\"%s\" -> \"%s\"\n", g->names[i], g->names[j]);
         }
     }
 
     printf("}\n");
 }
 
-
-int graph(char* article, unsigned int size)
+unsigned gindex(graph_t* g, char* url)
 {
-    graph_t *g = new_graph(size);
+    int index = search_hash(g->index, url);
 
-    add_graph(g, 1, 2);
-    add_graph(g, 2, 3);
-    add_graph(g, 1, 3);
+    if (index == -1)
+    {
+        index = add_hash(g->index, url);
+        g->names[index] = strdup(url);        
+    }
 
-    printg(g);
-
-    return 0;
+    return index; 
 }
+

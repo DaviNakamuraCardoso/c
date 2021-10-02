@@ -3,48 +3,53 @@
 #include <string.h>
 #include "hash.h"
 
-Hash** create_table(void)
+hash_t* new_hash(void)
 {
-    Hash** table = calloc(sizeof(Hash), HASHSIZE);
+    hash_t* h = malloc(sizeof(hash_t));
+    h->table = calloc(sizeof(hashnode_t*), HASHSIZE);
+    h->nodes = 0;
+
 
     for (int i = 0; i < HASHSIZE; i++)
     {
-        table[i] = NULL;
+        h->table[i] = NULL;
     }
 
-    return table;
+    return h;
 
 }
 
 
-Hash* create(char* word)
+hashnode_t* create(char* word, unsigned int index)
 {
-    Hash* h = malloc(sizeof(Hash));
+    hashnode_t* h = malloc(sizeof(hashnode_t));
     h->word = strdup(word);
+    h->index = index; 
     h->next = NULL;
 
     return h;
 }
 
-void add_hash(Hash** table, char* word)
+unsigned int add_hash(hash_t* h, char* word)
 {
     unsigned int index = hash(word);
-    Hash *first = table[index], *new = create(word);
+    hashnode_t *first = h->table[index], *new = create(word, h->nodes);
 
     new->next = first;
-    table[index] = new;
+    h->table[index] = new;
 
-    return;
+
+    return h->nodes++;
 }
 
-unsigned int search_hash(Hash** table, char* word)
+int search_hash(hash_t* h, char* word)
 {
     unsigned int index = hash(word);
     
-    for (Hash* current = table[index]; current != NULL; current = current->next)
+    for (hashnode_t* current = h->table[index]; current != NULL; current = current->next)
     {
-        if (current == NULL) return 0;
-        if (strcmp(current->word, word) == 0) return 1;
+        if (current == NULL) return -1;
+        if (strcmp(current->word, word) == 0) return current->index;
     }
 
     return 0;

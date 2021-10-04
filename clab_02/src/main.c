@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include "articles.h"
+#include <articles.h>
 
 int main(int argc, char** argv)
 {
-    char* article = "https://en.wikipedia.org/wiki/Adolf_Hitler";
+    char* article = "C_(programming_language)";
     if (argc >= 2) article = argv[1];
 
-    graph(article, 20);
+    graph(article, 50000);
 
     return 0; 
 }

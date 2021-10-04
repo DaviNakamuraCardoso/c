@@ -1,0 +1,20 @@
+.edge:hover > path, .edge:hover > polygon {
+    
+
+    stroke: #1b75b3;
+
+}
+
+.edge:hover > polygon {
+    fill: #1b75b3;
+}
+
+.popup {
+  position: absolute;
+  color: white;
+  padding: 40px;
+  border: solid 1px #ddd;
+  background: green;
+  text-align: center;
+  width: 10%;
+}

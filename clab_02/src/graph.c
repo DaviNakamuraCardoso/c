@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <stdbool.h>
-#include "graph.h"
+#include <graph.h>
 
 graph_t* new_graph(char* article, unsigned int size)
 {
@@ -15,6 +16,11 @@ graph_t* new_graph(char* article, unsigned int size)
     g->full = 0;
 
     g->buff = calloc(sizeof (char), 10000);
+    g->needle = "wiki/";
+    g->len = strlen(g->needle);
+    g->link = calloc(sizeof(char), 300);
+    g->matched = 0;
+    g->ni = 0;
     g->index = new_hash();
     g->names = calloc(sizeof(char*), size);
 
@@ -44,21 +50,24 @@ bool isrelated(g, f, t)
     return g->elems[f][t];
 }
 
-void printg(graph_t *g)
+void fprintg(FILE* f, graph_t *g)
 {
     unsigned size = g->size;
 
-    printf("digraph {\n");
+    fprintf(f, "digraph {\n");
 
     for (int i = 0; i < size; i++)
     {
         for (int j = 0; j < size; j++)
         {
-            if (isrelated(g, i, j)) printf("\"%s\" -> \"%s\"\n", g->names[i], g->names[j]);
+            if (i == j) continue; 
+
+            if (isrelated(g, i, j)) 
+                fprintf(f, "\"%s\" -> \"%s\"\n", g->names[j], g->names[i]);
         }
     }
 
-    printf("}\n");
+    fprintf(f, "}\n");
 }
 
 unsigned gindex(graph_t* g, char* url)
@@ -70,6 +79,8 @@ unsigned gindex(graph_t* g, char* url)
         index = add_hash(g->index, url);
         g->names[index] = strdup(url);        
     }
+
+    if (index == 49999) g->full = 1; 
 
     return index; 
 }

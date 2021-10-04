@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "hash.h"
+#include <ctype.h>
+#include <hash.h>
 
 hash_t* new_hash(void)
 {
@@ -33,13 +34,13 @@ hashnode_t* create(char* word, unsigned int index)
 unsigned int add_hash(hash_t* h, char* word)
 {
     unsigned int index = hash(word);
-    hashnode_t *first = h->table[index], *new = create(word, h->nodes);
+    hashnode_t *first = h->table[index], *new = create(word, ++h->nodes);
 
     new->next = first;
     h->table[index] = new;
 
 
-    return h->nodes++;
+    return h->nodes; 
 }
 
 int search_hash(hash_t* h, char* word)
@@ -49,10 +50,10 @@ int search_hash(hash_t* h, char* word)
     for (hashnode_t* current = h->table[index]; current != NULL; current = current->next)
     {
         if (current == NULL) return -1;
-        if (strcmp(current->word, word) == 0) return current->index;
+        if (strcasecmp(current->word, word) == 0) return current->index;
     }
 
-    return 0;
+    return -1;
 }
 
 
@@ -62,7 +63,7 @@ int hash(char* word)
 
     for (int i = 0; word[i] != '\0'; i++)
     {
-        val += word[i] * 31;
+        val += toupper(word[i]) * 31;
     }
 
     return val % HASHSIZE;

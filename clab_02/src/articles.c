@@ -70,7 +70,6 @@ static int pushl(graph_t *g, char c)
 static int pushc(graph_t *g, char c)
 {
 
-//    putchar(c);
 
     if (g->matched) return pushl(g, c);
 
@@ -93,8 +92,6 @@ static size_t article_handler(char* data, size_t size, size_t nmemb, void* gptr)
     graph_t* g = (graph_t*) gptr;
 
     size_t s = size * nmemb;
-//    printf("%lu bytes\n", s);
-
 
     for (int i = 0; i < s; i++)
     {
@@ -116,10 +113,11 @@ void get_page(graph_t* g, char* url)
 
     CURL* c = curl_easy_init();
     curl_easy_setopt(c, CURLOPT_URL, buff);
-    curl_easy_setopt(c, CURLOPT_WRITEFUNCTION, article_handler);
-
     // Pass the Graph structure to the callback function
     curl_easy_setopt(c, CURLOPT_WRITEDATA, g);
+
+    curl_easy_setopt(c, CURLOPT_WRITEFUNCTION, article_handler);
+
 
     curl_easy_perform(c);
 
@@ -135,7 +133,7 @@ unsigned int graph(char* article, unsigned int size)
     char buff[300], buff2[300], buff3[300];
     get_page(g, article); 
 
-    for (int i = 1; i < 20; i++)
+    for (int i = 1; i < 30; i++)
     {
         g->current = g->names[i]; 
         get_page(g, g->current);

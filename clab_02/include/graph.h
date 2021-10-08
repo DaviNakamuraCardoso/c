@@ -20,6 +20,6 @@ void fprintg(FILE* f, graph_t *g);
 graph_t* new_graph(char* article, unsigned int size);
 void add_graph(graph_t* g, unsigned f, unsigned t);
 bool isrelated(graph_t* g, unsigned f, unsigned t);
-unsigned gindex(graph_t* g, char* url);
+int gindex(graph_t* g, char* url);
 
 #endif

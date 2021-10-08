@@ -40,6 +40,7 @@ void add_graph(g, f, t)
     graph_t *g;
     unsigned f, t;
 {
+    if (g->full) return; 
    g->elems[f][t] = true; 
 }
 
@@ -47,6 +48,7 @@ bool isrelated(g, f, t)
     graph_t *g;
     unsigned f, t;
 {
+    if (f >= g->size || t >= g->size) return false; 
     return g->elems[f][t];
 }
 
@@ -70,17 +72,18 @@ void fprintg(FILE* f, graph_t *g)
     fprintf(f, "}\n");
 }
 
-unsigned gindex(graph_t* g, char* url)
+int gindex(graph_t* g, char* url)
 {
     int index = search_hash(g->index, url);
 
     if (index == -1)
     {
+        if (g->full) return -1;
         index = add_hash(g->index, url);
         g->names[index] = strdup(url);        
     }
 
-    if (index == 49999) g->full = 1; 
+    if (index == g->size-1) g->full = 1; 
 
     return index; 
 }

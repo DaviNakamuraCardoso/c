@@ -1,7 +1,8 @@
 CC = clang
+FLAGS = -Wall -Wextra
 
 
-OBJS = main.o graph.o hash.o articles.o
+OBJS = main.o graph.o hash.o articles.o html.o strtype.o
 OBJ = $(foreach obj, $(OBJS), $(addprefix ./obj/, $(obj)))
 
 

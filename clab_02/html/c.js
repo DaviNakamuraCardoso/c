@@ -2,7 +2,6 @@
 function jump(g)
 {
     const title = g.querySelector("title").innerHTML;
-    console.log(title);
     const dest = document.getElementById(title.split("-&gt")[0]);
     dest.scrollIntoView(true);
 
@@ -14,25 +13,35 @@ function jump(g)
 
 }
 
+function prettyname(name)
+{
+    return name.split("_").join(" ");
+}
+
 function preview(g)
 {
     const popup = document.createElement("div");
     const term = document.createElement("p");
     const term2 = document.createElement("p");
+    const arrow = document.createElement("p");
     const terms = g.querySelector("title").innerHTML.split("-&gt;");
 
     
-    
-    term.innerHTML = terms[0];
-    term2.innerHTML = terms[1];
+    term.innerHTML = prettyname(terms[0]);
+    term2.innerHTML = prettyname(terms[1]);
+    arrow.innerHTML = "&rarr;";
 
     popup.appendChild(term);
+    popup.appendChild(arrow);
     popup.appendChild(term2);
 
     popup.id = g.id + "POPUP";
-    popup.style.left = window.event.clientX + "px"; 
-    popup.style.top = window.event.clientY + "px"; 
+    popup.style.left = window.event.clientX + window.scrollX + "px"; 
+    popup.style.top = window.event.clientY + window.scrollY + "px"; 
     popup.className = "popup";
+
+    g.setAttribute("o_title", g.querySelector("title").innerHTML);
+    g.querySelector("title").innerHTML = "";
 
     document.body.appendChild(popup);
     console.log(popup);
@@ -47,7 +56,8 @@ function remove_preview(g)
         e.parentNode.removeChild(e);
     }
 
-
+    let title = g.querySelector("title");
+    title.innerHTML = g.getAttribute("o_title");
 
 }
 
@@ -78,8 +88,10 @@ function main()
     const nodes = document.querySelectorAll(".node");
 
     nodes.forEach(node => {
-        const title = node.querySelector("title").innerHTML;
-        node.id = title; 
+        const title = node.querySelector("title");
+        node.id = title.innerHTML; 
+        node.querySelector("text").innerHTML = prettyname(title.innerHTML);
+
     });
 }
 main(); 

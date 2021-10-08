@@ -1,50 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 #include <string.h>
 #include <curl/curl.h>
 #include <unistd.h>
 #include <graph.h>
-
-unsigned int isurlname(char c)
-{
-    switch (c)
-    {
-        case '_':
-        case '(':
-        case ')':
-        case '%':
-        case '.':
-            return 1; 
-    }
-    return isalnum(c);
-}
-
-unsigned int istrash(char* url)
-{
-    char* garbage[] = {
-        "help",
-        "file",
-        "help",
-        "wikipedia"
-    };
-
-    if (strcasestr(url, "disambiguation") != NULL) return 1;
-    for (int i = 0; i < sizeof(garbage) / sizeof(char*); i++)
-    {
-        if (strcasecmp(garbage[i], url) == 0) return 1;
-    }
-
-    return 0; 
-}
+#include <strtype.h>
+#include <html.h>
 
 
 static void pushlink(graph_t* g)
 {
-    if (g->full) return;
     if (istrash(g->link)) return;
 
     int index = gindex(g, g->link);
+
+    if (index == -1) return; 
 
     add_graph(g, index, gindex(g, g->current));
     return;
@@ -69,7 +39,6 @@ static int pushl(graph_t *g, char c)
 
 static int pushc(graph_t *g, char c)
 {
-
 
     if (g->matched) return pushl(g, c);
 
@@ -98,7 +67,7 @@ static size_t article_handler(char* data, size_t size, size_t nmemb, void* gptr)
         pushc(g, data[i]);
     }
 
-    return 0;
+    return s;
 
 }
 
@@ -113,7 +82,7 @@ void get_page(graph_t* g, char* url)
 
     CURL* c = curl_easy_init();
     curl_easy_setopt(c, CURLOPT_URL, buff);
-    // Pass the Graph structure to the callback function
+    // Pass the Graph structure to the callback function 
     curl_easy_setopt(c, CURLOPT_WRITEDATA, g);
 
     curl_easy_setopt(c, CURLOPT_WRITEFUNCTION, article_handler);
@@ -129,34 +98,35 @@ void get_page(graph_t* g, char* url)
 
 unsigned int graph(char* article, unsigned int size)
 {
+    FILE* f;
     graph_t *g = new_graph(article, size);
-    char buff[300], buff2[300], buff3[300];
+    char dot[300], svg[300], cmd[300], page[300];
+
     get_page(g, article); 
 
-    for (int i = 1; i < 30; i++)
+    for (int i = 1; i < 10; i++)
     {
         g->current = g->names[i]; 
         get_page(g, g->current);
     } 
 
-    buff[0] = '\0';
-    strcat(buff, article);
-    strcat(buff, ".dot");
+    sprintf(dot, "dotfiles/%s.dot", article);
 
-    FILE* f = fopen(buff, "w");
+    f = fopen(dot, "w");
 
     fprintg(f, g);
-
     fclose(f);
 
-    buff2[0] = '\0';
-    strcat(buff2, article);
-    strcat(buff2, ".svg");
+    sprintf(svg, "assets/%s.svg", article);
 
-    sprintf(buff3, "/usr/bin/dot \"%s\" -Tsvg > \"assets/%s\"", buff, buff2);
-    system(buff3);
+    sprintf(cmd, "/usr/bin/sfdp \"%s\" -Tsvg > \"%s\"", dot, svg);
 
-    unlink(buff);
+    system(cmd);
+
+    sprintf(page, "html/%s.html", article);
+
+    html(svg, page);
+
     return 0;
 }
 

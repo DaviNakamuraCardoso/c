@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-const char* head = "<!DOCTYPE html><html><head><link rel=\"stylesheet\" href=\"./c.css\"></head><body><svg";
-const char* tail = "<script src=\"./c.js\" defer> </script></body></html>";
+const char* head = "<!DOCTYPE html><html><head><link rel=\"stylesheet\" href=\"./c.css\"></head><body><svg ";
+const char* tail = "<script src=\"./c.js\" defer></script></body></html>";
 
 
 int html(char* src, char* dest)
@@ -27,6 +27,9 @@ int html(char* src, char* dest)
         fputc(c, d);
 
     fprintf(d, tail);
+
+    fclose(s);
+    fclose(d);
 
     return 0;
 

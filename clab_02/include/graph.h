@@ -8,7 +8,7 @@
 typedef bool gc_t; 
 
 typedef struct {
-    unsigned int    size, i, full:1, matched:1, ni, len;
+    unsigned int    size, i, full:1, matched:1, done:1, ni, len, links;
     gc_t            **elems;
     char            *buff, **names, *current, *needle, *link;
     hash_t          *index; 

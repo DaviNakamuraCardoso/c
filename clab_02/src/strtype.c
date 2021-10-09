@@ -24,7 +24,10 @@ unsigned int istrash(char* url)
         "file",
         "help",
         "wikipedia", 
-        "category"
+        "category", 
+        "special",
+        "de_facto", 
+        "main_page"
     };
 
     if (strcasestr(url, "disambiguation") != NULL) return 1;

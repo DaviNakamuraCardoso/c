@@ -17,6 +17,9 @@ static void pushlink(graph_t* g)
     if (index == -1) return; 
 
     add_graph(g, index, gindex(g, g->current));
+
+    if (++g->links > 20) g->done = 1; 
+
     return;
 }
 
@@ -64,7 +67,13 @@ static size_t article_handler(char* data, size_t size, size_t nmemb, void* gptr)
 
     for (int i = 0; i < s; i++)
     {
-        pushc(g, data[i]);
+        if (!g->done) pushc(g, data[i]);
+        else
+        {
+            g->done = 0;
+            g->links = 0;
+            return 0;
+        } 
     }
 
     return s;
@@ -104,7 +113,7 @@ unsigned int graph(char* article, unsigned int size)
 
     get_page(g, article); 
 
-    for (int i = 1; i < 10; i++)
+    for (int i = 1; i < 20; i++)
     {
         g->current = g->names[i]; 
         get_page(g, g->current);

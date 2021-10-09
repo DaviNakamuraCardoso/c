@@ -19,8 +19,12 @@ graph_t* new_graph(char* article, unsigned int size)
     g->needle = "wiki/";
     g->len = strlen(g->needle);
     g->link = calloc(sizeof(char), 300);
+
     g->matched = 0;
     g->ni = 0;
+    g->links = 0;
+
+
     g->index = new_hash();
     g->names = calloc(sizeof(char*), size);
 

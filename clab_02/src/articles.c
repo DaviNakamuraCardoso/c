@@ -18,8 +18,6 @@ static void pushlink(graph_t* g)
 
     add_graph(g, index, gindex(g, g->current));
 
-    if (++g->links > 20) g->done = 1; 
-
     return;
 }
 
@@ -67,13 +65,7 @@ static size_t article_handler(char* data, size_t size, size_t nmemb, void* gptr)
 
     for (int i = 0; i < s; i++)
     {
-        if (!g->done) pushc(g, data[i]);
-        else
-        {
-            g->done = 0;
-            g->links = 0;
-            return 0;
-        } 
+        pushc(g, data[i]);
     }
 
     return s;
@@ -91,6 +83,7 @@ void get_page(graph_t* g, char* url)
 
     CURL* c = curl_easy_init();
     curl_easy_setopt(c, CURLOPT_URL, buff);
+
     // Pass the Graph structure to the callback function 
     curl_easy_setopt(c, CURLOPT_WRITEDATA, g);
 
@@ -105,19 +98,11 @@ void get_page(graph_t* g, char* url)
 
 }
 
-unsigned int graph(char* article, unsigned int size)
+static unsigned save_article(char* article, graph_t* g)
 {
+
     FILE* f;
-    graph_t *g = new_graph(article, size);
     char dot[300], svg[300], cmd[300], page[300];
-
-    get_page(g, article); 
-
-    for (int i = 1; i < 20; i++)
-    {
-        g->current = g->names[i]; 
-        get_page(g, g->current);
-    } 
 
     sprintf(dot, "dotfiles/%s.dot", article);
 
@@ -135,6 +120,44 @@ unsigned int graph(char* article, unsigned int size)
     sprintf(page, "html/%s.html", article);
 
     html(svg, page);
+
+    return 0;
+
+}
+
+unsigned int generate_graph(graph_t* g, unsigned n)
+{
+    link_t* relevant;
+    unsigned int num;
+
+    strcpy(g->link, g->current);
+    pushlink(g);
+    
+    get_page(g, g->current); 
+
+    relevant = relevantlinks(g, 0, &num);
+
+    for (int i = 0; i < num && i < n; i++) g->second[i] = relevant[i].index; 
+
+    free(relevant);
+
+    for (int i = 0; i < num && i < n; i++)
+    {
+        g->current = g->names[g->second[i]]; 
+        get_page(g, g->current);
+    } 
+
+    return 0; 
+}
+
+unsigned int graph(char* article, unsigned int size)
+{
+    graph_t *g = new_graph(article, size);
+    unsigned pages = 12; 
+
+    generate_graph(g, pages);
+
+    save_article(article, g);
 
     return 0;
 }

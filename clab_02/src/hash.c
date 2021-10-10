@@ -33,14 +33,14 @@ hashnode_t* create(char* word, unsigned int index)
 
 unsigned int add_hash(hash_t* h, char* word)
 {
-    unsigned int index = hash(word);
-    hashnode_t *first = h->table[index], *new = create(word, ++h->nodes);
+    unsigned int index = hash(word), i = h->nodes++;
+    hashnode_t *first = h->table[index], *new = create(word, i);
 
     new->next = first;
     h->table[index] = new;
 
 
-    return h->nodes; 
+    return i; 
 }
 
 int search_hash(hash_t* h, char* word)

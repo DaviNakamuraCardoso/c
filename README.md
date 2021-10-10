@@ -2,19 +2,19 @@
 Learning C by using the book *[Head First C](https://www.amazon.com/Head-First-C-Brain-Friendly-Guide/dp/1449399916)*, by David Griffiths and Dawn Griffiths
 
 
-# Chapter 01: Diving in
-## Getting started with C
+## Chapter 01: Diving in
+### Getting started with C
 
-### Exercises
+#### Exercises
 
-#### Sharpen your pencil
+##### Sharpen your pencil
 1. Prints *"The deck is hot. Increase bet."* to the console.
 2. Prints *"I must not write code in class"* 10 times.
 3. Gets a boyfriend name and prints the message: f"Dear {name}.\n\n You are history."
 4. Prints *"Hearts"*
 
 
-#### Code Magnets
+##### Code Magnets
 ```c
 /*
 * Program to evaluate face values.
@@ -50,14 +50,14 @@ int main()
 ```
 
 
-#### Be the compiler
+##### Be the compiler
 A. Won't compile
 B. Will run as intended
 C. Won't compile
 D. Won't compile
 
 
-#### Code mojo
+##### Code mojo
 | Code | Output     |
 | :------------- | :------------- |
 | ```y = x - y;```       | ```00 11 21 32 42```       |
@@ -66,21 +66,21 @@ D. Won't compile
 | ```x = x + 1; \n y = y + x``` | ```11 34 59``` |
 | ```if (y < 5) {x = x + 1; if (y < 3) {x = x - 1;}}``` | ```02 14 36 48``` |
 
-# Chapter 02: What are you Pointing at?
-## Memory and pointers
+## Chapter 02: What are you Pointing at?
+### Memory and pointers
 
 
-### Project: *Head First Lounge Stock Tracker*
-#### Pseudocode
+#### Project: *Head First Lounge Stock Tracker*
+##### Pseudocode
 - We’ll start with 30 bottles - that’s about 180 glasses
 - While there’s still some fizz:
 - Display the current stock
 - Enter the number of glasses ordered
 - Adjust the stock
 - Then just go round again
-### Problems
+#### Problems
 
-#### Code magnets
+##### Code magnets
 
 ```c
 #include <stdio.h>
@@ -108,25 +108,25 @@ int main(void)
 }
 
 ```
-#### What's my purpose?
+##### What's my purpose?
 1. strchr: Find the location of a character inside a string
 2. strcmp: Compare two strings together
 3. strstr: Find the location of a string inside another string  
 4. strcpy: Find the length of a string
 5. strcat: Concatenate two strings together  
 
-#### Sharpen your pencil
+##### Sharpen your pencil
 Wich of the functions above should you use for the jukebox program?
 strstr
 
-#### What's your hunch?
+##### What's your hunch?
 
 - [x] The string can't be updated
 - [ ] We're swapping characters outside the string
 - [ ] The string isn't in memory
 - [ ] Something else
 
-#### Code magnets
+##### Code magnets
 ```c
 void print_reverse(char* s)
 {
@@ -143,7 +143,7 @@ void print_reverse(char* s)
 
 ```
 
-#### C-Cross
+##### C-Cross
 1. mulberry
 2. yrrebwarts
 3. sharonfruit
@@ -153,13 +153,13 @@ void print_reverse(char* s)
 7. starfruit
 8. tiurfilgu
 
-# Chapter 03: Do one thing and do it well
-## Creating small tools
+## Chapter 03: Do one thing and do it well
+### Creating small tools
 In this chapter we will build a program that parses data from CSV to JSON
 
-### Problems
+#### Problems
 
-#### Pool Puzzle
+##### Pool Puzzle
 ```c
 #include <stdio.h>
 
@@ -263,11 +263,11 @@ google.maps.event.addDomListener(window, 'load', init_map);
 
 ```
 
-# Chapter 04: Break it down, build it up
-## Using multiple source files
+## Chapter 04: Break it down, build it up
+### Using multiple source files
 
-### Exercises
-#### Be the compiler
+#### Exercises
+##### Be the compiler
 
 ```
 float mercury_day_in_earth_days();
@@ -355,8 +355,8 @@ swing.ogg: whitennerdy.ogg oggswing
 [TAB] oggswing whitennerdy.ogg swing.ogg
 ```
 
-# Chapter 05: Roll your own structures
-## structs, unions and bitfields
+## Chapter 05: Roll your own structures
+### structs, unions and bitfields
 
 ### Problems
 
@@ -514,11 +514,11 @@ typedef struct
 
 ```
 
-# Chapter 06: Building Bridges
-## Data structures and Dynamic memory
+## Chapter 06: Building Bridges
+### Data structures and Dynamic memory
 
-### Exercises
-#### Sharpen your pencil
+#### Exercises
+##### Sharpen your pencil
 - Before:  
 Amity -> Craggy -> Isla Nublar -> Shutter
                 Skull
@@ -526,7 +526,7 @@ Amity -> Craggy -> Isla Nublar -> Shutter
 - After:
 Amity -> Craggy -> Skull -> Isla Nublar -> Shutter
 
-### The big questions:
+#### The big questions:
 1. How many pieces of data were left in the heap?
 1
 2. What was the piece of data left in the heap?
@@ -542,13 +542,13 @@ free(current->question);
 current->question = strdup(question);
 
 ```
-### Project: Speller
+#### Project: Speller
 
-#### Introduction
+##### Introduction
 Solving the problem [speller](https://cs50.harvard.edu/x/2020/psets/5/speller/), the Problem Set 5 of [Harvard CS50x 2020](https://cs50.harvard.edu/x/2020/).
 For this problem, given 1) a text file with all english words and 2) a text file the program should write a file with all the misspellings in the text, considering a misspelling as a word or expression that is not in the input 1.
 
-#### Overview
+##### Overview
 
 To solve this problem in C, I used a [Trie](https://en.wikipedia.org/wiki/Trie) to store the words from the dictionary, since it's Big O notation is O(1) for this case;
 
@@ -556,10 +556,10 @@ Each node of the trie represent a character. In each trie, an unsigned int repre
 
 At the end of the search, the trie is released with a recursive function
 
-# Chapter 07: Turn your functions up to 11
-## Advanced functions
+## Chapter 07: Turn your functions up to 11
+### Advanced functions
 
-### Code Magnets
+#### Code Magnets
 
 ```c
 void find()
@@ -581,7 +581,7 @@ void find()
 }
 ```
 
-### Long Exercise
+#### Long Exercise
 1. Find someone who likes sports but not bieber
 2. Find someone who likes sports or workout
 3. Find a non-smoker who likes theater
@@ -702,14 +702,14 @@ double price(int count, ...)
 
 ```
 
-# Chapter 08: Hot-swappable code
-## Static and dynamic libraries
+## Chapter 08: Hot-swappable code
+### Static and dynamic libraries
 
-### Bank Vault
+#### Bank Vault
 
-### Gym
+#### Gym
 
-### Exercises
+#### Exercises
 
 #### Sharpen your pencil 0
 ![The angle brackets should be double quotes]("https://raw.githubusercontent.com/DaviNakamuraCardoso/c/main/chapter_08/images/ex0.png")
@@ -755,13 +755,13 @@ gcc -shared hfcal_UK.o -o /usr/local/lib/libhfcal.so
 /opts/apps/treadmill
 ```
 
-# Chapter 09: Breaking boundaries
-## Processes and system calls
+## Chapter 09: Breaking boundaries
+### Processes and system calls
 
-### Exercises
+#### Exercises
 
 
-#### Code Magnets
+##### Code Magnets
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -792,7 +792,7 @@ int main(void)
 ```
 
 
-#### *exec()* function types
+##### *exec()* function types
 | Uses | Character     |
 | :------------- | :------------- |
 |  List of args       | l       |
@@ -800,7 +800,7 @@ int main(void)
 | Search in PATH | p |
 | Use environment variables | e |
 
-#### Long Exercise
+##### Long Exercise
 ```c
 #include <stdio.h>
 #include <unistd.h>
@@ -821,7 +821,7 @@ int main(void)
 }
 ```
 
-#### Mixed Messages
+##### Mixed Messages
 Code for the program "coffe":
 ```c
 #include <stdio.h>
@@ -858,7 +858,7 @@ int main(int argc, char *argv[]){
 ```
 ![Answer]("./ex0.png")
 
-# Chapter 10: It's good to talk
+## Chapter 10: It's good to talk
 ## Interprocess communication
 
 ### RSSGOSSIP program

@@ -47,6 +47,8 @@ token_t* tokenize(FILE* f, token_t* tokens)
    for (int i = 0; (c = fgetc(f)) != '\n'; i++)
    {
        if (isblank(c)) continue;
+       if (c == EOF) return NULL;
+
        ungetc(c, f);
 
        if (isdigit(c)) tokens[i] = getnum(f);

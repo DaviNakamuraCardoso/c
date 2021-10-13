@@ -19,10 +19,12 @@ int main(int argc, const char** argv)
 
 int dc(FILE* f)
 {
-    printf(">> Davi Calculator.\n>> (c) Davi Nakamura Cardoso 2021.\n");
+    stack_t nums[50];
+    token_t tokens[50];
 
-//    stack_t *nums = new_stack(20);
-    token_t tokens[30];
+    puts(">> Davi Calculator.");
+    puts(">> (c) Davi Nakamura Cardoso 2021.");
+
 
     if (f == stdin) putchar('>');
 
@@ -32,8 +34,6 @@ int dc(FILE* f)
      //   calculate(tokens, stack);
     }
 
-//    release_tokens(tokens);
-//    release_stack(nums);
 
     return 0;
 }

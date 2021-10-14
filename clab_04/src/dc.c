@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <tokenizer.h>
-//#include "stack.h"
+#include <calculator.h>
 
 int dc(FILE* f);
 
@@ -19,8 +18,9 @@ int main(int argc, const char** argv)
 
 int dc(FILE* f)
 {
-    stack_t nums[50];
-    token_t tokens[50];
+    
+    token_t* tokens[50];
+    stack_t *s = stack(50);
 
     puts(">> Davi Calculator.");
     puts(">> (c) Davi Nakamura Cardoso 2021.");
@@ -28,10 +28,15 @@ int dc(FILE* f)
 
     if (f == stdin) putchar('>');
 
-    while (tokenize(f, tokens) != NULL)
+    for (int i = tokenize(f, tokens); i > 0; i = tokenize(f, tokens))
     {
-        if (f == stdin) putchar('>');
-     //   calculate(tokens, stack);
+        calculate(tokens, s, i);
+
+        if (f == stdin) 
+        {
+            printf("%Lf\n", look(s));
+            putchar('>');
+        }
     }
 
 

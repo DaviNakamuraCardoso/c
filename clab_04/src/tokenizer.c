@@ -4,8 +4,9 @@
 #include <tokenizer.h>
 
 
-token_t getnum(FILE* f)
+token_t *getnum(FILE* f)
 {
+    token_t* t;
     char c, buff[300];
     int i;
 
@@ -23,28 +24,33 @@ token_t getnum(FILE* f)
 
     buff[i] = '\0';
 
-    printf("Value is %Lf\n", strtold(buff, NULL));
 
-    return (token_t) {.t=NUMBER, .value=strtold(buff, NULL)};
+    t = malloc(sizeof(token_t));
+    t->t = NUMBER;
+    t->value = strtold(buff, NULL);
+
+    return t;
 
 }
 
-token_t getop(FILE* f)
+token_t* getop(FILE* f)
 {
 
     char c = fgetc(f);
+    token_t* t = malloc(sizeof(token_t));
 
-    printf("Token is %c\n", c); 
+    t->t = SYMBOL;
 
-    return (token_t) {.t=SYMBOL};
+    return t;
 
 }
 
-token_t* tokenize(FILE* f, token_t* tokens)
+unsigned int tokenize(FILE* f, token_t** tokens)
 {
    char c;
+   int i; 
 
-   for (int i = 0; (c = fgetc(f)) != '\n'; i++)
+   for (i = 0; (c = fgetc(f)) != '\n'; i++)
    {
        if (isblank(c)) continue;
        if (c == EOF) return NULL;
@@ -56,6 +62,7 @@ token_t* tokenize(FILE* f, token_t* tokens)
 
    }
 
-   return tokens;
+
+   return i;
 
 }

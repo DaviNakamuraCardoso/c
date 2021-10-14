@@ -1,3 +1,6 @@
+#ifndef __TOKENIZERH
+#define __TOKENIZERH
+
 
 typedef long double ld_t;
 
@@ -17,3 +20,6 @@ typedef struct token {
     };
 
 } token_t;
+
+unsigned int tokenize(FILE* f, token_t** tokens);
+#endif

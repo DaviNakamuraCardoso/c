@@ -22,11 +22,12 @@ int dc(FILE* f)
     token_t* tokens[50];
     stack_t *s = stack(50);
 
-    puts(">> Davi Calculator.");
-    puts(">> (c) Davi Nakamura Cardoso 2021.");
-
-
-    if (f == stdin) putchar('>');
+    if (f == stdin) 
+    {
+        puts(">> Davi Calculator.");
+        puts(">> (c) Davi Nakamura Cardoso 2021.");
+        putchar('>');
+    } 
 
     for (int i = tokenize(f, tokens); i > 0; i = tokenize(f, tokens))
     {
@@ -38,6 +39,8 @@ int dc(FILE* f)
             putchar('>');
         }
     }
+
+    printf("%Lf\n", look(s));
 
 
     return 0;

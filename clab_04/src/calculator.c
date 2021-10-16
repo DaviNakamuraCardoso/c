@@ -11,15 +11,14 @@ ld_t add(a, b)
 ld_t sub(a, b)
     ld_t a, b;
 {
-    return a - b;
+    return b - a;
 }
 
 ld_t div(a, b)
     ld_t a, b;
 {
-    return a / b;
+    return b / a;
 }
-
 
 ld_t mult(a, b)
     ld_t a, b;
@@ -27,10 +26,19 @@ ld_t mult(a, b)
     return a * b;
 }
 
+ld_t (*operations[]) (ld_t, ld_t) = {
+    [ADD] = add,
+    [SUB] = sub,
+    [MULT] = mult,
+    [DIV] = div
+};
+
+
 void calculate (token_t **tokens, stack_t *s, unsigned int length)
 {
-    ld_t (*calculations[20]) (ld_t, ld_t);
-    unsigned sp = 0;
+    enum operation ops[20];
+    static unsigned sp = 0;
+
 
     for (unsigned int i = 0; i < length; i++)
     {
@@ -39,14 +47,13 @@ void calculate (token_t **tokens, stack_t *s, unsigned int length)
         }
         else 
         {
-            calculations[sp++] = add;
+            ops[sp++] = tokens[i]->op;
         }
     }
 
-    while (s->sp > 1)
+    while (sp > 0)
     {
-        push(s, add(pop(s), pop(s)));
-
+        push(s, operations[ops[--sp]](pop(s), pop(s)));
     }
 
     return;

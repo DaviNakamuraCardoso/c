@@ -11,11 +11,18 @@ enum type {
 
 }; 
 
+enum operation {
+    ADD, 
+    SUB, 
+    DIV, 
+    MULT
+};
+
 typedef struct token {
     enum type t;
     union {
         ld_t value;
-        ld_t (*operation) (ld_t);
+        enum operation op;
 
     };
 

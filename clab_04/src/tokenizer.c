@@ -5,6 +5,29 @@
 
 static enum operation ctoop(char c);
 
+
+token_t* token(enum type ty, const void* a)
+{
+    token_t* t = malloc(sizeof(token_t));
+    t->t = ty;
+
+    switch (ty)
+    {
+        case NUMBER: 
+        {
+            t->value = *(ld_t*)a; break;
+        }
+        case SYMBOL:
+        {
+            t->op = *(enum operation*) a; break;
+        }
+    }
+
+    return t;
+
+
+}
+
 token_t *getnum(FILE* f)
 {
     token_t* t;
@@ -25,14 +48,7 @@ token_t *getnum(FILE* f)
 
     buff[i] = '\0';
 
-
-    t = malloc(sizeof(token_t));
-    t->t = NUMBER;
-    t->value = strtold(buff, NULL);
-
-
-
-    return t;
+    return token(NUMBER, strtold(buff, NULL));
 
 }
 
@@ -40,12 +56,7 @@ token_t* getop(FILE* f)
 {
 
     char c = fgetc(f);
-    token_t* t = malloc(sizeof(token_t));
-
-    t->t = SYMBOL;
-    t->op = ctoop(c);
-
-    return t;
+    return token(SYMBOL, ctoop(c));
 
 }
 
@@ -56,16 +67,14 @@ unsigned int tokenize(FILE* f, token_t** tokens)
 
    for (i = 0; (c = fgetc(f)) != '\n';)
    {
-       if (c == EOF) return 0;
+       if (c == EOF) return i;
        if (isblank(c)) continue;
 
        ungetc(c, f);
 
        if (isdigit(c)) tokens[i++] = getnum(f);
        else tokens[i++] = getop(f); 
-
    }
-
 
    return i;
 

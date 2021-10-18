@@ -18,6 +18,11 @@ enum operation {
     MULT
 };
 
+
+typedef struct meta {
+    unsigned int ln, chr;
+} metadata_t;
+
 typedef struct token {
     enum type t;
     union {
@@ -25,6 +30,7 @@ typedef struct token {
         enum operation op;
 
     };
+    metadata_t meta;
 
 } token_t;
 

@@ -28,12 +28,18 @@ int main(int argc, char** argv)
        {
            if (i == expl) 
            { 
-               for (int j = 0; j < CONTEXT; j++) 
+               // Print the previous text
+               for (int j = 0; j < CONTEXT - expl; j++) 
                {
                    putchar(prev[arr++]);
                    if (arr >= CONTEXT) arr = 0;
 
                }  
+
+               
+               printf("\e[7m%s\e[0m", exp);
+
+               // Print the next characters
                for (int j = 0; (c = fgetc(f)) != EOF && j < 20 && c != '\n'; j++) putchar(c);
                putchar('\n');
            }

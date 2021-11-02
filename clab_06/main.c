@@ -29,6 +29,17 @@ rgb_t stripes(float u, float v)
     }; 
 }
 
+rgb_t randomic(float u, float v)
+{
+    float n = 42.0;
+
+    return (rgb_t) {
+        (cosf(u * v * u * v) * n),
+        (cosf(u * u * u * u) * n),
+        (sinf(v * v * v) * n)
+    };
+}
+
 rgb_t japan(float u, float v)
 {
     float cx = 0.5, cy = 0.5;
@@ -55,7 +66,7 @@ int writeppm(const char* filename)
             float u = (float) i / WIDTH;
             float v = (float) j / HEIGHT;
 
-            rgb_t shader = japan(u, v); 
+            rgb_t shader = randomic(u, v); 
 
             fprintf(f, "%c%c%c", 
                     (int) (shader.red * 255), 

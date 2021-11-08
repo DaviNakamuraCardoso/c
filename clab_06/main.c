@@ -51,6 +51,16 @@ rgb_t japan(float u, float v)
     return (rgb_t) {1.0, (float) c, (float) c}; 
 }
 
+rgb_t shrek(float u, float v)
+{
+    float cx = 0.5, cy = 0.5;
+    float dx = cx - u, dy = cy - v;
+    float r = 0.25;
+    unsigned int c = (dx * dx + dy * dy >= r * r);
+
+    return (rgb_t) {(float) c, 1.0, (float) c};
+}
+
 
 int writeppm(const char* filename)
 {
@@ -66,7 +76,7 @@ int writeppm(const char* filename)
             float u = (float) i / WIDTH;
             float v = (float) j / HEIGHT;
 
-            rgb_t shader = randomic(u, v); 
+            rgb_t shader = shrek(u, v); 
 
             fprintf(f, "%c%c%c", 
                     (int) (shader.red * 255), 

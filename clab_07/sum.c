@@ -35,7 +35,7 @@ int main(int argc, const char** argv)
 
     if (length > 100000) 
     {
-        printf("The recursive solution is likely to segfault\n");
+        printf("The recursive solution is likely to segfault.\n");
         return 0;
     }
 

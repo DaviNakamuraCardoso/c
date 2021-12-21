@@ -1,11 +1,17 @@
+CC = clang
+FLAGS = -Wall -Wextra -Wpedantic -Werror -Ofast
 
-EXE = sum
+
+EXE = sum cache
+BIG_VALS = 100 1000 10000 100000 1000000 10000000
+SMALL_VALS = 100 1000 10000 
 
 all: $(EXE)
-	for i in 10 100 1000 10000 100000 1000000 10000000; do echo "$$i: "; ./sum $$i; done
+	for i in $(BIG_VALS); do echo "$$i: "; ./sum $$i; done
+	for i in $(SMALL_VALS); do echo "$$i: "; ./cache $$i; done 
 
 %: %.c
-	cc $^ -o $@
+	$(CC) $^ -o $@
 
 clean: $(EXE)
 	rm -f $^

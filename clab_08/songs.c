@@ -4,30 +4,50 @@
 #include <errno.h>
 #include <string.h>
 #include <dirent.h>
+#include "string.h"
 
-const char* songs[300];
+char* paths[500]; 
 
 int getsongs(const char* path)
 {
-    char resolved[256];
+    char *resolved = realpath(path, NULL);
+    unsigned char sp = 0;
+    
+    paths[sp++] = resolved; 
 
-    realpath(path, resolved);
+    do {
 
-    DIR* d = opendir(resolved);
-    struct dirent *de;
+        char* current = paths[--sp];
+        DIR* d = opendir(current);
+        struct dirent *de;
 
-    if (d == NULL)
-    {
-        fprintf(stderr, "Could not open %s: %s.\n", resolved, strerror(errno));
-        exit(1);
-    }
+        if (d == NULL)
+        {
+            fprintf(stderr, "Could not open %s: %s.\n", resolved, strerror(errno));
+            return 1;
+        }
 
-    while ((de = readdir(d)) != NULL)
-    {
-        printf("%s\n", de->d_name);
-    } 
+inner:  while ((de = readdir(d)) != NULL)
+        {
+            char *name = de->d_name;
 
-    closedir(d);
+            if (de->d_type == DT_DIR)
+            {
+                if (streq(name, ".") || streq(name, "..")) goto inner; 
+
+                char *abspath = strcpy(malloc(256), current);
+                strcat(abspath, "/");
+                strcat(abspath, name);
+
+                paths[sp++] = abspath;
+            }
+            printf("%s\n", name); 
+        } 
+
+        closedir(d); 
+        free(current);
+
+    } while (sp); 
 
     return 0;
 

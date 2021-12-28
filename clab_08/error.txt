@@ -1,0 +1,17 @@
+songs.c:21:18: error: array type 'char [256]' is not assignable
+        resolved = paths[--sp];
+        ~~~~~~~~ ^
+songs.c:38:27: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                if (streq(name, ".") || streq(name, "..")) goto inner; 
+                          ^~~~
+./string.h:2:26: note: passing argument to parameter 'a' here
+unsigned int streq(char *a, char* b);
+                         ^
+songs.c:38:47: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                if (streq(name, ".") || streq(name, "..")) goto inner; 
+                                              ^~~~
+./string.h:2:26: note: passing argument to parameter 'a' here
+unsigned int streq(char *a, char* b);
+                         ^
+2 warnings and 1 error generated.
+make: *** [Makefile:5: songs.o] Error 1

@@ -1,0 +1,2579 @@
+clang main.o songs.o string.o -o lsongs
+./lsongs ~/Music
+Hello, Jukebox!
+Opening /home/davi/Music.
+sinatra
+vera
+hutton
+all
+chordettes
+ink
+miller
+holiday
+kyser
+helen
+aces
+louis
+guy
+britt
+andrews
+dorsey
+boswell
+pipers
+bing
+stafford
+elvis
+porter
+liked
+bob
+dean
+skeeter
+beneke
+fitzgerald
+robbins
+fred
+lp
+peggy
+perry
+page
+modernaires
+dinah
+nkc
+deemix Music
+The Andrews Sisters - Last Night On The Back Porch (I Loved Her Best Of All).mp3
+The Andrews Sisters - I've Got No Strings.mp3
+Wayde Blair - Back In Oklahoma.mp3
+Frankie Carle and His Orchestra - More 1944-1949
+Glenn Miller - Indian Summer.mp3
+Raun Burnham - Buddy Leave My Little Jeep Alone.mp3
+The Andrews Sisters - Corns For My Country (Single Version).mp3
+Perry Como - In Italy
+The Andrews Sisters - Christmas With The Andrews Sisters
+The Andrews Sisters - With Every Breath I Take.mp3
+The Four Lads - Istanbul, No Constantinople.mp3
+The Andrews Sisters - Tuxedo Junction (Single Version).mp3
+Jerry Burnham - Let's Ride Into The Sunset Together.mp3
+Jerry Burnham - Tearing Down The Honkytonk.mp3
+Tex Beneke - Top 50 Classics - The Very Best of Tex Beneke
+Jo Stafford - Sweet Song of Love
+Bing Crosby - Bing Sings The Johnny Mercer Songbook
+Paul Lenart - Blow Your Top! A.mp3
+Skeeter Davis - American Portraits_ Skeeter Davis
+The Andrews Sisters - A Smile Will Go A Long, Long Way.mp3
+The Andrews Sisters - Six Times A Week And Twice On Sunday.mp3
+Johnny Mercer - Hello out There
+Kim Cummings - Romeo Moon A.mp3
+Bob Crosby - Bob Crosby and His Orchestra 22 Original Big Band Hits the Essential Series
+Art Mooney - Twenty Four Hours Of Sunshine
+The Andrews Sisters - 'Way Down Yonder In New Orleans (Single Version).mp3
+The Andrews Sisters - I Could Write A Book.mp3
+Skeeter Davis - Best of the Best (Remastered)
+Perry Como - Legends - Perry Como
+Paul Lenart - Roadmaster A.mp3
+The Andrews Sisters - The Donkey Serenade.mp3
+Patti Andrews - I Love You Much Too Much.mp3
+Dorothy Lamour - Too Romantic - The Essential
+Raun Burnham - Every Night B.mp3
+Bobby Black - Real Western Steel.mp3
+Bing Crosby - Bing Crosby Sings Songs By George Gershwin (Expanded Edition)
+Skeeter Davis - The Best (Remastered)
+The Andrews Sisters - Long Time No See.mp3
+Perry Como - Lightly Latin
+Dorothy Lamour - The Road to Romance
+Guy Mitchell - The Essential Tracks
+Don Burnham - Swingin' Out West.mp3
+Raun Burnham - Watch Every Step You Take.mp3
+Paul Anastasio - Boppin' In A Western Kind Of Way.mp3
+Vários intérpretes - Timeless Dixie Vol 2
+The Andrews Sisters - Near You (Single Version).mp3
+Skeeter Davis - Am I That Easy to Forget
+The Andrews Sisters - A Jitterbug's Lullaby.mp3
+Novi Novog - Motel 9 A.mp3
+The Andrews Sisters - You're Just A Flower From An Old Bouquet.mp3
+Doug Perkins - Calling For Your Heart To Fall In Love.mp3
+The Andrews Sisters - I Wanna Be Loved (Single Version).mp3
+Art Mooney - Cha Cha Cha
+The Andrews Sisters - Six Jerks In A Jeep.mp3
+Glenn Miller - That's Why The Moon Was Smiling
+Dennis Brain - Strauss & Mozart_ Horn Concertos
+Bing Crosby - Bing Crosby Rediscovered_ The Soundtrack (American Masters)
+Jo Stafford - Best of the Best (Remastered)
+cover.jpg
+cover.jpg
+07 - Mozart_ Horn Concerto No. 4 in E-Flat Major, K. 495_ I. Allegro moderato (Cadenza by Norman del Mar).mp3
+01 - Strauss, R_ Horn Concerto No. 1 in E-Flat Major, Op. 11_ I. Allegro.mp3
+06 - Mozart_ Horn Concerto No. 2 in E-Flat Major, K. 417_ III. Rondo.mp3
+04 - Mozart_ Horn Concerto No. 2 in E-Flat Major, K. 417_ I. Allegro maestoso.mp3
+08 - Mozart_ Horn Concerto No. 4 in E-Flat Major, K. 495_ II. Romance. Andante cantabile.mp3
+cover.jpg
+05 - Mozart_ Horn Concerto No. 2 in E-Flat Major, K. 417_ II. Andante.mp3
+02 - Strauss, R_ Horn Concerto No. 1 in E-Flat Major, Op. 11_ II. Andante.mp3
+03 - Strauss, R_ Horn Concerto No. 1 in E-Flat Major, Op. 11_ III. Allegro - Rondo. Allegro.mp3
+09 - Mozart_ Horn Concerto No. 4 in E-Flat Major, K. 495_ III. Rondo. Allegro vivace.mp3
+cover.jpg
+11 - In the Shade off the Old Apple Tree.mp3
+01 - Who's Sorry Now_.mp3
+10 - Glow Worm.mp3
+07 - Caravan.mp3
+02 - Jamaica.mp3
+06 - Dwana.mp3
+cover.jpg
+04 - Midnight Breeze.mp3
+08 - Shine on Harvest Moon.mp3
+09 - Chi Chi Castenango.mp3
+03 - I Let a Song Go out of My Heart.mp3
+05 - Hands Across the Table.mp3
+cover.jpg
+12 - Way Down Yonder In New Orleans.mp3
+04 - San Antonio Rose.mp3
+09 - Jam Session At Victor.mp3
+14 - Big Crash From China.mp3
+02 - March Of The Bobcats.mp3
+cover.jpg
+11 - Jazz Me Blues.mp3
+07 - At The Jazzband Ball.mp3
+06 - Chinatown, My Chinatown.mp3
+13 - The Sheik Of Araby.mp3
+08 - Runnin' Wild.mp3
+03 - St Louis Blues.mp3
+10 - Struttin With Some Barbeque.mp3
+01 - Twelfth Street Rag.mp3
+05 - When The Saints Go Marching In.mp3
+15 - The Darktown Strutters' Ball.mp3
+cover.jpg
+02 - Did You Ever See a Dream Walkin_.mp3
+04 - Can't Help Loving That Man.mp3
+06 - Don't Ever Leave Me.mp3
+03 - Why Was I Born_.mp3
+09 - That Old Feeling.mp3
+05 - I Can't Tell Why I Love You.mp3
+07 - Lulu Belle.mp3
+cover.jpg
+01 - You're Mine You.mp3
+08 - (My) Bill.mp3
+10 - Aloha Oe.mp3
+cover.jpg
+cover.jpg
+cover.jpg
+13 - Palms of Paradise.mp3
+10 - Your Kiss.mp3
+07 - Tonight Will Live.mp3
+12 - Moon over Burma.mp3
+22 - The Man I Love.mp3
+02 - Panamania.mp3
+08 - It Had to Be You.mp3
+14 - You Took the Words Right out of My Heart.mp3
+24 - Mexican Magic.mp3
+21 - You Took Me out of This World.mp3
+19 - On a Tropic Night.mp3
+11 - Paradise.mp3
+06 - The One Rose, That's Left in My Heart.mp3
+09 - This Is the Beginning of the End.mp3
+25 - Thanks for the Memory.mp3
+04 - That Sentimental Sandwich.mp3
+18 - The Moon of Manakoora.mp3
+cover.jpg
+23 - Moonlight and Shadows.mp3
+17 - I'm All A-Tremble over You.mp3
+01 - I Gotta Right to Sing the Blues.mp3
+20 - Lovelight in the Starlight.mp3
+15 - Sweet Potato Piper.mp3
+16 - The Moon and the Willow Tree.mp3
+03 - Too Romantic.mp3
+05 - Little Lady Make-Believe.mp3
+CD3
+cover.jpg
+CD1
+CD2
+cover.jpg
+07 - Giant.mp3
+11 - I'm Looking Over A Four-Leaf Clover.mp3
+02 - Sunset To Sunrise.mp3
+22 - Honey-Babe.mp3
+21 - Bluebird Of Happiness.mp3
+06 - Silver Dollar.mp3
+15 - Merry-Go-Round Waltz.mp3
+05 - Again.mp3
+14 - Five Foot Two, Eyes Of Blue.mp3
+12 - Daydreams.mp3
+19 - Heartbreaker.mp3
+09 - Hop Scotch Polka.mp3
+10 - Beautiful Eyes.mp3
+08 - Toot, Toot, Tootsie.mp3
+04 - Lazy River.mp3
+16 - M-I-S-S-I-S-S-I-P-P-I.mp3
+cover.jpg
+01 - Twenty-Four Hours Of Sunshine.mp3
+20 - Rock And Roll Tumbleweed.mp3
+18 - If I Knew You Were Comin' I'd've Baked A Cake.mp3
+17 - Baby Face.mp3
+03 - Doo De Doo On An Old Kazoo.mp3
+13 - No Regrets.mp3
+cover.jpg
+17 - Personality.mp3
+14 - Conversation While Dancing.mp3
+15 - On the Atchison, Topeka and Santa Fe.mp3
+08 - Strip Polka (Take It Off!).mp3
+04 - Show Your Linen, Miss Richardson.mp3
+26 - One for My Baby (And One More for the Road).mp3
+09 - The Air-Minded Executive.mp3
+22 - Baby, It's Cold Outside.mp3
+01 - Ac-Cent-Tchu-Ate the Positive.mp3
+25 - Hello, out There, Hello!.mp3
+05 - Mister Meadowlark.mp3
+07 - Friendship.mp3
+20 - Sugar Blues.mp3
+21 - My Baby Likes to Bebop.mp3
+06 - On Behalf of the Visiting Firemen.mp3
+02 - Eeny Meeny Miney Mo.mp3
+10 - They Didn't Believe Me.mp3
+12 - The Dixieland Band.mp3
+23 - The Thousand Islands Song.mp3
+16 - A Gal in Calico.mp3
+13 - Lazy Mood.mp3
+11 - I Lost My Sugar in Salt Lake City.mp3
+cover.jpg
+19 - I Do Do Do Like You.mp3
+18 - My Sugar Is so Refined.mp3
+24 - The Glow Worm.mp3
+03 - Cuckoo in the Clock.mp3
+cover.jpg
+cover.jpg
+cover.jpg
+cover.jpg
+16 - I'd Like To Hitch A Ride With Santa Claus.mp3
+13 - Jing-A-Ling, Jing-A-Ling.mp3
+12 - Poppa Santa Claus.mp3
+05 - Merry Christmas Polka.mp3
+02 - Santa Claus Is Comin' To Town.mp3
+14 - Parade Of The Wooden Soldiers.mp3
+04 - Christmas Island.mp3
+18 - Silver Bells.mp3
+09 - All I Want For Christmas Is My Two Front Teeth.mp3
+19 - A Child's Christmas Song.mp3
+08 - Twelve Days Of Christmas.mp3
+03 - Winter Wonderland.mp3
+06 - Christmas Candles.mp3
+01 - Jingle Bells.mp3
+cover.jpg
+11 - Mele Kalikimaka.mp3
+17 - Sleigh Ride.mp3
+10 - A Merry Christmas At Grandmother's.mp3
+15 - The Christmas Tree Angel.mp3
+07 - Here Comes Santa Claus (Right Down Santa Claus Lane).mp3
+cover.jpg
+04 - Blue Champagne.mp3
+14 - Passing By.mp3
+10 - Smoke Dreams.mp3
+08 - A Kiss to Remember.mp3
+18 - Monday, Tuesday, Wednesday (I Love You).mp3
+11 - There Goes That Song Again.mp3
+19 - Moon on My Pillow.mp3
+13 - A Passing Fancy.mp3
+20 - The Johnson Rag.mp3
+07 - I Was Here When You Left Me; I'll Be Here When You Get Back.mp3
+05 - Green-Up Time.mp3
+01 - It Makes No Difference Now.mp3
+cover.jpg
+15 - All the Bees Are Buzzin'.mp3
+06 - Time on My Hands.mp3
+12 - Tomorrow.mp3
+03 - Saturday Night (Is the Loneliest Night in the Week).mp3
+09 - Flapperette.mp3
+02 - A Friend of Yours.mp3
+17 - Counting the Days.mp3
+16 - Honey.mp3
+Nat King Cole - Pitching up the Boogie.mp3
+Nat King Cole - You're the Cream in My Coffee.mp3
+Nat King Cole - Can't I_.mp3
+Nat King Cole - Too Young.mp3
+Nat King Cole - Makin' Whoopee.mp3
+Nat King Cole - Its Only a Paper Moon.mp3
+Nat King Cole - September Song.mp3
+Nat King Cole - Look What You've Done to Me.mp3
+Nat King Cole - How Deep Is the Ocean.mp3
+Nat King Cole - Stella by Starlight.mp3
+Nat King Cole - Body and Soul.mp3
+Nat King Cole - My Mother Told Me.mp3
+Nat King Cole - Walkin' My Baby Back Home.mp3
+Nat King Cole - Smoke Gets in Your Eyes.mp3
+Nat King Cole - I Saw Three Ships.mp3
+Nat King Cole - That's You.mp3
+Nat King Cole - Send for Me.mp3
+Nat King Cole - (I Would Do) Anything for You.mp3
+Nat King Cole - Pretend.mp3
+Nat King Cole - Lost April.mp3
+Nat King Cole - Hit That Jive, Jack.mp3
+Nat King Cole - My Lips Remember Your Kisses.mp3
+Nat King Cole - You're Nobody Till Somebody Loves You.mp3
+Nat King Cole - Come to Baby, Do.mp3
+Nat King Cole - I Get a Kick out of You.mp3
+Nat King Cole - Bop-Kick.mp3
+Nat King Cole - A Beautiful Friendship.mp3
+Nat King Cole - Save the Bones for Henry Jones ('Cause Henry Don't Eat No Meat).mp3
+Nat King Cole - Tenderly.mp3
+Nat King Cole - A Blossom Fell.mp3
+Nat King Cole - Love Is a Many Splendored Thing.mp3
+Nat King Cole - I Can't See for Lookin'.mp3
+Nat King Cole - Lush Life.mp3
+Nat King Cole - With Plenty of Money and You.mp3
+Nat King Cole - Those Things Money Can't Buy.mp3
+Nat King Cole - The Touch of Your Lips.mp3
+Nat King Cole - I Wish You Love.mp3
+Nat King Cole - I Got Rhythm.mp3
+Nat King Cole - You Stepped out of a Dream.mp3
+Nat King Cole - I'm in the Mood for Love.mp3
+Nat King Cole - Crazy She Calls Me.mp3
+Nat King Cole - Beautiful Moons Ago.mp3
+Nat King Cole - It Only Happens Once.mp3
+Nat King Cole - For Sentimental Reasons.mp3
+Nat King Cole - Autumn Leaves.mp3
+Nat King Cole - Pick Yourself Up.mp3
+Nat King Cole - Caravan.mp3
+Nat King Cole - Mona Lisa.mp3
+Nat King Cole - Scotchin' with the Soda.mp3
+Nat King Cole - If You Can't Smile and Say Yes (Please Don't Cry and Say No).mp3
+Nat King Cole - Love Me as Though There Were No Tomorrow.mp3
+Nat King Cole - Let There Be Love.mp3
+Nat King Cole - Got a Penny.mp3
+Nat King Cole - The Christmas Song.mp3
+Nat King Cole - I Got It Bad (And That Ain't Good).mp3
+Nat King Cole - Smile.mp3
+Nat King Cole - Love Walked In.mp3
+Nat King Cole - Blue Gardenia.mp3
+Nat King Cole - St Louis Blues.mp3
+Nat King Cole - Lets Pretend.mp3
+Nat King Cole - It's Kind of Lonesome out Tonight.mp3
+Nat King Cole Trio - Orange Coloured Sky.mp3
+Nat King Cole - Don't Let Your Eyes Go Shopping (For Your Heart).mp3
+Nat King Cole - I Want to Be Happy.mp3
+Nat King Cole - Embraceable You.mp3
+Nat King Cole - Love Me As Though There Were No Tomorrow.mp3
+Nat King Cole - Ain't Misbehavin'.mp3
+Nat King Cole - When I Fall in Love.mp3
+Nat King Cole - A Portrait of Jennie.mp3
+Nat King Cole - I Realize Now.mp3
+Nat King Cole - Sweet Georgia Brown.mp3
+Nat King Cole - How High the Moon.mp3
+Nat King Cole - Sweet Lorraine.mp3
+Nat King Cole - Don't Blame Me.mp3
+Nat King Cole - What Is This Thing Called Love_.mp3
+Nat King Cole - Stay.mp3
+Nat King Cole - April in Paris.mp3
+Nat King Cole - Somewhere Along the Way.mp3
+Nat King Cole - Nature Boy.mp3
+Nat King Cole - You Call It Madness but I Call It Love.mp3
+Nat King Cole - Dream a Little Dream of Me.mp3
+Nat King Cole - I Can't Give You Anything but Love.mp3
+Nat King Cole - I'm Thru' with Love.mp3
+Nat King Cole - I Hear Music.mp3
+Nat King Cole - Unforgettable.mp3
+Nat King Cole - I Love You for Sentimental Reasons.mp3
+Nat King Cole - Lover, Come Back to Me.mp3
+Nat King Cole - Orange Coloured Sky.mp3
+Nat King Cole - On the Sunny Side of the Street.mp3
+Nat King Cole - The Frim Fram Sauce.mp3
+Nat King Cole - Stardust.mp3
+Nat King Cole - Dedicated to You.mp3
+Nat King Cole - Honky Tonk Town.mp3
+Nat King Cole - The Very Thought of You.mp3
+Dinah Shore - It's De Lovely (78rpm Version).mp3
+Dinah Shore - You'd Be so Nice to Come Home To.mp3
+Dinah Shore - Buttons And Bows (from _Mafia 2_).mp3
+Dinah Shore - Laughing on the Outside (Crying on the Inside).mp3
+Dinah Shore - A Boy in Khaki, a Girl in Lace.mp3
+Dinah Shore - My Funny Valentine.mp3
+The Modernaires - Only You (Remastered).mp3
+The Modernaires - April in Paris (Remastered).mp3
+The Modernaires - I'll Always Be Following You (Remastered).mp3
+The Modernaires - Tops 'N' Pops (Part 2) (Remastered).mp3
+The Modernaires - Let's Dance Medley (Part 2) (Remastered).mp3
+The Modernaires - As Long as I Have You (Remastered).mp3
+The Modernaires - Out O'breath (Remastered).mp3
+The Modernaires - Salute to Tommy Dorsey 2 (Remastered).mp3
+The Modernaires - Medley_ Daddy You've Been a Mother to Me -One Ros (Remastered).mp3
+The Modernaires - That's You That's Me That's Love (Remastered).mp3
+The Modernaires - Let's Dance Medley (Part 1) (Remastered).mp3
+The Modernaires - Hi-Diddlee-I-Di.mp3
+The Modernaires - He Who Has Love (Remastered).mp3
+The Modernaires - When My Love Comes Back to Me (Remastered).mp3
+The Modernaires - I Know Why (And so Do You) (Remastered).mp3
+The Modernaires - The Dipsy Doodle (Remastered).mp3
+The Modernaires - I'm Ready to Love Again (Remastered).mp3
+The Modernaires - Santa's Little Sleigh Bell (Remastered).mp3
+The Modernaires - Tops 'N' Pops (Part 1) (Remastered).mp3
+The Modernaires - That's You, That's Me, That's Love.mp3
+The Modernaires - Half Hearted Kisses (Remastered).mp3
+The Modernaires - Put Some Money in the Juke Box (Remastered).mp3
+The Modernaires - Rock-A-Bye Boogie (Remastered).mp3
+The Modernaires - Calypso Melody (Remastered).mp3
+The Modernaires - Please Don't Cry (Remastered).mp3
+The Modernaires - Mood Indigo (Remastered).mp3
+The Modernaires - Go on with the Wedding (Remastered).mp3
+The Modernaires - Birds and Puppies and Tropical Fish (Remastered).mp3
+The Modernaires - Bugle Call Rag (Remastered).mp3
+The Modernaires - The Milkman's Matinee.mp3
+The Modernaires - The Great Pretender (Remastered).mp3
+The Modernaires - Mine Mine Mine (Remastered).mp3
+The Modernaires - Ask for Joe (L'enfant de la Balle) (Remastered).mp3
+The Modernaires - Medley_ Honeymoon -Girl of My Dreams (Remastered).mp3
+The Modernaires - Wine Women and Gold (Remastered).mp3
+The Modernaires - Ain't She Sweet_ (Remastered).mp3
+The Modernaires - Alice in Wonderland (Remastered).mp3
+The Modernaires - Teach Me Tonight (Remastered).mp3
+The Modernaires - Act Your Age (Remastered).mp3
+The Modernaires - Salute to Tommy Dorsey (Remastered).mp3
+The Modernaires - At My Front Door (Remastered).mp3
+The Modernaires - Half-Hearted Kisses.mp3
+The Modernaires - I'm Late (Remastered).mp3
+The Modernaires - Say You're Mine Again (Remastered).mp3
+The Modernaires - Ninety Eight Cents (Remastered).mp3
+The Modernaires - Ninety-Eight Cents.mp3
+The Modernaires - Cinderella Baby (Remastered).mp3
+The Modernaires - Four or Five Times (Remastered).mp3
+The Modernaires - Hi-Diddlee-I-Di (Remastered).mp3
+The Modernaires - Salute to Glenn Miller [Part 2 - Medley] (Remastered).mp3
+The Modernaires - Sleepy Little Space Cadet (Remastered).mp3
+The Modernaires - Mine (Remastered).mp3
+The Modernaires - East of the Sun (And West of the Moon) (Remastered).mp3
+The Modernaires - Alright Okay You Win (Remastered).mp3
+The Modernaires - Goody Goody (Remastered).mp3
+The Modernaires - Wildflower (Remastered).mp3
+The Modernaires - Wake the Place (Remastered).mp3
+The Modernaires - Amor (Remastered).mp3
+The Modernaires - Noah [Theme from 'Noah's Ark'] (Remastered).mp3
+The Modernaires - Stompin' at the Savoy (Remastered).mp3
+The Modernaires - Slue Foot (Remastered).mp3
+The Modernaires - Salute to Glenn Miller [Part 1 - Medley] (Remastered).mp3
+The Modernaires - The Milkman's Matinee (Remastered).mp3
+Patti Page - Mockingbird Hill.mp3
+Patti Page - You Belong To Me.mp3
+Patti Page - Steam Heat.mp3
+Patti Page - How Much Is That Doggie In The Window.mp3
+Patti Page - Mister And Mississippi.mp3
+Patti Page - Cross The Bridge.mp3
+Patti Page - Changing Partners.mp3
+Patti Page - I Went To Your Wedding.mp3
+Patti Page - Let Me Go Lover.mp3
+Patti Page - Detour.mp3
+Patti Page - All My Love.mp3
+Patti Page - Tennessee Waltz.mp3
+Perry Como - If.mp3
+10 - Feelings.mp3
+159 - Perry Como - Killing Me Softly With Her Song.mp3
+01 - I Believe In Music.mp3
+Perry Como - Prisoner of Love.mp3
+06 - Yesterday.mp3
+06 - Something.mp3
+Perry Como - If I Loved You (From the Musical Production _Carousel_).mp3
+Perry Como - Glendora (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+12 - Quiet Nights of Quiet Stars.mp3
+05 - Days Of Wine And Roses.mp3
+Perry Como - Ko Ko Mo (I LoveYou So).mp3
+09 - We've Only Just Begun.mp3
+Perry Como - The Best Of Times.mp3
+Perry Como - Far Away Places (with Henri René & His Orchestra).mp3
+112 - Perry Como - Papa Loves Mambo.mp3
+04 - Dream On, Little Dreamer (with The Anita Kerr Quartet).mp3
+Perry Como - Let's Take an Old Fashioned Walk (with Mitchell Ayres & His Orchestra).mp3
+Perry Como - You Alone (Solo Tu).mp3
+Perry Como - I've Got You Under My Skin.mp3
+06 - You Light Up My Life.mp3
+Perry Como - It's Impossible.mp3
+Perry Como - You Won't Be Satisfied (Until You Break My Heart).mp3
+Perry Como - (They Long To Be) Close To You.mp3
+Perry Como - Wanted (with Henri René & His Orchestra and Chorus).mp3
+Perry Como - I Want To Go Home (With You).mp3
+Perry Como - Kewpie Doll (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+16 - Moon River.mp3
+Perry Como - Til The End Of Time.mp3
+05 - Raindrops Keep Fallin' On My Head.mp3
+Perry Como - Prisoner of Love (with Russ Case & His Orchestra & Chorus).mp3
+Perry Como - More.mp3
+Perry Como - Forever And Ever.mp3
+03 - The Hawaiian Wedding Song.mp3
+Perry Como - Maybe.mp3
+15 - The Most Beautiful Girl.mp3
+09 - E lei (To You).mp3
+154 - Perry Como - And I Love You So.mp3
+02 - Oh Marie.mp3
+Perry Como - Delaware.mp3
+14 - Juke Box Baby (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+Perry Como - Tina Marie.mp3
+Perry Como - What Kind Of Fool Am I_.mp3
+Perry Como - Papa Loves Mambo.mp3
+09 - Baia.mp3
+07 - Coo Coo Roo Coo Coo Paloma.mp3
+13 - Walk Right Back.mp3
+03 - Yesterday.mp3
+Perry Como - I Think Of You.mp3
+161 - Perry Como - It's Impossible (Digitally Mastered - May - June, 1988).mp3
+Perry Como - And I Love You So.mp3
+03 - The Shadow of Your Smile (Love Theme from _The Sandpiper_).mp3
+16 - Try to Remember (with The Ray Charles Singers) (From the Production, _The Fantasticks_).mp3
+08 - Mandolins In The Moonlight.mp3
+17 - I Know.mp3
+02 - Sing.mp3
+11 - Manha De Carnaval (Carnival) (From the film _Black Orpheus_).mp3
+06 - Beyond Tomorrow (Love Theme from _Serpico_).mp3
+08 - It All Seems To Fall Into Line.mp3
+12 - Snowbird.mp3
+10 - Toselli's Serenade (Dreams and Memories).mp3
+157 - Perry Como - For the Good Times.mp3
+09 - Just Born (To Be Your Baby) (with Mitchell Ayres & His Orchestra).mp3
+155 - Perry Como - Bibbidi-Bobbidi-Boo (The Magic Song) (As heard in the Netflix series The Umbrella Academy).mp3
+Perry Como - A - You're Adorable.mp3
+05 - Forget domani (From the MGM Motion Picture _The Yellow Rolls Royce_).mp3
+156 - Perry Como - Magic Moments.mp3
+01 - Souvenir d'Italie.mp3
+Perry Como - Patricia.mp3
+11 - Tie A Yellow Ribbon 'Round The Ole Oak Tree.mp3
+12 - Where You're Concerned.mp3
+08 - Santa Lucia.mp3
+Perry Como - I Love You And Don't You Forget It.mp3
+Perry Como - All At Once You Love Her (From 'Pipe Dream').mp3
+12 - Arrivederci Roma (Goodbye to Rome).mp3
+14 - There's a Kind of Hush.mp3
+Perry Como - I Wonder Who's Kissing Her Now (with Lloyd Shaffer and his Orchestra).mp3
+11 - (They Long To Be) Close To You.mp3
+08 - Dindi.mp3
+18 - The Wind Beneath My Wings.mp3
+Perry Como - When You Were Sweet Sixteen.mp3
+Perry Como - Zing Zing, Zoom Zoom.mp3
+13 - For the Good Times.mp3
+10 - Papa Loves Mambo.mp3
+09 - Killing Me Softly With Her Song.mp3
+Perry Como - For the Good Times.mp3
+12 - Let's Do It Again.mp3
+Perry Como - Catch a Falling Star (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+04 - Love Theme from _La Strada_ (Traveling Down a Lonely Road).mp3
+10 - Once I Loved (Amor e Paz).mp3
+07 - Magic Moments (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+02 - I Left My Heart In San Francisco.mp3
+Perry Como - Surrender.mp3
+02 - Stay With Me.mp3
+Perry Como - A Dreamer's Holiday (with Mitchell Ayres & His Orchestra).mp3
+Perry Como - Because.mp3
+Perry Como - Don't Let The Stars Get In Your Eyes.mp3
+Perry Como - A Bushel & A Peck.mp3
+10 - We Kiss In A Shadow.mp3
+14 - Kewpie Doll (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+07 - When I Need You.mp3
+Perry Como - Try to Remember (with The Ray Charles Singers) (From the Production, _The Fantasticks_).mp3
+04 - Meditation (Meditaçao).mp3
+13 - Glendora (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+Perry Como - Hot Diggity (Dog Ziggity Boom).mp3
+04 - Moon Talk.mp3
+11 - O Marenariello.mp3
+Perry Como - The Very Thought of You.mp3
+158 - Perry Como - Young At Heart (with Mitchell Ayres & His Orchestra).mp3
+02 - Round and Round (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+Perry Como - Moon River.mp3
+11 - Mi Casa, Su Casa.mp3
+05 - El Cóndor Pasa.mp3
+Perry Como - Til The End of Time.mp3
+01 - How Insensitive (Insensatez).mp3
+04 - Seattle.mp3
+Perry Como - Say You're Mine Again (with The Ramblers).mp3
+07 - Un giorno dopo l'altro (One Day Is Like Another).mp3
+15 - Delaware.mp3
+Perry Como - Chi-Baba, Chi-Baba (My Bambino Go To Sleep).mp3
+Perry Como - You're Just In Love (with Mitchell Ayres & His Orchestra) (From _Call Me Madam_).mp3
+01 - And I Love You So.mp3
+Perry Como - I Want To Give (Ahora Que Soy Libre).mp3
+Perry Como - Bibbidi-Bobbidi-Boo (The Magic Song) (As heard in the Netflix series The Umbrella Academy).mp3
+08 - More.mp3
+Perry Como - No Other Love (with Henri René & His Orchestra and Chorus).mp3
+07 - Ivy Rose.mp3
+Perry Como - Some Enchanted Evening.mp3
+Perry Como - (There's No Place Like) Home for the Holidays (1954 Version).mp3
+Perry Como - I'm Always Chasing Rainbows.mp3
+03 - Cominciamo ad amarci.mp3
+Perry Como - Wild Horses.mp3
+Perry Como - Round and Round (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+Perry Como - Magic Moments (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+15 - It's Impossible.mp3
+Perry Como - Temptation.mp3
+03 - Unchained Melody.mp3
+05 - And Roses and Roses (with The Ray Charles Singers).mp3
+Perry Como - Juke Box Baby (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+Perry Como - Hoop-Dee-Doo.mp3
+Perry Como - To Know You Is To Love You.mp3
+06 - Anema e core.mp3
+17 - Catch a Falling Star (with Mitchell Ayres and His Orchestra & The Ray Charles Singers).mp3
+01 - Don't Let The Stars Get In Your Eyes.mp3
+Perry Como - The Things I Didn't Do (with Mitchell Ayres & His Orchestra).mp3
+160 - Perry Como - Prisoner of Love.mp3
+Perry Como - Hello, Young Lovers.mp3
+Perry Como - I'm Gonna Love That Gal (Like She's Never Been Loved Before).mp3
+Peggy Lee - Manana (Is Soon Enough For Me).mp3
+Peggy Lee - Why Don't You Do Right_.mp3
+Peggy Lee - Johnny Guitar.mp3
+151 - Linkin Park - Not Alone.mp3
+139 - Linkin Park - My December.mp3
+125 - Linkin Park - Points of Authority.mp3
+150 - Linkin Park - Sorry for Now.mp3
+124 - Linkin Park - One More Light.mp3
+122 - Linkin Park - Shadow of the Day.mp3
+120 - Linkin Park - From the Inside.mp3
+114 - Linkin Park - Somewhere I Belong.mp3
+146 - Linkin Park - Until It's Gone.mp3
+133 - Linkin Park - No More Sorrow.mp3
+126 - Linkin Park - Lying from You.mp3
+149 - Linkin Park - Krwlng (Mike Shinoda Reanimation) [feat. Aaron Lewis].mp3
+140 - Linkin Park - Talking to Myself.mp3
+132 - Linkin Park - Final Masquerade.mp3
+129 - Linkin Park - Iridescent.mp3
+174 - Linkin Park - Forgotten.mp3
+074 - Linkin Park - In the End.mp3
+082 - Linkin Park - New Divide.mp3
+145 - Linkin Park - Nobody Can Save Me.mp3
+134 - Linkin Park - LOST IN THE ECHO.mp3
+137 - Linkin Park - Good Goodbye (feat. Pusha T and Stormzy).mp3
+142 - Linkin Park - ROADS UNTRAVELED.mp3
+144 - Linkin Park - Sharp Edges.mp3
+084 - Linkin Park - CASTLE OF GLASS.mp3
+115 - Linkin Park - What I've Done.mp3
+128 - Linkin Park - Waiting for the End.mp3
+148 - Linkin Park - POWERLESS.mp3
+016 - Linkin Park - BURN IT DOWN.mp3
+081 - Linkin Park - Crawling.mp3
+173 - Linkin Park - Papercut (Live at Yalding House, London, England, 1_12_2001 - BBC One).mp3
+141 - Linkin Park - Battle Symphony.mp3
+130 - Linkin Park - Don't Stay.mp3
+118 - Linkin Park - Papercut.mp3
+143 - Linkin Park - The Messenger.mp3
+083 - Linkin Park - Bleed It Out.mp3
+172 - Linkin Park - High Voltage.mp3
+147 - Linkin Park - Pts.Of.Athrty (Jay Gordon Reanimation).mp3
+103 - Linkin Park - Invisible.mp3
+079 - Linkin Park - Numb.mp3
+131 - Linkin Park - Heavy (feat. Kiiara).mp3
+119 - Linkin Park - One Step Closer.mp3
+123 - Linkin Park - A Place for My Head.mp3
+138 - Linkin Park - IN MY REMAINS.mp3
+152 - Linkin Park - Wastelands.mp3
+135 - Linkin Park - The Catalyst.mp3
+136 - Linkin Park - A LIGHT THAT NEVER COMES.mp3
+116 - Linkin Park - Breaking the Habit.mp3
+127 - Linkin Park - Runaway.mp3
+117 - Linkin Park - Leave Out All The Rest.mp3
+50 - Something's Gotta Give.mp3
+60 - They Can't Take That Away From Me.mp3
+04 - A Shine On Your Shoes.mp3
+07 - Change Partners.mp3
+32 - Miss Otis Regrets.mp3
+25 - Jam Session for a Dancer.mp3
+44 - Romeo and Juliet Overture.mp3
+23 - It Only Happens When I Dance with You.mp3
+40 - Oh, Lady Be Good!.mp3
+64 - You'd Be Hard to Replace.mp3
+58 - There's No Time Like the Present.mp3
+08 - Cheek to Cheek.mp3
+43 - Puttin' on the Ritz.mp3
+21 - I'm Putting All My Eggs in One Basket.mp3
+41 - One For My Baby (And One More for the Road).mp3
+45 - S Wonderful.mp3
+13 - I Concentrate on You.mp3
+35 - Nice Work If You Can Get It.mp3
+11 - Funny Face.mp3
+14 - I Left My Hat in Haiti.mp3
+31 - Lovely to Look At.mp3
+20 - I'm Old Fashioned.mp3
+24 - I've Got My Eyes on You.mp3
+48 - Sheik of Araby.mp3
+37 - No Strings.mp3
+05 - Baby Doll.mp3
+16 - I Used to Be Color Blind.mp3
+29 - Let's Face the Music and Dance.mp3
+22 - Isn't It A Lovely Day.mp3
+46 - Seeing's Believing.mp3
+54 - The Carioca.mp3
+10 - Fascinatin' Rhythm (Lady Be Good).mp3
+06 - Blue Skies.mp3
+51 - Steppin' Out with My Baby.mp3
+59 - They All Laughed.mp3
+39 - Not Now, I'll Tell You When.mp3
+65 - You're Easy to Dance With.mp3
+27 - Let Yourself Go.mp3
+18 - I'll Walk Alone.mp3
+47 - Shall We Dance.mp3
+49 - So Near and Yet So Far.mp3
+57 - The Yam.mp3
+17 - I Won't Dance.mp3
+38 - Not My Girl.mp3
+03 - A Needle in a Haystack.mp3
+53 - The Afterbeat.mp3
+42 - Pick Yourself Up.mp3
+34 - New Sun in the Sky.mp3
+61 - Top Hat, White Tie and Tails.mp3
+01 - A Fine Romance.mp3
+30 - Let's Kiss and Make Up.mp3
+02 - A Foggy Day.mp3
+19 - I'm Building Up to an Awful Letdown.mp3
+52 - That Face.mp3
+09 - Dancing in the Dark.mp3
+63 - We Have to Dance or Else No Pay.mp3
+26 - Just Like Taking Candy From a Baby.mp3
+55 - The Continental.mp3
+62 - Valse Triste.mp3
+33 - My One and Only.mp3
+28 - Let's Call the Whole Thing Off.mp3
+56 - The Way You Look Tonight.mp3
+12 - He Loves and She Loves.mp3
+098 - Marty Robbins - They're Hanging Me Tonight.mp3
+100 - Marty Robbins - I Lived a Lifetime in a Day.mp3
+096 - Marty Robbins - Big Iron.mp3
+102 - Marty Robbins - The Things That I Don't Know.mp3
+Marty Robbins - Big Iron.mp3
+101 - Marty Robbins - You Won't Have Her Long.mp3
+099 - Marty Robbins - The Master's Call.mp3
+097 - Marty Robbins - El Paso.mp3
+Ella Fitzgerald - Into Each Life Some Rain Must Fall.mp3
+Ella Fitzgerald - When I Get Low I Get High (Original Recording).mp3
+Ella Fitzgerald - Undecided.mp3
+Ella Fitzgerald & The Ink Spots - Into Each Life Some Rain Must Fall.mp3
+50 - One O'Clock Jump.mp3
+49 - The Echo Said No.mp3
+09 - Chattanooga Choo Choo.mp3
+18 - The Woodchuck Song.mp3
+04 - Meadowlands.mp3
+07 - I'm Headin' For California.mp3
+24 - Moonlight Serenade.mp3
+47 - My Buddy.mp3
+45 - I Have But One Heart.mp3
+Tex Beneke - A Wonderful Guy.mp3
+21 - Bugle Call Rag.mp3
+29 - Blue Is The Night.mp3
+32 - I've Got A Heart Filled With Love.mp3
+05 - St Louis Blues March.mp3
+06 - Anniversary Song.mp3
+38 - The Land Of Jazz.mp3
+42 - Surprise Symphony.mp3
+13 - Cynthia's In Love.mp3
+28 - East Of The Sun.mp3
+35 - Cow Cow Boogie.mp3
+03 - Give Me Five Minutes More.mp3
+27 - Meloncholly Baby.mp3
+25 - Passe.mp3
+41 - Oh Johnny Oh.mp3
+02 - Gal In Kalamazoo.mp3
+33 - An Old Dutch Garden.mp3
+36 - Oh What You Said.mp3
+23 - What A Difference A Day Makes.mp3
+16 - I Know.mp3
+30 - Beat Me Daddy Eight To The Bar.mp3
+19 - Have Yourself A Merry Little Christmas.mp3
+12 - Stormy Weather.mp3
+20 - You Turned The Tables On Me.mp3
+46 - Heather On The Hill.mp3
+40 - Bless You.mp3
+17 - Beyond The Sea.mp3
+44 - Carriocha.mp3
+10 - Hey! Ba-Ba-Re-Bop.mp3
+26 - I Can Dream, Can't I.mp3
+31 - Pretty Baby.mp3
+11 - Moonlight Cocktails.mp3
+43 - Bagatel.mp3
+15 - The Blues Of The Record Man.mp3
+39 - All The Things You Are.mp3
+01 - A Wonderful Guy.mp3
+14 - Palladium Patrol.mp3
+090 - Tex Beneke - A Wonderful Guy.mp3
+48 - Every So Often.mp3
+34 - The Little Man Who Wasn't There.mp3
+22 - At Last.mp3
+37 - I Just Got A Letter.mp3
+Skeeter Davis - Tell Tommy I Love Him.mp3
+Skeeter Davis - Wave Bye Bye (Remastered).mp3
+06 - The End of the World (Remastered).mp3
+Skeeter Davis - Have You Seen This Man_.mp3
+Skeeter Davis - Rock a Bye Boogie (Remastered).mp3
+Skeeter Davis - He'll Have to Stay.mp3
+Skeeter Davis - I Forgot More Than You'll Ever Know (Remastered).mp3
+Skeeter Davis - Don't Let Your Lips Say Yes.mp3
+01 - I Forgot More Than You'll Ever Know.mp3
+Skeeter Davis - The One You Slip Around With (Remastered).mp3
+06 - Hopelessly Devoted to You.mp3
+02 - Am I That Easy to Forget.mp3
+08 - You Don't Have to Be a Baby to Cry.mp3
+10 - Keep Your Hands Off My Baby (Remastered).mp3
+06 - Longing to Hold You Again (Remastered).mp3
+05 - They Listened While You Said Goodbye (Remastered).mp3
+Skeeter Davis - The Hand You're Holding Now (Remastered).mp3
+Skeeter Davis - Above and Beyond (Remastered).mp3
+Skeeter Davis - I Really Want to Know (Remastered).mp3
+02 - I Will Follow Him (Remastered).mp3
+Skeeter Davis - I Want to See You (Just One Time) (Remastered).mp3
+02 - I Ain't Never.mp3
+Skeeter Davis - Gonna Find Me a Bluebird.mp3
+16 - That's Alright.mp3
+09 - Homebreaker.mp3
+03 - Blue Kentucky Girl.mp3
+12 - Gonna Find Me a Bluebird.mp3
+Skeeter Davis - The One You Slip Around With.mp3
+Skeeter Davis - Just When I Needed You.mp3
+02 - Cloudy, with Occasional Tears (Remastered).mp3
+Skeeter Davis - Homebreaker (Remastered).mp3
+10 - He'll Have to Stay.mp3
+Skeeter Davis - The Devil's Doll 2 (Remastered).mp3
+Skeeter Davis - The Final Stop (Remastered).mp3
+Skeeter Davis - We Could (Remastered).mp3
+Skeeter Davis - Anymore (Remastered).mp3
+11 - Rock a Bye Boogie.mp3
+13 - I'm a Country Girl But (I Love to Rock 'n' Roll).mp3
+Skeeter Davis - My Last Date (With You) 2 (Remastered).mp3
+Skeeter Davis - Set Him Free (Remastered).mp3
+Skeeter Davis - Lost to a Geisha Girl (Remastered).mp3
+Skeeter Davis - Someone I'd Like to Forget (Remastered).mp3
+Skeeter Davis - Sorrow's Tearing Down the House (Remastered).mp3
+Skeeter Davis - I'm Going Steady with a Headache (Remastered).mp3
+Skeeter Davis - Am I That Easy to Forget_.mp3
+Skeeter Davis - A Little Bitty Tear.mp3
+Skeeter Davis - Under Your Spell Again.mp3
+Skeeter Davis - I Forgot More Than You'll Ever Know 2 (Remastered).mp3
+Skeeter Davis - The End of the World.mp3
+05 - Your Cheating Heart.mp3
+Skeeter Davis - Set Him Free.mp3
+Skeeter Davis - Am I That Easy to Forget_ (Remastered).mp3
+Skeeter Davis - Blueberry Hill (Remastered).mp3
+Skeeter Davis - Someone I'd Like to Forget.mp3
+Skeeter Davis - The Devil's Doll (Remastered).mp3
+12 - Keep Your Hands Off My Baby (Remastered).mp3
+Skeeter Davis - I Need You All the Time.mp3
+Skeeter Davis - Optimistic.mp3
+07 - I Will (Remastered).mp3
+Skeeter Davis - Let Those Brown Eyes Smile at Me.mp3
+Skeeter Davis - My Last Date (With You) (Remastered).mp3
+14 - Tell Tommy I Love Him.mp3
+Skeeter Davis - Walk Softly Darling (Remastered).mp3
+14 - Somebody to Love.mp3
+15 - A Little Bitty Tear.mp3
+Skeeter Davis - Wishful Thinking (Remastered).mp3
+Skeeter Davis - Wave Bye Bye.mp3
+Skeeter Davis - Heaven Help Me (Remastered).mp3
+Skeeter Davis - Where I Ought to Be_ (Remastered).mp3
+Skeeter Davis - I'm Going Steady with a Heartache.mp3
+Skeeter Davis - Gonna Fine Me a Bluebird (Remastered).mp3
+06 - Gonna Get Along Without You Now.mp3
+05 - The End of the World (Rerecorded).mp3
+Skeeter Davis - There Always One (Remastered).mp3
+Skeeter Davis - The End of the World (Remastered).mp3
+Skeeter Davis - No, Never.mp3
+Skeeter Davis - Somebody Loves You (Remastered).mp3
+Skeeter Davis - The Devil's Doll.mp3
+05 - Don't Let Me Cross Over (Remastered).mp3
+18 - How Could I Make You Love Me.mp3
+Skeeter Davis - Standing in the Shadows (Remastered).mp3
+Skeeter Davis - Tell Tommy I Miss Him (Remastered).mp3
+07 - My Last Date.mp3
+Skeeter Davis - Your Cheating Heart.mp3
+01 - Can't Get Used to Losing You (Remastered).mp3
+Skeeter Davis - Have I Told You Lately That I Love You.mp3
+10 - Crying Time.mp3
+11 - Where I Ought to Be.mp3
+Skeeter Davis - Where I Ought to Be.mp3
+04 - The End of the World (Remastered).mp3
+17 - You Love Me so Good.mp3
+Skeeter Davis - (I Can't Help You) I'm Falling Too.mp3
+Skeeter Davis - Your Cheatin' Heart (Remastered).mp3
+04 - The End of the World.mp3
+Skeeter Davis - Slave (Remastered).mp3
+Skeeter Davis - Have I Told You Lately That I Love You_ (Remastered).mp3
+16 - I Can't Help You I'm Falling Too.mp3
+04 - Cloudy, with Occasional Tears (Remastered).mp3
+Skeeter Davis - My Last Date.mp3
+Skeeter Davis - Someday, Someday (Remastered).mp3
+04 - Rocky Top.mp3
+Skeeter Davis - Standing in the Shadows.mp3
+08 - I'm Saving My Love (Remastered).mp3
+15 - Love Me Tender.mp3
+Skeeter Davis - Chained to a Memory.mp3
+Skeeter Davis - Give Me Death (Remastered).mp3
+Skeeter Davis - Homebreaker.mp3
+Skeeter Davis - Under Your Spell Again (Remastered).mp3
+13 - Heaven Help Me.mp3
+Skeeter Davis - (I Can't Help You) I'm Falling Too 2 (Remastered).mp3
+Skeeter Davis - Walk Softly Darling.mp3
+Skeeter Davis - Just When I Needed You (Remastered).mp3
+Skeeter Davis - Optimistic (Remastered).mp3
+12 - It Was Only a Heart (Remastered).mp3
+03 - I Will (Remastered).mp3
+08 - Don't Let Me Cross Over (Remastered).mp3
+Skeeter Davis - Give Me Death.mp3
+Skeeter Davis - Slave.mp3
+Skeeter Davis - He'll Have to Stay (Remastered).mp3
+Skeeter Davis - I Ain't A-Talkin'.mp3
+Skeeter Davis - Have You Seen This Man_ (Remastered).mp3
+Skeeter Davis - Violet and a Rose (Remastered).mp3
+09 - I'm Saving My Love (Remastered).mp3
+17 - Have I Told You Lately That I Love You.mp3
+Skeeter Davis - My Greatest Weakness (Remastered).mp3
+19 - Ain't Nobody.mp3
+Skeeter Davis - I Need You All the Time (Remastered).mp3
+01 - Just When I Needed You Most.mp3
+03 - Set Him Free.mp3
+Skeeter Davis - A Little Bitty Tear (Remastered).mp3
+Skeeter Davis - I Ain't That A-Talkin' (Remastered).mp3
+Skeeter Davis - He Left His Heart with Me.mp3
+Skeeter Davis - Gonna Get Along Without You Now.mp3
+03 - Longing to Hold You Again (Remastered).mp3
+Skeeter Davis - Something Precious (Remastered).mp3
+10 - My Coloring Book (Remastered).mp3
+Skeeter Davis - Heaven Help Me.mp3
+09 - Take It Easy.mp3
+Skeeter Davis - No, Never (Remastered).mp3
+11 - They Listened While You Said Goodbye (Remastered).mp3
+Skeeter Davis - (I Can't Help You) I'm Falling Too (Remastered).mp3
+Skeeter Davis - Don't Let Your Lips Say Yes (Remastered).mp3
+09 - My Coloring Book (Remastered).mp3
+07 - Sweet Dreams.mp3
+017 - Skeeter Davis - The End of the World.mp3
+Skeeter Davis - Chained to a Memory (Remastered).mp3
+Skeeter Davis - Am I That Easy to Forget_ 2 (Remastered).mp3
+07 - It Was Only a Heart (Remastered).mp3
+11 - I Will Follow Him (Remastered).mp3
+Skeeter Davis - He Left His Heart with Me (Remastered).mp3
+Skeeter Davis - I Can't Help You I'm Falling Too.mp3
+Skeeter Davis - The Little Music Box (Remastered).mp3
+Dean Martin - Bumming Around.mp3
+Dean Martin - A Million and One.mp3
+05 - Fly Me to the Moon.mp3
+15 - Until.mp3
+09 - I'd Cry Like a Baby.mp3
+17 - The Shadow of Your Smile.mp3
+07 - Pretty as a Picture.mp3
+28 - In the Cool, Cool, Cool of the Evening.mp3
+14 - Show Close.mp3
+Dean Martin - Every Minute, Every Hour.mp3
+11 - Night Train to Memphis.mp3
+Dean Martin - Baby-O.mp3
+30 - Let It Snow! Let It Snow! Let It Snow!.mp3
+01 - That's Amore.mp3
+Dean Martin - A Place in the Shade.mp3
+Dean Martin - You've Still Got a Place in My Heart.mp3
+29 - Let's Take an Old-Fashioned Walk.mp3
+08 - I've Got the World on a String.mp3
+16 - The Leader Arrives.mp3
+Dean Martin - I Take a Lot of Pride in What I Am.mp3
+Dean Martin - Come Running Back.mp3
+16 - As You Are.mp3
+Dean Martin - I Will.mp3
+14 - Innamorata (Sweetheart).mp3
+17 - Blue Smoke.mp3
+23 - Santa Lucia.mp3
+03 - I'll Always Love You.mp3
+Dean Martin - Ain't That A Kick In The Head.mp3
+18 - Angel Baby.mp3
+02 - Powder Your Face with Sunshine.mp3
+Dean Martin - You're Nobody Till Somebody Loves You.mp3
+09 - I've Got You Under My Skin.mp3
+Dean Martin - Angel Baby (1998 Remaster).mp3
+Dean Martin - That's Amore (1998 Remastered).mp3
+04 - Everybody Loves Somebody.mp3
+Dean Martin - It Just Happened That Way.mp3
+07 - That's Amore.mp3
+07 - Hello Governor!.mp3
+Dean Martin - Everybody Loves Somebody.mp3
+01 - The One I Love.mp3
+Dean Martin - Innamorata.mp3
+Dean Martin - Makin' Love Ukulele Style (Digitally Remastered 98).mp3
+Dean Martin - The Things We Did Last Summer.mp3
+Dean Martin - Write To Me From Naples (1998 Digital Remaster).mp3
+Dean Martin - I Can't Help Remembering You.mp3
+Dean Martin - Who's Got the Action_.mp3
+19 - Volare.mp3
+08 - All I Have to Give You.mp3
+Dean Martin - Lay Some Happiness on Me.mp3
+16 - Watching the World Go By.mp3
+06 - Kiss.mp3
+Dean Martin - Volare (Nel Blu Di Pinto Di Blu) (Remastered).mp3
+Dean Martin - The Door Is Still Open to My Heart.mp3
+13 - Never Before.mp3
+Dean Martin - The Test Of Time (Digitally Remastered 98).mp3
+05 - Oh Marie.mp3
+13 - Rowan & Martin.mp3
+Dean Martin - C'est si bon.mp3
+04 - You Belong to Me.mp3
+04 - If.mp3
+21 - On an Evening in Roma (Sott'er Celo De Roma).mp3
+cover.jpg
+Dean Martin - Senza fine.mp3
+03 - There's My Lover.mp3
+06 - Love Me, My Love.mp3
+Dean Martin - Buona Sera (1998 Digital Remaster).mp3
+Dean Martin - Volare (Nel Blu Dipinto Di Blu).mp3
+Dean Martin - The Look (Digitally Remastered 1998).mp3
+Dean Martin - Memories Are Made of This (Single Version).mp3
+Dean Martin - Promise Her Anything (1998 Digital Remaster).mp3
+Dean Martin - Things.mp3
+Dean Martin - When You're Smiling (The Whole World Smiles With You) (Digitally Remastered 97).mp3
+24 - Absence Makes the Heart Grow Stronger.mp3
+12 - Come Back to Sorrento.mp3
+Dean Martin - In the Misty Moonlight.mp3
+10 - Joey Rats on Dean & Frank.mp3
+08 - Kiss.mp3
+Dean Martin - Memories Are Made Of This.mp3
+Dean Martin - Somewhere There's a Someone.mp3
+02 - I'm Yours.mp3
+05 - You Belong to Me.mp3
+11 - Money Burns a Hole in My Pocket.mp3
+22 - I Feel Like a Feather in the Breeze.mp3
+06 - Guys & Dolls.mp3
+Dean Martin - Face in a Crowd.mp3
+11 - Kiddie Album Medley.mp3
+Dean Martin - Little Ole Wine Drinker, Me.mp3
+09 - When You're Smiling.mp3
+Dean Martin - Nobody's Baby Again.mp3
+18 - Too Marvelous for Words.mp3
+Dean Martin - (Open up the Door) Let the Good Times In.mp3
+17 - Return to Me.mp3
+14 - Oh Boy! Oh Boy! Oh Boy! Oh Boy! Oh Boy!.mp3
+01 - That Certain Party.mp3
+Dean Martin - Don't You Remember_ (Digitally Remastered 97).mp3
+26 - I Got the Sun in the Morning.mp3
+12 - Mambo Italiano.mp3
+27 - Riders in the Sky.mp3
+Dean Martin - I Know I Can't Forget (Digitally Remastered 98).mp3
+10 - Won't You Surrender.mp3
+Dean Martin - La Giostra (The Merry-Go-Round).mp3
+19 - Volare (Nel Blu Dipinto Di Blu).mp3
+10 - Sway.mp3
+Dean Martin - Corrine, Corrina.mp3
+Dean Martin - Houston.mp3
+20 - Ain't That a Kick in the Head.mp3
+13 - Memories Are Made of This.mp3
+Dean Martin - Drinkin' Champagne.mp3
+15 - Standing on the Corner.mp3
+15 - Something's Gotta Give.mp3
+25 - That Lucky Old Sun.mp3
+Dean Martin - In the Chapel in the Moonlight.mp3
+02 - Body and Soul.mp3
+Dean Martin - From the Bottom of My Heart.mp3
+18 - Powder Your Face With Sunshine (Smile! Smile! Smile!).mp3
+Dean Martin - Send Me the Pillow You Dream On.mp3
+Dean Martin - (Remember Me) I'm the One Who Loves You.mp3
+12 - Opening Theme.mp3
+Dean Martin - Sway (Quien Sera).mp3
+Dean Martin - Return To Me (Ritorna-Me) (1997 Remaster).mp3
+03 - Bourbon from Heaven.mp3
+Dean Martin - You'll Always Be the One I Love.mp3
+Dean Martin - Tik-A-Tee, Tik-A-Tay.mp3
+08 - Jazz Me Blues.mp3
+Bob Crosby - Happy Times.mp3
+Bob Crosby And The Bobcats - Way Back Home.mp3
+15 - Mississippi Mud.mp3
+18 - On the Alamo.mp3
+19 - My Monday Date.mp3
+16 - In a Sentimental Mood - Solitude.mp3
+07 - San Antonio Shout.mp3
+14 - Sugar Foot Stomp.mp3
+11 - Stomp Mr. Henry Lee.mp3
+05 - Ghost of a Chance.mp3
+02 - Lazy Mood.mp3
+10 - Big Noise from Winnetka.mp3
+Bob Crosby And The Bobcats - Dear Hearts & Gentle People.mp3
+21 - Grandpa Spells.mp3
+01 - That's a Plenty.mp3
+04 - March of the Bobcats.mp3
+17 - Alabamy Bound.mp3
+06 - Washington and Lee Swing.mp3
+010 - Bob Crosby And The Bobcats - Way Back Home.mp3
+007 - Bob Crosby And The Bobcats - Happy Times—from 1949 show “Inspector General”.mp3
+Bob Crosby And The Bobcats - Happy Times.mp3
+20 - Rose of the Rio Grande.mp3
+12 - High Society.mp3
+09 - What's New.mp3
+03 - March of the Mustangs.mp3
+13 - Dixieland Shuffle.mp3
+Bob Crosby & The Bobcats - Dear Hearts And Gentle People.mp3
+060 - Baby Mozart - Turkish March Mozart.mp3
+063 - SpongeBob - The Best Day Ever.mp3
+001 - Betoven Collection - Moonlight Sonata (1st Movement).mp3
+175 - Europe - The Final Countdown.mp3
+121 - Jay-Z - Numb _ Encore.mp3
+065 - Queen - Don't Stop Me Now (Remastered 2011).mp3
+047 - Betoven Collection - Piano Sonata No. 17 _Tempest_.mp3
+070 - The Jokes - Goldmine.mp3
+061 - Simón Bolívar Symphony Orchestra of Venezuela - Tritsch-Tratsch-Polka, Op. 214 _Triqui Traqui_ (Arr. by Paul Desenne).mp3
+011 - Danny Kaye - Civilisation.mp3
+006 - Johnny Mercer - Personality.mp3
+076 - Sheldon Allman - Crawl out Through the Fallout.mp3
+031 - The Five Stars - Atom Bomb Baby.mp3
+errors.txt
+034 - Queen - Under Pressure (Remastered).mp3
+056 - The Monteverdi Choir - Requiem in D minor, K.626 _ 3. Sequentia_ Lacrimosa.mp3
+086 - The Dominoes - Sixty Minute Man.mp3
+026 - Elton John - I'm Still Standing.mp3
+107 - The Three Suns - Worry Worry Worry (Remastered).mp3
+176 - Frankie Carle and His Orchestra - Tomorrow.mp3
+036 - Queen - No One But You (Only The Good Die Young).mp3
+003 - Maurizio Pollini - ミッツノヤソウキョク サクヒンキュウ _ Nocturne No.2 In E Flat, Op.9 No.2.mp3
+106 - Bix Beiderbecke - Singin' The Blues (Album Version).mp3
+067 - John Williams - Colonel Bogey March (Instrumental).mp3
+179 - Nathalie Cardone - Hasta Siempre.mp3
+178 - League of Legends - Awaken.mp3
+054 - Gene Kelly - Singin' In The Rain.mp3
+033 - Queen - The Show Must Go On (2011 Remaster).mp3
+177 - League of Legends - Phoenix.mp3
+153 - Maroon 5 - Animals.mp3
+092 - Sheldon Allman - X Square Plus 2.mp3
+069 - Soldatenchor Brandenburg - Funkerlied (Alle aufgepasst, alle Schritt gefasst).mp3
+027 - Elton John - Rocket Man (I Think It's Going To Be A Long, Long Time).mp3
+037 - Queen - The Miracle (Remastered 2011).mp3
+028 - The Chalkeaters - It Just Works.mp3
+cover.jpg
+110 - Sheldon Allman - Radioactive Mama.mp3
+024 - Eugene Ormandy - The Blue Danube.mp3
+104 - Sheldon Allman - Extra Sensory Perception.mp3
+025 - André Rieu - Tales From The Vienna Woods, ARV_17, Op.325.mp3
+042 - Queen - Killer Queen (2011 Remaster).mp3
+180 - League of Legends - Take Over.mp3
+015 - Copilot Music + Sound - Fallout 4 Nuka-World Theme Song.mp3
+058 - Paul Lewis - Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 - _Moonlight Sonata__ I. Adagio sostenuto.mp3
+059 - Alphaville - Forever Young.mp3
+093 - Sheldon Allman - Free Fall.mp3
+053 - Tony Marcus - Lone Star.mp3
+035 - Queen - It's A Hard Life (Remastered 2011).mp3
+075 - Tiny Tim - Livin' in the Sunlight, Lovin' in the Moon Light.mp3
+057 - Fabio Biondi - L'Estate, RV 315_ III. Tempo impetuoso d'Estate.mp3
+032 - Queen - Another One Bites The Dust (Remastered 2011).mp3
+046 - Joshua Bell - I. Allegro non molto.mp3
+105 - Sheldon Allman - Change.mp3
+045 - John Denver - Take Me Home, Country Roads.mp3
+029 - Rick Astley - Never Gonna Give You Up.mp3
+043 - Queen - Bohemian Rhapsody (2011 Remaster).mp3
+Artie Shaw & His Orchestra - Begin the Beguine.mp3
+Tommy Dorsey & His Orchestra - I Get a Kick Out of You (Remastered 1993).mp3
+Cole Porter - You're The Top.mp3
+Irving Aaronson And His Commanders - Let's Misbehave.mp3
+Lena Horne - Just One Of Those Things.mp3
+Ray Noble & His Orchestra - Easy To Love.mp3
+Lena Horne - From This Moment On.mp3
+Leo Reisman And His Orchestra - What Is This Thing Called Love.mp3
+Shorty Rogers And His Giants - It's Delovely.mp3
+Manny Albam & His Orchestra - I Love Paris (1995 Remastered).mp3
+Sonny Rollins - You Do Something To Me.mp3
+Cole Porter - Anything Goes.mp3
+Rosemary Clooney - You Do Something To Me.mp3
+Elvis Presley - Surrender.mp3
+Elvis Presley - Moody Blue.mp3
+Elvis Presley - Mystery Train.mp3
+Elvis Presley - (Marie's the Name Of) His Latest Flame.mp3
+193 - Elvis Presley - All Shook Up.mp3
+Elvis Presley - Love Me Tender (From the 20th Century-Fox CinemaScope Production, _Love Me Tender_).mp3
+- (Let Me Be Your) Teddy Bear.mp3
+- Are You Lonesome Tonight.mp3
+Elvis Presley - Stuck on You.mp3
+183 - Elvis Presley - Jailhouse Rock.mp3
+22 - Always on My Mind.mp3
+Elvis Presley - It's Now or Never.mp3
+4 - Blue Suede Shoes.mp3
+- Hound Dog.mp3
+Elvis Presley - Way Down.mp3
+Elvis Presley - She's Not You.mp3
+Elvis Presley - (Now and Then There's) A Fool Such as I.mp3
+- (Marie's the Name) His Latest Flame.mp3
+Elvis Presley - Guitar Man.mp3
+186 - Elvis Presley - Burning Love.mp3
+192 - Elvis Presley - Return to Sender.mp3
+Elvis Presley - Good Luck Charm.mp3
+- Burning Love.mp3
+Elvis Presley - Suspicion.mp3
+- Wooden Heart.mp3
+Elvis Presley - Loving You.mp3
+Elvis Presley - Hound Dog.mp3
+Elvis Presley - One Night.mp3
+Elvis Presley - That's All Right.mp3
+- Good Luck Charm.mp3
+Elvis Presley - Always On My Mind.mp3
+Elvis Presley - Don't.mp3
+182 - Elvis Presley - Suspicious Minds.mp3
+Elvis Presley - Return to Sender (From _Girls! Girls! Girls!_).mp3
+- Heartbreak Hotel.mp3
+- A Little Less Conversation (JXL Radio Edit Remix) (Bonus Track).mp3
+Elvis Presley - A Big Hunk O' Love.mp3
+Elvis Presley - The Girl of My Best Friend.mp3
+Elvis Presley - Hard Headed Woman.mp3
+- Suspicious Minds.mp3
+- (Now and Then There's) A Fool Such As I.mp3
+- Love Me Tender.mp3
+- Stuck on You.mp3
+184 - Elvis Presley - Don't Be Cruel.mp3
+Elvis Presley - Viva Las Vegas.mp3
+- She's Not You.mp3
+Elvis Presley - An American Trilogy.mp3
+- Hard Headed Woman.mp3
+Elvis Presley - Wear My Ring Around Your Neck.mp3
+185 - Elvis Presley - Heartbreak Hotel.mp3
+Elvis Presley - Too Much.mp3
+- Too Much.mp3
+187 - Elvis Presley - Always on My Mind (with The Royal Philharmonic Orchestra).mp3
+Elvis Presley - Burning Love.mp3
+Elvis Presley - Wooden Heart.mp3
+Elvis Presley - King Creole.mp3
+Elvis Presley - Trouble.mp3
+181 - Elvis Presley - Can't Help Falling In Love.mp3
+Elvis Presley - All Shook Up.mp3
+- All Shook Up.mp3
+Elvis Presley - Heartbreak Hotel.mp3
+191 - Elvis Presley - It's Now or Never.mp3
+23 - Suspicion.mp3
+- Way Down.mp3
+- Surrender.mp3
+- In the Ghetto.mp3
+- Return to Sender.mp3
+Elvis Presley - Jailhouse Rock.mp3
+Elvis Presley - If I Can Dream (Live from the '68 Comeback Special).mp3
+Elvis Presley - (Let's Have A) Party.mp3
+Elvis Presley - The Wonder of You (Live).mp3
+10 - Viva Las Vegas.mp3
+Elvis Presley - Can't Help Falling in Love.mp3
+188 - Elvis Presley - Blue Suede Shoes (Remastered).mp3
+Elvis Presley - Lawdy, Miss Clawdy.mp3
+- Don't.mp3
+Elvis Presley - Crying In the Chapel.mp3
+- The Wonder of You.mp3
+Elvis Presley - Are You Lonesome Tonight.mp3
+- Jailhouse Rock.mp3
+17 - Don't Cry Daddy.mp3
+- Don't Be Cruel.mp3
+Elvis Presley - Don't Cry Daddy.mp3
+Elvis Presley - Love Letters.mp3
+190 - Elvis Presley - (You're The) Devil in Disguise.mp3
+- It's Now or Never.mp3
+Elvis Presley - Suspicious Minds.mp3
+Elvis Presley - Don't Be Cruel.mp3
+- One Night.mp3
+Elvis Presley - (Let Me Be Your) Teddy Bear.mp3
+Elvis Presley - I Just Can't Help Believin' (Live).mp3
+Elvis Presley - In the Ghetto.mp3
+- Can't Help Falling in Love.mp3
+- A Big Hunk O' Love.mp3
+- (You're The) Devil in Disguise.mp3
+- Crying in the Chapel.mp3
+Elvis Presley - Blue Suede Shoes.mp3
+189 - Elvis Presley - Hound Dog.mp3
+08 - Fools Rush In.mp3
+13 - Beautiful Isle Of Somewhere.mp3
+04 - Swingin' On Nothin'.mp3
+01 - The Things We Did Last Summer.mp3
+16 - Too Marvelous For Words.mp3
+14 - Autumn Leaves.mp3
+11 - The Old Rugged Cross.mp3
+12 - I'm So Right Tonight.mp3
+03 - If I Ever Love Again.mp3
+06 - The Best Things in Life Are Free (Remastered).mp3
+12 - A Sunday Kind of Love (Remastered).mp3
+04 - Love for Sale (Remastered).mp3
+10 - A Perfect Day.mp3
+18 - In The Garden.mp3
+02 - Come Rain or Come Shine (Remastered).mp3
+07 - Autumn in New York (Remastered).mp3
+10 - Moonlight in Vermont (Remastered).mp3
+19 - You Keep Coming Back Like A Song.mp3
+02 - I Never Loved Anyone.mp3
+11 - Jambalaya (Remastered).mp3
+05 - Ragtime Cowboy Joe.mp3
+09 - It's Great To Be Alive.mp3
+07 - It Is No Secret.mp3
+03 - Imagination (Remastered).mp3
+01 - A Foggy Day (Remastered).mp3
+09 - Wunderbar (Remastered).mp3
+05 - September Song (Remastered).mp3
+17 - This Is Always.mp3
+15 - I Found A Friend.mp3
+08 - Night and Day (Remastered).mp3
+06 - On The Sunny Side Of The Street.mp3
+Bing Crosby and The Andrews Sisters - Quicksilver - Original.mp3
+13 - They Say It's Wonderful.mp3
+07 - You're Just In Love (Version 1).mp3
+17 - After Sundown (with Lenny Hayton & His Orchestra).mp3
+05 - Wrap Your Troubles In Dreams (And Dream Your Troubles Away).mp3
+27 - Singin' In The Rain.mp3
+18 - Anything You Can Do.mp3
+05 - Beautiful Girl (with Lenny Hayton & His Orchestra).mp3
+Frank Sinatra,Grace Kelly,Bing Crosby,Louis Armstrong - Now You Has Jazz.mp3
+01 - Home on the Range.mp3
+Bing Crosby - Home Sweet Home.mp3
+Bing Crosby - Don't Fence Me in.mp3
+20 - Once in a Blue Moon (with Nat W. Finston and His Paramount Orchestra).mp3
+07 - Ol' Man River (feat. Bing Crosby).mp3
+06 - South Rampart Street Parade.mp3
+08 - Skylark.mp3
+12 - Ac-Cent-Tchu-Ate The Positive (Single Version).mp3
+15 - Let's Take A Walk Around The Block.mp3
+14 - Livin' in the Sunlight, Lovin' in the Moonlight.mp3
+11 - Put It There, Pal.mp3
+15 - I Guess It Had to Be That Way (with Jimmie Grier & His Orchestra).mp3
+13 - Along The Navajo Trail.mp3
+17 - You'd Be So Nice To Come Home To (Version 3).mp3
+12 - Anything You Can Do.mp3
+24 - Shadows of Love.mp3
+21 - Happy-Go-Lucky-You and Broken-Hearted Me.mp3
+11 - Here Lies Love.mp3
+10 - 'Tain't So, Honey, 'Tain't So (feat. Bing Crosby).mp3
+19 - Joshua Fit the Battle Of Jericho.mp3
+04 - I May Be Wrong.mp3
+05 - South Rampart Street Parade.mp3
+094 - Bing Crosby - (Get Your Kicks On) Route 66 (Single Version).mp3
+03 - Temptation (with Lenny Hayton & His Orchestra).mp3
+14 - Autumn Leaves.mp3
+24 - Blue Prelude.mp3
+17 - When The World Was Young (Ah, The Apple Trees).mp3
+Bing Crosby - Poppa Santa Claus.mp3
+Frank Sinatra,Grace Kelly,Bing Crosby,Louis Armstrong - Well Did You Evah.mp3
+02 - Snuggled on Your Shoulder.mp3
+06 - Something To Remember You By (Version 1).mp3
+02 - Star Dust.mp3
+05 - Day In, Day Out.mp3
+20 - And the Angels Sing.mp3
+Bing Crosby - Swinging on a Star.mp3
+Bing Crosby And The Andrew Sisters - Yodelin' Jive.mp3
+31 - This Ole House.mp3
+03 - Too Marvelous For Words (Single Version).mp3
+15 - In The Cool Cool Cool Of The Evening.mp3
+21 - Sweet Georgia Brown (with Isham Jones & His Orchestra).mp3
+16 - Jamboree Jones.mp3
+05 - Would You Like To Take A Walk_.mp3
+17 - Tallahassee.mp3
+Bing Crosby and The Andrews Sisters - 160 Acres - Original.mp3
+05 - Changes (feat. Bing Crosby).mp3
+12 - Only Forever.mp3
+Bing Crosby - Bing Sings The Johnny Mercer Songbook
+Bing Crosby - A Home In The Meadow.mp3
+09 - Chicago Style (Version 2).mp3
+14 - South America, Take It Away.mp3
+25 - The Last Round Up.mp3
+20 - Please (with Anson Weeks & His Orchestra).mp3
+15 - High On The List.mp3
+11 - On The Atchison, Topeka And The Santa Fe (Single Version).mp3
+26 - Any Town Is Paris When You're Young_Paris In The Spring_April In Paris_The Last Time I Saw Paris.mp3
+10 - Swingin' On A Star.mp3
+13 - Lazy Bones.mp3
+01 - I've Got a Pocketful of Dreams.mp3
+06 - I'm Coming Virginia (feat. Bing Crosby).mp3
+30 - Ford Jingle #2.mp3
+14 - Shine On Harvest Moon (Version 2).mp3
+10 - Easter Parade (Version 1).mp3
+09 - Blues In The Night.mp3
+23 - Indian Summer.mp3
+Bing Crosby - Too-Ra-Loo-Ra-Loo-Ral (That's an Irish Lullaby) (From the Film _Going My Way_).mp3
+04 - Someone Stole Gabriel's Horn (with The Dorsey Brothers Orchestra) (78rpm Version).mp3
+23 - (She Walks Like You - She Talks Like You) She Reminds Me of You (with Jimmie Grier & His Orchestra).mp3
+22 - Santa Claus Is Comin' To Town.mp3
+Bing Crosby and The Andrews Sisters - There's No Business Like Show Business - Original.mp3
+01 - Swanee.mp3
+03 - I Got Plenty O' Nuttin'.mp3
+Frank Sinatra,Grace Kelly,Bing Crosby,Louis Armstrong - Little One.mp3
+Bing Crosby - Going My Way (From the Film _Going My Way_).mp3
+25 - You're Just In Love (Version 2).mp3
+Bing Crosby and The Andrews Sisters - The Three Caballeros - Original.mp3
+Bing Crosby - The Essential Collection
+13 - It’s Been a Long, Long Time.mp3
+08 - Moonlight Becomes You.mp3
+13 - They All Laughed.mp3
+Bing Crosby - Ave Maria (From the Film _Going My Way_).mp3
+17 - The Oldest Established.mp3
+21 - Where The Blue Of The Night (Meets The Gold Of The Day).mp3
+Bing Crosby - The Essential Bing Crosby
+24 - Something To Remember You By (Version 2).mp3
+01 - The Merry-Go-Run-Around.mp3
+22 - May I_.mp3
+18 - Love Me Tonight (feat. Frank Trumbauer with Lennie Hayton and His Orchestra).mp3
+07 - You're Just In Love.mp3
+22 - I Surrender Dear.mp3
+09 - Sweet Leilani.mp3
+Bing Crosby - Swinging On A Star (Original Recording).mp3
+18 - Now You Has Jazz.mp3
+008 - Bing Crosby - Ac-Cent-Tchu-Ate The Positive (Single Version).mp3
+04 - My Honey's Loving Arms.mp3
+02 - Don't Fence Me In.mp3
+22 - It's Been A Long Long Time_Life Is Just A Bowl Of Cherries_Gimme A Little Kiss.mp3
+16 - These Foolish Things Remind Me Of You (Version 2).mp3
+21 - Shine On Harvest Moon (Version 1).mp3
+25 - Paradise.mp3
+04 - Medley_ Mississippi Mud_I Left My Sugar Standing In The Rain.mp3
+24 - Here Comes Santa Claus (Right Down Santa Claus Lane).mp3
+08 - Mine.mp3
+04 - It Ain't Necessarily So.mp3
+Bing Crosby - Bing & Rosie_ The Crosby - Clooney Radio Sessions
+30 - Bing Crosby-Rosemary Clooney Sing For Eastern Products (Part 2).mp3
+08 - Something To Remember You By (Version 3).mp3
+08 - It's Only A Paper Moon.mp3
+29 - You're In Kentucky Sure As You're Born.mp3
+12 - Let's Put Out The Lights And Go To Sleep.mp3
+03 - Makin' Whoopee (feat. Bing Crosby).mp3
+18 - Forsaking All Others.mp3
+03 - Chicago Style (Version 1).mp3
+08 - Love in Bloom (with Irving Aaronson & His Commanders).mp3
+06 - They Can't Take That Away From Me.mp3
+23 - I've Got the World on a String.mp3
+04 - You Must Have Been A Beautiful Baby (Single Version).mp3
+22 - P.S. I Love You (1953 Version).mp3
+09 - Love Thy Neighbor (with Nat W. Finston and His Paramount Orchestra).mp3
+12 - Moonstruck (with Jimmie Grier & His Orchestra).mp3
+Bing Crosby - I'll Be Seeing You.mp3
+20 - Sweet Genevieve.mp3
+10 - Let's Put out the Lights and Go to Sleep.mp3
+09 - Let's Call The Whole Thing Off.mp3
+14 - Nice Work If You Can Get It.mp3
+15 - We Just Couldn't Say Goodbye (Version 2).mp3
+14 - The Day You Came Along (with Jimmie Grier & His Orchestra).mp3
+Bing Crosby and The Andrews Sisters - The Freedom Train - Original.mp3
+20 - Summertime.mp3
+17 - Hey, Look Me Over.mp3
+01 - Ciribiribin.mp3
+Bing Crosby - This Is A Great Country.mp3
+19 - What Takes My Fancy.mp3
+16 - The Second Time Around.mp3
+18 - We'll Make Hay While the Sun Shines (with Lenny Hayton & His Orchestra).mp3
+06 - Maybe.mp3
+27 - Man (Uh-Huh) And Woman (Uh-Huh).mp3
+19 - The Little Brown Jug.mp3
+19 - Jeepers Creepers.mp3
+07 - But Not For Me.mp3
+050 - Bing Crosby - The Best Things in Life Are Free.mp3
+05 - Have I Told You Lately That I Love You_.mp3
+28 - Bing Crosby-Rosemary Clooney Sing For Eastern Products (Part 1).mp3
+23 - Mele Kalikimaka.mp3
+13 - After You've Gone (feat. Bing Crosby).mp3
+01 - Let's Do It (Let's Fall in Love) (with The Dorsey Brothers).mp3
+07 - Did You Ever See a Dream Walking_.mp3
+12 - White Christmas.mp3
+Frank Sinatra,Grace Kelly,Bing Crosby,Louis Armstrong - Mind If I make Love To You.mp3
+21 - Something's Gotta Give.mp3
+26 - Easter Parade (Version 2).mp3
+28 - Lily of Laguna.mp3
+11 - People Will Say We're In Love (Version 1).mp3
+01 - Will You Still Be Mine_.mp3
+02 - I'm An Old Cowhand (From The Rio Grande) (Single Version).mp3
+Frank Sinatra,Grace Kelly,Bing Crosby,Louis Armstrong - Who Wants To Be A Millionaire.mp3
+15 - Somebody Loves Me (1954 Version).mp3
+25 - September Song_As Time Goes By_Till We Meet Again.mp3
+02 - Thanks (with Jimmie Grier & His Orchestra).mp3
+Bing Crosby and The Andrews Sisters - Is You Is Or Is You Ain't (Ma' Baby) - Original.mp3
+17 - Love, You Funny Thing.mp3
+13 - How Deep Is the Ocean_.mp3
+29 - Ford Jingle #1.mp3
+19 - Our Big Love Scene (with Lenny Hayton & His Orchestra).mp3
+01 - P.S. I Love You (1934 Version).mp3
+Bing Crosby - The Day After Forever (From the Film _Going My Way_).mp3
+06 - Young and Healthy.mp3
+08 - Pistol Packin' Mama.mp3
+Bing Crosby - Dear Hearts And Gentle People.mp3
+19 - There's No Business Like Show Business.mp3
+22 - Brother, Can You Spare a Dime_ (with Lenny Hayton & His Orchestra).mp3
+04 - Open Up Your Heart.mp3
+24 - Goodnight My Someone.mp3
+test.jpg
+Frank Sinatra,Grace Kelly,Bing Crosby,Louis Armstrong - High Society Calypso.mp3
+21 - True Love.mp3
+23 - Moon Over Miami_Meet Me Tonight In Dreamland_There's A Long Long Trail.mp3
+11 - I'll Get By (As Long As I Have You).mp3
+14 - You'd Be So Nice To Come Home To (Version 2 - Medley Flub Pickup).mp3
+05 - Somebody Loves Me.mp3
+15 - Just One More Chance.mp3
+10 - They Can't Take That Away From Me.mp3
+03 - Apalachicola, Fla.mp3
+10 - That Old Black Magic.mp3
+16 - Black Moonlight (with Jimmie Grier & His Orchestra).mp3
+16 - Don't Worry (About Tomorrow).mp3
+18 - Glow Worm.mp3
+10 - Ain't We Got Fun_.mp3
+18 - That's Amore.mp3
+img.py
+Bing Crosby - White Christmas.mp3
+Frank Sinatra,Grace Kelly,Bing Crosby,Louis Armstrong - I Love You Samantha.mp3
+Frank Sinatra,Grace Kelly,Bing Crosby,Louis Armstrong - True Love.mp3
+07 - Sparrow In The Tree Top.mp3
+11 - (Get Your Kicks On) Route 66.mp3
+005 - Bing Crosby - Pistol Packin' Mama (Single Version).mp3
+12 - Liza.mp3
+Frank Sinatra,Grace Kelly,Bing Crosby,Louis Armstrong - Your Sensational.mp3
+03 - A Fine Romance.mp3
+Bing Crosby - Swinging on a Star (From the Film _Going My Way_).mp3
+02 - Summertime.mp3
+07 - You'd Be So Nice To Come Home To (Version 4).mp3
+16 - You Don't Have To Know The Language.mp3
+06 - I Thought About You.mp3
+20 - Medley_ I'm Glad I'm Not Young Anymore_I Wish I Were In Love Again.mp3
+02 - Takes Two To Tango.mp3
+09 - Embraceable You.mp3
+14 - Temptation.mp3
+02 - People Will Say We're In Love (Version 2).mp3
+13 - These Foolish Things Remind Me Of You_We Just Couldn't Say Goodbye_You'd Be So Nice To Come Home To.mp3
+Frank Sinatra,Grace Kelly,Bing Crosby,Louis Armstrong - High Society Overture.mp3
+03 - We Just Couldn't Say Goodbye (Version 3).mp3
+07 - Mister Meadowlark.mp3
+19 - Some of These Days.mp3
+Bing Crosby - Don't Fence Me In.mp3
+04 - The Three Caballeros.mp3
+09 - From Monday On (with Bing Crosby & Bix Beiderbecke).mp3
+09 - Vict'ry Polka.mp3
+Bing Crosby - This Land Is Your Land.mp3
+20 - Cool Water.mp3
+113 - Bing Crosby - Dream a Little Dream of Me.mp3
+08 - You Took Advantage of Me (with Bing Crosby & Bix Beiderbecke).mp3
+11 - Love Walked In.mp3
+22 - Buckle Down Winsocki.mp3
+06 - San Fernando Valley.mp3
+11 - Isn't This A Lovely Day_.mp3
+cover.jpg
+CD1
+CD2
+cover.jpg
+CD1
+CD2
+cover.jpg
+cover.jpg
+The Pied Pipers - Stardust.mp3
+The Pied Pipers - Candy.mp3
+The Pied Pipers - What Is This Thing Called Love.mp3
+The Pied Pipers - In the Moon Mist.mp3
+The Pied Pipers - Kiss Me Goodnight.mp3
+The Pied Pipers - St Louis Blues.mp3
+The Pied Pipers - In a little spanish town.mp3
+The Pied Pipers - The Trolley Song.mp3
+The Pied Pipers - There Are Such Things.mp3
+The Pied Pipers - My Happiness.mp3
+The Pied Pipers - Limehouse Blues.mp3
+The Pied Pipers - Polly Wolly Doodle All the Day.mp3
+The Pied Pipers - Lets Get Away from It All.mp3
+The Pied Pipers - Mam'selle.mp3
+The Pied Pipers - Should I.mp3
+The Pied Pipers - Dream.mp3
+The Pied Pipers - Arent You Glad You're You.mp3
+The Pied Pipers - I'll Never Smile Again.mp3
+The Pied Pipers - My! MY!.mp3
+The Pied Pipers - Tennessee Saturday Night.mp3
+The Pied Pipers - Sugarfoot Stomp.mp3
+The Pied Pipers - You Grow Sweeter.mp3
+The Pied Pipers - Delores.mp3
+The Pied Pipers - Oh Look at Me Now.mp3
+The Pied Pipers - Gone to Chicago.mp3
+The Boswell Sisters - Down Among the Sheltering Palms.mp3
+The Boswell Sisters - River Stay Away From My Door.mp3
+The Boswell Sisters - Got The South In My Soul.mp3
+The Boswell Sisters - Every Little Moment.mp3
+The Boswell Sisters - I’m Gonna Sit Right Down And Write Myself A Letter.mp3
+The Boswell Sisters - Say It Isn´t So.mp3
+The Boswell Sisters - That's What I Like About You.mp3
+The Boswell Sisters - Puttin´ It On.mp3
+The Boswell Sisters - Lullaby of Broadway.mp3
+The Boswell Sisters - Forty-Second Street.mp3
+The Boswell Sisters - Minnie The Moocher´s Wedding Day.mp3
+The Boswell Sisters - Nothing Is Sweeter Than You.mp3
+The Boswell Sisters - This Is the Missus _ That's Love _ Life Is Just a Bowl of Cherries.mp3
+The Boswell Sisters - Coffee In The Morning.mp3
+The Boswell Sisters - If I Had a Million Dollars.mp3
+The Boswell Sisters - It's Written All over Your Face.mp3
+The Boswell Sisters - Goin´ Home.mp3
+The Boswell Sisters - Crazy People.mp3
+The Boswell Sisters - Why Don´t You Practice What You Preach.mp3
+The Boswell Sisters - The Object Of My Affection.mp3
+The Boswell Sisters - I´m Gonna Cry.mp3
+The Boswell Sisters - Shuffle Off To Buffalo.mp3
+The Boswell Sisters - There'll Be Some Changes Made.mp3
+The Boswell Sisters - I Thank You Mister Moon.mp3
+The Boswell Sisters - I´m Putting All My Eggs In One Basket.mp3
+The Boswell Sisters - You Oughta Be In Pictures (My Star Of Stars).mp3
+The Boswell Sisters - I Hate Myself (For Being Mean to You).mp3
+The Boswell Sisters - It's Sunday Down in Caroline.mp3
+The Boswell Sisters - That´s How Rhythm Was Born.mp3
+The Boswell Sisters - Strange As It Seems.mp3
+The Boswell Sisters - I Can`t Write The Words.mp3
+The Boswell Sisters - Makin` Faces At The Man In The Moon.mp3
+The Boswell Sisters - Stardust.mp3
+The Boswell Sisters - Rock And Roll.mp3
+The Boswell Sisters - It's the Girl.mp3
+The Boswell Sisters - I'm Putting All My Eggs in One Basket.mp3
+The Boswell Sisters - The Object of My Affection.mp3
+The Boswell Sisters - Doggone I've Done it.mp3
+The Boswell Sisters - Gee, But I'd Like To Make You Happy.mp3
+The Boswell Sisters - When the Little Red Roses Get the Blues For You.mp3
+The Boswell Sisters - Down On The Delta.mp3
+The Boswell Sisters - Lawd, You Made The Night Too Long.mp3
+The Boswell Sisters - The Sentimental Gentleman from Georgia.mp3
+The Boswell Sisters - Gee, but I'd Like to Make You Happy.mp3
+The Boswell Sisters - Stop The Sun, Stop The Moon.mp3
+The Boswell Sisters - I Found A Million Dollar Baby.mp3
+The Boswell Sisters - Sleep, Come On And Take Me.mp3
+The Boswell Sisters - Coffee in the Morning and Kisses in the Night.mp3
+The Boswell Sisters - Way Back Home.mp3
+The Boswell Sisters - That's How Rhythm Was Born.mp3
+The Boswell Sisters - An Ev`ning in Caroline.mp3
+The Boswell Sisters - I Surrender Dear.mp3
+The Boswell Sisters - Trav'lin' All Alone.mp3
+The Boswell Sisters - Life Is Just a Bowl of Cherries.mp3
+The Boswell Sisters - It Don't Mean a Thing.mp3
+The Boswell Sisters - Don´t Let Your Lover Go Wrong.mp3
+The Boswell Sisters - Don´t Tell Him (What Happened To Me).mp3
+The Boswell Sisters - Sophisticated Lady.mp3
+The Boswell Sisters - We Just Couldn´t Say Goodbye.mp3
+The Boswell Sisters - Was That The Human Thing To Do.mp3
+The Boswell Sisters - When I Take My Sugar to Tea.mp3
+The Boswell Sisters - Sing a Little Jingle.mp3
+The Boswell Sisters - Roll On, Mississippi, Roll On.mp3
+The Boswell Sisters - I´m All Dressed Up With a Broken Heart.mp3
+The Boswell Sisters - Doggone I´ve Done It.mp3
+The Boswell Sisters - Concentratin´ On You.mp3
+The Boswell Sisters - The Darktown Strutter's Ball.mp3
+The Boswell Sisters - Swanee Mammy.mp3
+The Boswell Sisters - Mood Indigo.mp3
+The Boswell Sisters - This Is The Missis.mp3
+The Boswell Sisters - The Darktown Strutters Ball.mp3
+The Boswell Sisters - Everybody Loves My Baby.mp3
+The Boswell Sisters - The Music Goes Round And Around.mp3
+The Boswell Sisters - Down Among The Sheltering Palms.mp3
+The Boswell Sisters - There`ll Be Some Changes Made.mp3
+The Boswell Sisters - Hand Me Down My Walking Cane.mp3
+The Boswell Sisters - Song Of The Dawn.mp3
+The Boswell Sisters - Hand Me Down My Walkin' Cane.mp3
+The Boswell Sisters - Between the Devil and the Deep Blue Sea.mp3
+The Boswell Sisters - 'Way Back Home.mp3
+The Boswell Sisters - Sleep, Come on and Take Me.mp3
+The Boswell Sisters - We`re On The Highway To Heaven.mp3
+The Boswell Sisters - The Gold Diggers' Song (We're in the Money).mp3
+The Boswell Sisters - High Society.mp3
+The Boswell Sisters - Shine on Harvest Moon.mp3
+The Boswell Sisters - Sentimental Gentleman From Georgia.mp3
+The Boswell Sisters - Wha'd Ja Do to Me ¿.mp3
+The Boswell Sisters - Old Man Of The Mountain.mp3
+The Boswell Sisters - It's Sunday Down In Caroline.mp3
+The Boswell Sisters - Minnie the Moocher's Weddin' Day.mp3
+The Boswell Sisters - It Don´t Mean a Thing If It Ain´t Got That Swing.mp3
+The Boswell Sisters - Shuffle off to Buffalo.mp3
+The Boswell Sisters - (We´ve Got To) Put That Sun Back In The Sky.mp3
+The Boswell Sisters - When It´s Sleepy Time Down South.mp3
+The Boswell Sisters - I'm Gonna Cry (Cryin' Blues).mp3
+The Boswell Sisters - Got the South in My Soul.mp3
+The Boswell Sisters - Heebie Jeebies.mp3
+The Boswell Sisters - Song of Surrender.mp3
+The Boswell Sisters - Forty Second Street.mp3
+The Boswell Sisters - Alexander´s Ragtime Band.mp3
+The Boswell Sisters - Rarin´ To Go.mp3
+The Boswell Sisters - Lousiana Hayride.mp3
+The Boswell Sisters - Top Hat, White Tie, and Tails.mp3
+The Boswell Sisters - It´s Written All Over Your Face.mp3
+The Boswell Sisters - Rock and Roll.mp3
+The Boswell Sisters - Nights when I am Lonely.mp3
+The Boswell Sisters - Love Ain´t Nothin´ But the Blues.mp3
+The Boswell Sisters - Old Yazoo.mp3
+The Boswell Sisters - Don't Tell Him What Happened to Me.mp3
+The Boswell Sisters - Let Yourself Go.mp3
+The Boswell Sisters - That´s What I Like About You.mp3
+The Boswell Sisters - It´s The Girl.mp3
+The Boswell Sisters - It's the Girl!.mp3
+The Boswell Sisters - We're on the Highway to Heaven.mp3
+The Boswell Sisters - Charlie Two-Step.mp3
+The Boswell Sisters - Shine On, Harvest Moon.mp3
+The Boswell Sisters - Cheek to Cheek.mp3
+The Boswell Sisters - The Gold Diggers Song We´re In The Money.mp3
+The Boswell Sisters - River, Stay 'Way from My Door.mp3
+The Boswell Sisters - The Lonesome Road.mp3
+The Boswell Sisters - Between The Devil And The Deep Blue Sea.mp3
+The Boswell Sisters - Roll on, Missisippi, Roll On.mp3
+The Boswell Sisters - It´s You.mp3
+The Boswell Sisters - Lucky Little Devil.mp3
+The Boswell Sisters - Shout, Sister Shout.mp3
+The Boswell Sisters - Liza Lee.mp3
+The Boswell Sisters - My Future Just Passed.mp3
+The Boswell Sisters - When I Take My Sugar To Tea.mp3
+The Boswell Sisters - If It Ain't Love.mp3
+The Boswell Sisters - Wha'd Ja Do to Me_.mp3
+The Boswell Sisters - If It Ain`t Love.mp3
+The Boswell Sisters - Travelin´ All Alone.mp3
+The Boswell Sisters - Sentimental Gentleman from Georgia.mp3
+The Boswell Sisters - I Thank You, Mr. Moon.mp3
+The Boswell Sisters - Rainy Days.mp3
+The Boswell Sisters - Song Of Surrender.mp3
+The Boswell Sisters - Shout, Sister, Shout!.mp3
+Jimmy Dorsey - Maria Elena.mp3
+Jimmy Dorsey - Green Eyes.mp3
+Jimmy Dorsey - Tangerine.mp3
+Jimmy Dorsey and His Orchestra - Amapola.mp3
+Jimmy Dorsey - The Breeze and I.mp3
+Jimmy Dorsey - Besame Mucho.mp3
+The Andrews Sisters - Comes Love.mp3
+The Andrew Sisters - Rum and Coca-Cola.mp3
+The Andrews Sisters - Keep Your Skirts Down Mary Ann.mp3
+The Andrews Sisters - I've Got No Strings.mp3
+The Andrews Sisters - You Do Something to Me.mp3
+The Andrews Sisters - The Japanese Sandman.mp3
+The Andrew Sisters - Tico, Tico.mp3
+The Andrew Sisters - Lullaby of Broadway.mp3
+The Andrews Sisters - Barney Google.mp3
+The Andrew Sisters - The Jumpin Jive.mp3
+109 - The Andrews Sisters - Boogie Woogie Bugle Boy.mp3
+The Andrews Sisters - Beer Barrel Polka (Roll Out the Barrel).mp3
+The Andrews Sisters - You Don't Know How Much You Can Suffer.mp3
+The Andrews Sisters - With Every Breath I Take.mp3
+The Andrews Sisters - Back in Your Own Backyard.mp3
+The Andrews Sisters - Don't Bring Lulu.mp3
+The Andrew Sisters - Ferryboat Serenade.mp3
+The Andrew Sisters - You Do Something to Me.mp3
+087 - The Andrews Sisters - Don't Sit Under The Apple Tree (With Anyone Else But Me) (2003 Digital Remaster).mp3
+Andrew Sisters - Don't Sit Under the Apple Tree.mp3
+The Andrew Sisters - Ti - Pi - Tin.mp3
+The Andrews Sisters - Hold Tight - Hold Tight (Want Some Sea Food Mama).mp3
+The Andrews Sisters - Chico's Love Song.mp3
+The Andrew Sisters - Pennsylvania 6500.mp3
+The Andrews Sisters - Nevertheless.mp3
+The Andrew Sisters - Oh Ma -ma.mp3
+Andrew Sisters - Money Is the Root of All Evil.mp3
+The Andrew Sisters - There Will Never Be Another You.mp3
+The Andrew Sisters - Say Si Si.mp3
+The Andrew Sisters - Well All Right.mp3
+The Andrew Sisters - Yes, My Darling Daughter.mp3
+Andrews Sisters - Civilization Bongo Bongo Bongo.mp3
+The Andrews Sisters - When Francis Dances with Me.mp3
+073 - The Andrews Sisters - I Didn't Know The Gun Was Loaded (Single Version).mp3
+The Andrews Sinsters - Barney Google.mp3
+The Andrew Sisters - In the Mood.mp3
+The Andrew Sisters - Pegan Love Song.mp3
+The Andrew Sisters - Younger Than Springtime.mp3
+The Andrews Sisters - A Smile Will Go a Long Long Way.mp3
+The Andrews Sisters - My Romance.mp3
+The Andrew Sisters - Ti-pi-tin.mp3
+The Andrews Sisters - Big Brass Band from Brazil.mp3
+The Andrew Sisters - Hooray for Love.mp3
+The Andrew Sisters - Beat Me Daddy, Eight to the Bar.mp3
+The Andrews Sisters - Tea for Two.mp3
+Andrew Sisters - Gimme Some Skin, My Friend.mp3
+The Andrew Sisters - You Call Everybody Darling (Remastered).mp3
+The Andrews Sisters - Me Too.mp3
+The Andrews Sisters - Show Me the Way to Go Home.mp3
+The Andrew Sisters - South America, Take It Away.mp3
+The Andrew Sisters - Let There Be Love.mp3
+The Andrews Sisters - Last Night on the Back Porch.mp3
+The Andrews Sisters - That Naughty Waltz.mp3
+The Andrews Sisters - Say _Si Si_ (In Spain They Say _Si SI_ Para Vigo Me Voy).mp3
+Andrew Sisters - Rumors Are Flying.mp3
+The Andrew Sisters - The Song Is You.mp3
+The Andrew Sisters - South American Way.mp3
+Andrew Sisters - Near You.mp3
+The Andrews Sisters - Bei Mir Bist Du Schön (Means that You're Grand).mp3
+002 - Andrew Watkinson - Serenade No. 13 for Strings in G Major _Eine kleine Nachtmusik_, K.525 _ Allegro.mp3
+The Andrew Sisters - The Pennsylvania Polka.mp3
+The Andrew Sisters - Down by the Ohio.mp3
+The Andrew Sisters - Begin the Beguine.mp3
+The Andrews Sisters - Yodelin' Jive.mp3
+The Andrew Sisters - Just a Simple Melody.mp3
+The Andrew Sisters - Joseph! Joseph!.mp3
+The Andrews Sisters - Bounce Me Brother With a Solid Four.mp3
+The Andrews Sisters - Collegiate.mp3
+The Andrew Sisters - Money Is the Root of All Evil.mp3
+The Andrew Sisters - I've Got a Girl in Kalamazoo.mp3
+Andrew Sisters - Along the Navajo Trail.mp3
+Andrew Sisters - Bei Mir Bist Du Schoen.mp3
+The Andrews Sisters - The Donkey Serenade.mp3
+Patti Andrews - I Love You Much Too Much.mp3
+The Andrew Sisters - Of Thee I Sing.mp3
+The Andrew Sisters - Beer Barrel Polka.mp3
+077 - The Andrews Sisters - Rum And Coca-Cola (Single Version).mp3
+The Andrews Sisters - One Meat Ball.mp3
+The Andrews Sisters - Begin the Beguine.mp3
+The Andrew Sisters - Sabre Dance.mp3
+The Andrews Sisters - The Wedding of Lili Marlene.mp3
+The Andrews Sisters - Let There Be Love.mp3
+The Andrew Sisters - Hit the Road.mp3
+The Andrew Sisters - Ciribiribin.mp3
+The Andrew Sisters - I'll Be With You In Apple Blossom Time.mp3
+The Andrews Sisters - Pistol Packin' Mama.mp3
+The Andrew Sisters - The Woodpecker Song.mp3
+The Andrew Sisters - Ac-Cent-Tchu-Ate the Positive.mp3
+The Andrew Sisters - Don't Fence Me In.mp3
+The Andrew Sisters - How Lucky You Are.mp3
+The Andrews Sisters - I Could Write a Book.mp3
+The Andrew Sisters - Civilization (Bongo Bongo Bongo).mp3
+The Andrews Sisters - Any Bonds Today_.mp3
+The Andrew Sisters - Shoo-Shoo Baby.mp3
+The Andrews Sisters - Oh Johnny, Oh Johnny, Oh!.mp3
+The Andrew Sisters - Rhumboogie.mp3
+The Andrews Sisters - Her Bathing Suit Never Got Wet.mp3
+The Andrews Sisters - Of Thee I Sing.mp3
+The Andrew Sisters - The Mambo Man.mp3
+The Andrew Sisters - Oh Johnny! Oh Johnny! Oh!.mp3
+The Andrews Sisters - The Song Is You.mp3
+The Andrew Sisters - Straighten Up And Fly Right (Original Recording).mp3
+The Andrew Sisters - Nice Work If You Can Get It.mp3
+The Andrew Sisters - Rum and Coca Cola.mp3
+The Andrews Sinsters - That Naughty Waltz.mp3
+The Andrews Sisters - Shoo-Shoo-Baby.mp3
+The Andrew Sisters - Jingle Bells.mp3
+The Andrew Sisters - Is Your Is or Is You Ain't (Remastered).mp3
+171 - The Andrews Sisters - Civilization (Bongo, Bongo, Bongo).mp3
+The Andrew Sisters - Let's Have Another One.mp3
+The Andrew Sisters - Sonny Boy.mp3
+The Andrew Sisters - Oh! Ma-Ma! (The Butcher Boy).mp3
+The Andrew Sisters - Thers a Fellow Waiting In Poughkeepsie.mp3
+The Andrews Sisters - Younger Than Springtime.mp3
+The Andrews Sisters - Chico's Love Song (Ma-La-Ja Fah-La Pas-Ka Lah-Tah Cuban Double Talk).mp3
+The Andrew Sisters - I Can Dream, Can't I_.mp3
+The Andrew Sisters - I Want My Mama.mp3
+The Andrews Sisters - Avocado.mp3
+The Andrew Sisters - Boogie Woogie Bugle Boy.mp3
+The Andrew Sisters - Sing, Sing, Sing.mp3
+Elton Britt - Singing Hosanna.mp3
+Elton Britt - Sod Shanty.mp3
+Elton Britt - Put My Little Shoes Away.mp3
+Elton Britt - Roving Gambler.mp3
+Elton Britt - Weep No More My Darlin'.mp3
+Elton Britt - I'm Tying the Leaves (So They Won't Come Down).mp3
+Elton Britt - The White Buffalo.mp3
+Elton Britt, Rosalie Allen & The Three Suns - Close Your Eyes and Dream.mp3
+Elton Britt - Dreaming of the Lone Prairie.mp3
+Elton Britt - Over the Prairie Back Home.mp3
+Elton Britt - There's a Star Spangled Banner Waving Somewhere.mp3
+030 - Elton Britt - Uranium Fever.mp3
+Elton Britt - Someday (You'll Want Me to Want You).mp3
+Elton Britt - Grandfather's Clock.mp3
+Elton Britt - Why Did You Leave Me Alone_.mp3
+Elton Britt - Born to Lose.mp3
+Elton Britt - Ridin' with My Gal.mp3
+Elton Britt - Chime Bells.mp3
+Elton Britt - Broken Wings.mp3
+Elton Britt - The Unknown Soldier.mp3
+Elton Britt & The Three Suns - Merry Madien Polka.mp3
+Elton Britt - Uranium Fever.mp3
+Elton Britt - I'm All That's Left of That Old Quartet.mp3
+Elton Britt - I Heard a Forest Praying.mp3
+Elton Britt - You'll Be Sorry from Now On.mp3
+Elton Britt - Put Me in Your Pocket.mp3
+Elton Britt - Beyond the Sunset.mp3
+Elton Britt - I Get the Blues When It Rains.mp3
+Elton Britt - Too Many Tears.mp3
+Elton Britt - The Crawdad Song.mp3
+Elton Britt - One for the Wonder.mp3
+Elton Britt - The Legendof the Big Rock Candy Mountain.mp3
+Elton Britt - Gotta Get Together with My Gal.mp3
+Elton Britt - When It's Prayer Meeting Time in the Hollow.mp3
+Elton Britt - Little Indian.mp3
+Elton Britt - When It's Springtime in the Rockies.mp3
+Elton Britt - Will You Wait for Me Little Darlin'.mp3
+Elton Britt - Left My Gal in the Mountains.mp3
+Elton Britt - Some Time Sue.mp3
+Elton Britt - Where Are You Now_.mp3
+Elton Britt - Lost Highway.mp3
+Elton Britt - Maybe I'll Cry over You.mp3
+Elton Britt - Trip to the Moon.mp3
+Elton Britt - Streets of Laredo.mp3
+Elton Britt - Red River Valley.mp3
+Elton Britt - Cowpoke.mp3
+Elton Britt - Star of My Heart.mp3
+Elton Britt - Darling Won't You Take Me Back Again.mp3
+Elton Britt - Acres of Diamonds (Mountains of Gold).mp3
+Elton Britt - Lorelei.mp3
+Elton Britt - Virginia Belle.mp3
+Elton Britt - Too Tired to Care.mp3
+Elton Britt - The Convict and the Rose.mp3
+Elton Britt - Sioux City Sue.mp3
+Elton Britt - Home on the Range.mp3
+Elton Britt - Whoopie Ti Yi Yo.mp3
+Elton Britt - Let Me Talk to You.mp3
+Elton Britt - Cattle Call.mp3
+Elton Britt - Don't Make Me Go to Bed and I'll Be Good.mp3
+Elton Britt - Little Pal.mp3
+Elton Britt - Red Wing.mp3
+Elton Britt - Blue Texas Moonlight.mp3
+Elton Britt - Will the Angels Let Me Play_.mp3
+Elton Britt - Thanks for the Heartache.mp3
+Elton Britt - That Silver Haired Daddy of Mine.mp3
+Elton Britt - The Precious Jewel.mp3
+Elton Britt - Buddy Boy.mp3
+Elton Britt - Taller Than Trees.mp3
+Elton Britt - I'll Be Crying over You.mp3
+Elton Britt - Ragtime Doughboy Joe.mp3
+Elton Britt - Fickle Woman.mp3
+Elton Britt - Twilight on the Trail.mp3
+Elton Britt - Just Because You're in Deep Elem.mp3
+Elton Britt - They Took the Stars out of Heaven.mp3
+Elton Britt - I Hung My Head and Cried.mp3
+Elton Britt - When the Work's All Done This Fall.mp3
+Elton Britt - The Lonesome Cowby.mp3
+Elton Britt - She Taught Me to Yodel.mp3
+Elton Britt - Trees.mp3
+03 - There's Always Room At Our House (Remastered).mp3
+Guy Mitchell - Man Overboard (Remastered).mp3
+Guy Mitchell - Man Overboard.mp3
+Guy Mitchell - Let Us Be Sweethearts over Again (Remastered).mp3
+Guy Mitchell - Look at That Girl (Remastered).mp3
+13 - Man and Woman (Remastered).mp3
+Guy Mitchell - You'll Never Be Mine (Remastered).mp3
+Guy Mitchell - Christopher Columbus (Remastered).mp3
+14 - Go Tiger Go (Remastered).mp3
+Guy Mitchell - One Way Street (Remastered).mp3
+12 - Cuff of My Shirt (Remastered).mp3
+Guy Mitchell - Me and My Imagination (Remastered).mp3
+Guy Mitchell - Sippin' Soda.mp3
+Guy Mitchell - Knee Deep in the Blues (Remastered).mp3
+Guy Mitchell - Rock a Billy (Remastered).mp3
+09 - We Won't Live in a Castle (Remastered).mp3
+Guy Mitchell - Too Late.mp3
+Guy Mitchell - Call Rosie on the Phone (Remastered).mp3
+Guy Mitchell - Butterfly Doll.mp3
+Guy Mitchell - You're Not in My Arms Tonight (Remastered).mp3
+Guy Mitchell - Cloud Lucky Seven.mp3
+Guy Mitchell - Crazy With Love.mp3
+Guy Mitchell - We Won't Live in a Castle (Remastered).mp3
+Guy Mitchell - Cause I Love You, That's a Why (Remastered).mp3
+Guy Mitchell - Ah but It Happens (Remastered).mp3
+11 - Sippin' Soda (Remastered).mp3
+Guy Mitchell - Day Of Jubilo.mp3
+Guy Mitchell - We Won't Live In A Castle.mp3
+Guy Mitchell - Under a Rainbow (Remastered).mp3
+Guy Mitchell - Chika Boom.mp3
+Guy Mitchell - Sparrow In The Treetop.mp3
+Guy Mitchell - Tell Us Where The Good Times Are.mp3
+Guy Mitchell - Heartaches By The Number.mp3
+Guy Mitchell - Sweet Stuff.mp3
+Guy Mitchell - Gently, Johnny (Remastered).mp3
+Guy Mitchell - Sippin' Soda (Remastered).mp3
+Guy Mitchell - Sweetheart Of Yesterday.mp3
+Guy Mitchell - Where in the World_ (Remastered).mp3
+Guy Mitchell - She Wears Red Feathers (Remastered).mp3
+Guy Mitchell - The Roving Kind (Remastered).mp3
+Guy Mitchell - If Ya Don't Like It Don't Knock It.mp3
+Guy Mitchell - Too Late (Remastered).mp3
+Guy Mitchell - You're Just in Love (Remastered).mp3
+Guy Mitchell - She Wears Red Feathers.mp3
+Guy Mitchell - Christoper Columbus.mp3
+Guy Mitchell - There's a Pawnshop on the Corner (Remastered).mp3
+Guy Mitchell - Singing the Blues (Remastered).mp3
+Guy Mitchell - If Ya Don't Like It Don't Knock It (Remastered).mp3
+Guy Mitchell - In The Middle Of A Dark Dark Night.mp3
+Guy Mitchell - Sweetheart of Yesterday (Remastered).mp3
+04 - Hannah Lee (Remastered).mp3
+Guy Mitchell - Bob's Yer Uncle.mp3
+Guy Mitchell - I Used to Yate (Remastered).mp3
+Guy Mitchell - There's Always Room at Our House (Remastered).mp3
+Guy Mitchell - Day of Jubilo (Remastered).mp3
+Guy Mitchell - I Can't Help It If I'm Still In Love With You.mp3
+Guy Mitchell - ('Cause I Love You) That's A-Why.mp3
+Guy Mitchell - Sparrow in the Treetop (Remastered).mp3
+Guy Mitchell - There's Always A Room At Our House.mp3
+Guy Mitchell - Zoo Baby.mp3
+Guy Mitchell - Angels Cry (Remastered).mp3
+Guy Mitchell - Bob's Yer Uncle (Remastered).mp3
+Guy Mitchell - The Lord Made A Peanut.mp3
+Guy Mitchell - Let Us Be Sweethearts Over Again.mp3
+Guy Mitchell - Pretty Little Black Eyed Susie.mp3
+Guy Mitchell - Cuff of My Shirt (Remastered).mp3
+01 - The Roving Kind (Remastered).mp3
+Guy Mitchell - Giddy Ap! (Remastered).mp3
+Guy Mitchell - Solo (Remastered).mp3
+Guy Mitchell - A Little Kiss Goodnight (Remastered).mp3
+Guy Mitchell - Nobody Home.mp3
+Guy Mitchell - My Shoes Keep Walking Back To You.mp3
+Guy Mitchell - In the Middle of a Dark Dark Nigh (Remastered).mp3
+Guy Mitchell - My Heart Cries for You (Remastered).mp3
+Guy Mitchell - My Heart Crys For You.mp3
+02 - Knee Deep in the Blues (Remastered).mp3
+Guy Mitchell - Call Rosie On The Phone.mp3
+Guy Mitchell - Feet Up (Pat Him On The Po-Po).mp3
+Guy Mitchell - My Truly Truly Fair (Remastered).mp3
+Guy Mitchell - Crazy with Love (Remastered).mp3
+Guy Mitchell - Cure For The Blues.mp3
+Guy Mitchell - The Cuff Of My Shirt.mp3
+Guy Mitchell - Till We're Engaged.mp3
+06 - The Cuff of My Shirt (Remastered).mp3
+Guy Mitchell - Pittsburgh Pennsylvania.mp3
+Guy Mitchell - Nobody Home (Remastered).mp3
+10 - My Heart Cries for You (Remastered).mp3
+Guy Mitchell - Chick-A-Boom.mp3
+Guy Mitchell - Ninety Nine Years (Dead or Alive) (Remastered).mp3
+Guy Mitchell - Pretty Little Black-Eyed Susie (Remastered).mp3
+Guy Mitchell - Take Me Back Baby (Remastered).mp3
+Guy Mitchell - (I'm Walking Down) A One Way Street.mp3
+05 - She Wears Red Feathers (Remastered).mp3
+07 - Honey Brown Eyes (Remastered).mp3
+08 - Sparrow in the Tree Top (Remastered).mp3
+Guy Mitchell - The Roving Kind.mp3
+15 - Cure for the Blues (Remastered).mp3
+Guy Mitchell - Hangin' Around (Remastered).mp3
+Guy Mitchell - Knee Deep In The Blues.mp3
+Guy Mitchell - Feet Up (Pat Him On The Po Po).mp3
+Guy Mitchell - Tell Us Where the Good Times Are (Remastered).mp3
+Guy Mitchell - A Beggar in Love (Remastered).mp3
+Guy Mitchell - Hangin' Around.mp3
+Guy Mitchell - Cure for the Blues (Remastered).mp3
+Guy Mitchell - You're Just In Love.mp3
+Guy Mitchell - A Dime and a Dollar (Remastered).mp3
+Guy Mitchell - I Can't Help It (Remastered).mp3
+Guy Mitchell - Chick a Boom (Remastered).mp3
+Guy Mitchell - A Dime And A Dollar.mp3
+Guy Mitchell - Feet up (Pat Him on the Po-Po) (Remastered).mp3
+Guy Mitchell - My Truly Truly Fair.mp3
+Guy Mitchell - Cloud Lucky Seven (Remastered).mp3
+Guy Mitchell - Till We're Engaged (Remastered).mp3
+Guy Mitchell - Belle Belle My Liberty Belle.mp3
+Guy Mitchell - Sweet Stuff (Remastered).mp3
+Guy Mitchell - Ninety Nine Years (Dead Or Alive).mp3
+Guy Mitchell - The House of Singing Bamboo (Remastered).mp3
+Guy Mitchell - Belle Belle My Liberty Belle (Remastered).mp3
+166 - Louis Prima - Angelina _ Zooma Zooma.mp3
+Louis Armstrong - Hello Brother.mp3
+Louis Armstrong - High Society.mp3
+Louis Armstrong - Hello Dolly.mp3
+Louis Armstrong - A Kiss to Buid a Dream On.mp3
+167 - Louis Prima - Jump, Jive, An' Wail (Remastered).mp3
+162 - Louis Prima - Pennies From Heaven.mp3
+Louis Armstrong - La Vie En Rose.mp3
+Louis Armstrong - Ain't Misbehavin'.mp3
+168 - Louis Prima - Oh, Marie.mp3
+Louis Jordan - Is You Is Or Is You Ain't My Baby.mp3
+Louis Armstrong - The Home Fire.mp3
+169 - Louis Prima - Banana Split For My Baby (Remastered).mp3
+071 - Louis Prima with Sam Butera & The Witnesses - Che La Luna.mp3
+Louis Armstrong - Tea for Two.mp3
+Louis Armstrong - Dream A Little Dream Of Me.mp3
+Louis Armstrong - Hellzapoppin'.mp3
+12 - Louise.mp3
+Louis Armstrong - I Love Jazz.mp3
+Louis Armstrong - DR. Jazz.mp3
+Glenn Miller & The Army Air Force Band - The St. Louis Blues March (Remastered).mp3
+Louis Armstrong - When the Saints Go Marchin'in.mp3
+Louis Armstrong - Mack the Knife.mp3
+Louis Armstrong - A Kiss To Build A Dream On.mp3
+Louis Armstrong - Cabaret.mp3
+The Boswell Sisters - Louisiana Waddle.mp3
+Louis Armstrong - That's My Desire.mp3
+The Boswell Sisters - Louisiana Hayride.mp3
+Louis Armstrong - The Gipsy.mp3
+163 - Louis Prima - Just A Gigolo _ I Ain't Got Nobody (Medley _ Remastered).mp3
+15 - I Love Louisa.mp3
+Louis Armstrong - Ramona.mp3
+Louis Armstrong - Black and Blue.mp3
+Louis Armstrong - Tiger Rag.mp3
+Louis Armstrong - Indiana.mp3
+16 - St. Louis Blues (with Duke Ellington & His Famous Orchestra).mp3
+Louis Armstrong - St. Louis Blues.mp3
+The Boswell Sisters - St. Louis Blues.mp3
+Louis Armstrong - I Guess I'll Get The Papers And Go Home.mp3
+164 - Louis Prima - Buona Sera (Remastered 2002).mp3
+Louis Armstrong - Fantastic, That's You.mp3
+Louis Armstrong - There Must Be A Way.mp3
+Louis Armstrong - Jeepers Creepers.mp3
+Louis Armstrong - What a Wonderful World.mp3
+Louis Armstrong - St. James Infirmary.mp3
+Louis Armstrong - C'est Si Bon.mp3
+165 - Louis Prima - When You're Smiling_The Sheik Of Araby.mp3
+Louis Armstrong - What A Wonderful World.mp3
+Louis Armstrong's Orchestra And Chorus - The Sunshine Of Love.mp3
+Louis Jordan and his Tympany Five - Keep a Knockin' (But You Can't Come In).mp3
+Louis Armstrong - Give Me Your Kisses (I'll Give You My Heart).mp3
+Louis Armstrong - Blueberry Hill.mp3
+The Four Aces - Three Coins in a Fountain.mp3
+The Four Aces - Mr. Sandman.mp3
+The Four Aces - Three Coins in the Fountain.mp3
+The Four Aces - Heart and Soul.mp3
+The Four Aces - Heart of My Heart.mp3
+The Four Aces - Wedding Bells.mp3
+Helen Forrest - Mad About The Boy.mp3
+Kay Kyser - Jingle Jangle Jingle.mp3
+088 - Kay Kyser and His Orchestra - Praise The Lord And Pass The Ammunition (Album Version).mp3
+Kay Kyser and His Orchestra - (I Got Spurs That) Jingle, Jangle, Jingle (Album Version).mp3
+Kay Kyser - Praise The Lord and Pass The Ammunition!.mp3
+Billie Holiday - Easy Living.mp3
+Billie Holiday - God Bless the Child.mp3
+Billie Holiday - Crazy He Calls Me.mp3
+Glenn Miller - Don’t Sit Under the Apple Tree.mp3
+Glenn Miller - Serenade in Blue.mp3
+Glenn Miller - Fools Rush In (Remastered).mp3
+Glenn Miller - Wishing (Will Make It So).mp3
+Glenn Miller - A Handful of Stars.mp3
+03 - Farewell Blues.mp3
+The Andrews Sisters - The Little Red Fox (N'ya N'ya Ya Can't Catch Me) (with The Glenn Miller Orchestra).mp3
+Glenn Miller - Song of the Volga Boatmen.mp3
+Glenn Miller - On a Little Street in Singapore.mp3
+16 - Johnson Rag.mp3
+Glenn Miller - It's a Blue World.mp3
+Glenn Miller - Indian Summer.mp3
+Glenn Miller - Moonlight Serenade (Remastered).mp3
+Glenn Miller - Ooh! What You Said.mp3
+Glenn Miller - The Call of the Canyon.mp3
+Glenn Miller - Cuckoo in the Clock.mp3
+The Andrews Sisters - Joseph! Jospeph! (with The Glenn Miller Orchestra).mp3
+Glenn Miller - King Porter Stomp.mp3
+Glenn Miller - An Angel in a Furnished Room.mp3
+Glenn Miller - Ida! Sweet as Apple Cider.mp3
+Glenn Miller - Perfidia.mp3
+The Andrews Sisters - Well, Alright! (Tonight's The Night) (with The Glenn Miller Orchestra).mp3
+Glenn Miller - Romance Runs in the Family.mp3
+Glenn Miller - Sometime.mp3
+04 - Tuxedo Junction.mp3
+Glenn Miller - Polka Dots and Moonbeams.mp3
+Glenn Miller - Johnson Rag.mp3
+Glenn Miller - The Man with the Mandolin.mp3
+14 - I Want To Be Happy.mp3
+Glenn Miller - A Nightingale Sang in Berkeley Square (Remastered).mp3
+Glenn Miller - Orange Blossom Lane.mp3
+Glenn Miller - Speaking of Heaven.mp3
+Glenn Miller - When You Wish Upon a Star (Remastered).mp3
+Glenn Miller - Keep 'Em Flying.mp3
+Glenn Miller - Ain'cha Comin' out Tonight_.mp3
+Glenn Miller - Our Love Affair.mp3
+The Andrews Sisters - South American Way (with The Glenn Miller Orchestra).mp3
+Glenn Miller - Little Brown Jug.mp3
+22 - Bugle Call Rag.mp3
+Glenn Miller - My Last Goodbye.mp3
+The Andrews Sisters - Three O'Clock in the Morning (with The Glenn Miller Orchestra).mp3
+02 - It Must Be Jelly.mp3
+Glenn Miller - Beat Me Daddy, Eight to the Bar.mp3
+05 - My Blue Heaven.mp3
+Glenn Miller - I Dreamt I Dwelt in Harlem.mp3
+Glenn Miller - Blue Orchids.mp3
+Glenn Miller - I'll Never Smile Again.mp3
+Glenn Miller - When Johnny Comes Marching Home.mp3
+Glenn Miller - Don't Sit Under the Apple Tree (With Anyone Else but Me) (Remastered).mp3
+Glenn Miller - Careless.mp3
+The Andrews Sisters - Little Sally Waters (with The Glenn Miller Orchestra).mp3
+Glenn Miller - The Rumba Jumps!.mp3
+09 - Carribean Clipper.mp3
+The Andrews Sisters - Do I Love You (with The Glenn Miller Orchestra).mp3
+The Andrews Sisters - Run, Rabbit, Run (with The Glenn Miller Orchestra).mp3
+Glenn Miller - Pennsylvania 6-5000.mp3
+Glenn Miller - Here We Go Again.mp3
+Glenn Miller - At Last.mp3
+095 - Glenn Miller - Chattanooga Choo-Choo (From the 20th Century Fox film _Sun Valley Serenade_) (1994 Remastered).mp3
+Glenn Miller - The Cowboy Serenade (While I'm Rollin' My Last Cigarette).mp3
+Glenn Miller - By the Waters of the Minnetonka.mp3
+The Andrews Sisters - Let's Have Another One (Before We Say Goodnight) (with The Glenn Miller Orchestra).mp3
+Glenn Miller - Little Brown Jug (Remastered).mp3
+Glenn Miller - How I'd Like to Be with You in Bermuda.mp3
+Glenn Miller - Sunrise Serenade.mp3
+Glenn Miller - Elmer's Tune.mp3
+Glenn Miller - Five o'Clock Whistle.mp3
+Glenn Miller - That Old Black Magic.mp3
+Ed Herlihy & Glenn Miller - Introduction_Theme (_Moonlight Serenade).mp3
+Glenn Miller - My Prayer.mp3
+Glenn Miller & The Army Air Force Band - Over There (Remastered).mp3
+Glenn Miller - Starlit Hour.mp3
+Glenn Miller - Chattanooga Choo Choo.mp3
+Glenn Miller - Melancholy Lullaby.mp3
+17 - Long Tall Mama.mp3
+Glenn Miller - In the Mood (2010 Remastered).mp3
+Glenn Miller - My Reverie.mp3
+Glenn Miller - Outro.mp3
+Glenn Miller - It Was Written in the Stars.mp3
+Glenn Miller - One O'Clock Jump.mp3
+Glenn Miller - Sweet Eloise.mp3
+Glenn Miller - Rainbow Rhapsody.mp3
+Glenn Miller - Rendezvous Time in Paree.mp3
+Glenn Miller - Star Dust (Remastered).mp3
+01 - American Patrol.mp3
+15 - Runnin' Wild.mp3
+Glenn Miller - Anvil Chorus.mp3
+Glenn Miller - When Johnny Comes Marching Home (Remastered).mp3
+Glenn Miller - The Nearness of You.mp3
+Glenn Miller - Dearly Beloved.mp3
+20 - Sliphorn Jive.mp3
+Glenn Miller - Ding Dong! the Witch Is Dead.mp3
+19 - Pagan Love Song.mp3
+Glenn Miller - Juxebox Saturday Night.mp3
+Glenn Miller - Skylark.mp3
+Glenn Miller - Stairway to the Stars.mp3
+Glenn Miller - Runnin' Wild (An Ebony Jazz Tune).mp3
+Glenn Miller - Wham (Re-Bop-Boom-Bam).mp3
+Glenn Miller - My Blue Heaven.mp3
+Glenn Miller - Tuxedo Junction.mp3
+Glenn Miller - Serenade In Blue (Remastered).mp3
+Glenn Miller - Tuxedo Junction (Remastered).mp3
+Glenn Miller - Long Tall Mama.mp3
+Glenn Miller - Over the Rainbow (Remastered).mp3
+Glenn Miller - Moonlight Becomes You.mp3
+Glenn Miller - Blueberry Hill.mp3
+Glenn Miller - On a Little Street in Singapore (Remastered).mp3
+The Andrews Sisters - I Want My Mamma (Mama Yo Quiero) (with The Glenn Miller Orchestra).mp3
+The Andrews Sisters - The Woodpecker Song (Reginella Campagnola) (with The Glenn Miller Orchestra).mp3
+The Andrews Sisters - Ciribiribin (with The Glenn Miller Orchestra).mp3
+11 - Glen Island Special.mp3
+Glenn Miller - Beautiful Ohio.mp3
+Glenn Miller - The Gaucho Serenade.mp3
+Glenn Miller - Who's Sorry Now.mp3
+Glenn Miller - Chattanooga Choo-Choo (From the 20th Century Fox film _Sun Valley Serenade_) (Remastered).mp3
+21 - Sold American.mp3
+Glenn Miller - American Patrol (Remastered).mp3
+Glenn Miller - In the Mood (Remastered).mp3
+Glenn Miller - Moonlight Cocktail.mp3
+13 - Chip Off The Block.mp3
+Glenn Miller & The Army Air Force Band - G.I. Jive (Remastered).mp3
+23 - Rug Cutter's Swing.mp3
+Glenn Miller - Over the Rainbow.mp3
+12 - Sun Valley Jump.mp3
+Glenn Miller - (I've Got A Gal In) Kalamazoo.mp3
+Glenn Miller - Farewell Blues.mp3
+Glenn Miller - The Sky Fell Down.mp3
+Glenn Miller - Crosstown.mp3
+Glenn Miller - Blue Rain.mp3
+Glenn Miller - The Lady's in Love with You.mp3
+Glenn Miller - The Woodpecker Song (Remastered).mp3
+Glenn Miller - Rhapsody in Blue.mp3
+Glenn Miller - Sold American.mp3
+24 - Little Brown Jug.mp3
+06 - In The Mood.mp3
+Glenn Miller - Make Believe.mp3
+Glenn Miller - Falling Leaves.mp3
+Glenn Miller - Love with a Capital 'You'.mp3
+Glenn Miller - Sweet Potato Piper.mp3
+The Andrews Sisters - (Down By The) O-hi-o (O My O!) (with The Glenn Miller Orchestra).mp3
+Glenn Miller - Yester Thoughts.mp3
+18 - Wham (Re-Bop-Boom-Bam).mp3
+Glenn Miller - A String of Pearls (Remastered).mp3
+068 - Glenn Miller & The Army Air Force Band - Juke Box Saturday Night (Remastered 2001).mp3
+10 - King Porter Stomp.mp3
+Glenn Miller - Juke Box Saturday Night.mp3
+Glenn Miller - Pennsylvania 6-5000 (Remastered).mp3
+Glenn Miller - Danny Boy.mp3
+07 - Chattanooga Choo Choo.mp3
+Glenn Miller - (I've Got a Gal In) Kalamazoo (Remastered).mp3
+Glenn Miller - Ain't Cha Comin' Out_.mp3
+Glenn Miller - Ciribiribin.mp3
+Glenn Miller - Measure for Measure.mp3
+Glenn Miller - Blueberry Hill (Remastered).mp3
+Glenn Miller - A String of Pearls.mp3
+Glenn Miller - Imagination.mp3
+The Andrews Sisters - South of the Border (Down Mexico Way) (with The Glenn Miller Orchestra).mp3
+25 - Slow Freight.mp3
+08 - I Dream I Dwelt In Harlem.mp3
+The Ink Spots - It's All over but the Crying (From The _Fallout 4_ Video Game Trailer).mp3
+The Ink Spots - Stompin' At The Savoy.mp3
+The Ink Spots - To Each His Own.mp3
+The Ink Spots - Don't Ger Around Much Anymore.mp3
+The Ink Spots - I'll Never Smile Again.mp3
+The Ink Spots - If I Didn't Care.mp3
+The Ink Spots - Until The Real Thing Comes Along.mp3
+The Ink Spots - Java Jive.mp3
+The Ink Spots - Someone's Rocking My Dreamboat.mp3
+The Ink Spots - The Gypsy.mp3
+The Ink Spots - I Don't Want To Set The World On Fire.mp3
+The Ink Spots - Bless You.mp3
+014 - The Ink Spots - Maybe.mp3
+The Ink Spots - Cristopher Columbus.mp3
+The Ink Spots - I'm Getting Sentimental Over You.mp3
+The Ink Spots - Maybe (Remastered).mp3
+The Ink Spots - With Plenty Of Money And You.mp3
+The Ink Spots - Swing High, Swing Low.mp3
+The Ink Spots - Whispering Grass (Don't Tell The Trees).mp3
+The Ink Spots - It's All Over But The Crying (Remastered).mp3
+The Ink Spots - We Three (My Echo, My Shadow And Me).mp3
+The Ink Spots - Stop Pretending.mp3
+The Ink Spots - We Three (My Echo, My Shadow and Me).mp3
+The Ink Spots - It's A Sin To Tell A Lie.mp3
+The Ink Spots - Maybe.mp3
+The Ink Spots - My Prayer.mp3
+The Ink Spots - When The Swallows Come Back To Capistrano.mp3
+The Ink Spots - I Don't Want to Set the World on Fire.mp3
+The Ink Spots - It's All Over but the Crying.mp3
+The Ink Spots - I'll Get By (As Long As I Have You).mp3
+080 - The Ink Spots - Into Each Life Some Rain Must Fall.mp3
+The Ink Spots - It's All over but the Crying (As Heard in Fallout 4).mp3
+The Ink Spots - It's All Over But the Crying.mp3
+The Ink Spots - Into Each Life Some Rain Must Fall.mp3
+The Ink Spots - We Three (My Echo, My Shadow, And Me).mp3
+The Ink Spots - Do I Worry.mp3
+The Chordettes - Lay Down Your Arms.mp3
+The Chordettes - Born to Be with You.mp3
+The Chordettes - Lollipop.mp3
+The Chordettes - A Girl's Work Is Never Done.mp3
+The Chordettes - Mr. Sandman (Remastered).mp3
+The Chordettes - I Cried a Tear.mp3
+The Chordettes - Pink Shoelaces.mp3
+The Chordettes - Faraway Star.mp3
+The Chordettes - I Don't Know, I Don't Care.mp3
+The Chordettes - The Wedding.mp3
+The Chordettes - Eddie My Love.mp3
+The Chordettes - When Day Is Done.mp3
+The Chordettes - Summertime.mp3
+The Chordettes - They Say It's Wonderful.mp3
+The Chordettes - Thats Old Fashioned.mp3
+The Chordettes - A Broken Vow.mp3
+The Chordettes - Teenage Goodnight.mp3
+The Chordettes - The Anniversary Waltz.mp3
+The Chordettes - Just Between You and Me.mp3
+The Chordettes - In the Deep Blue Sea.mp3
+The Chordettes - Never on Sunday.mp3
+The Chordettes - Mr. Sandman.mp3
+Vaughan Monroe - Ballerina.mp3
+Dooley Wilson - As Time Goes By.mp3
+soxi
+The Mills Brothers - You Always Hurt the One You Love.mp3
+Artie Shaw - Frenesi.mp3
+Fred Waring and The Pennsylvanians - Give Me Your Tired, Your Poor.mp3
+Blue Barron And His Orchestra - Cruising Down the River.mp3
+Fats Waller - Ain't Misbehavin.mp3
+Hank Thompson - Hangover Heart.mp3
+Artie Shaw And His Orchestra - Stardust.mp3
+Harry James - I've Heard That Song Before.mp3
+Gene Autry - Rudolph the Red-Nosed Reindeer.mp3
+Billy Ward & The Dominoes - Sixty Minute Man.mp3
+Fred Waring and The Pennsylvanians - The Hills Of Home.mp3
+Margaret Whiting - A Tree in the Meadow.mp3
+Charlie Spivak - Lnda.mp3
+Cab Calloway - The Jumpin' Jive (Hep! Hep!).mp3
+Frankie Laine - Mule Train.mp3
+Benny Goodman - Jersey Bounce.mp3
+Jimmie Davis - You Are My Sunshine.mp3
+Woody Guthrie - This Land Is Your Land.mp3
+Eddy Howard - To Each His Own.mp3
+The Dominoes - Sixty Minute Man.mp3
+Survivor - Eye of the Tiger.mp3
+Frankie Carle and His Orchestra - One More Tomorrow.mp3
+The Three Suns - Worry Worry Worry.mp3
+Sammy Davis Jr. - Lounge Legends_ Sammy Davis Jr
+Europe - The Final Countdown.mp3
+Eddy Arnold - It's a Sin.mp3
+Eddy Christiani - Rhythm for You.mp3
+Frankie Carle - Oh! What It Seemed To Be.mp3
+King Cole Trio - Orange Colored Sky (Remastered 2005).mp3
+Ella Mae Morse - Pig Foot Pete (Original Recording).mp3
+Woody Herman - Blues in the Night.mp3
+Spike Jones - De Fuehrer's Face.mp3
+Orchestra of the Viennese Volksoper - Egyptischer Marsch (Egyptian March), Op. 335.mp3
+Nat 'King' Cole - Orange Coloured Sky (Remastered).mp3
+Ernest Tubb - Walking The Floor Over You.mp3
+The Mills Brothers - Paper Doll.mp3
+Xavier Cugat And His Orchestra - Brazil.mp3
+Margaret Whiting - Baby It's Cold Outside.mp3
+Paul Douglas - Closing Announcements.mp3
+Les Brown - Sentimental Journey.mp3
+Jimmy Durante - Smile.mp3
+Francis Craig and His Orchestra - Near You.mp3
+The Sons Of The Pioneers - Cool Water.mp3
+Shaindlin Jack - Let's Go Sunning.mp3
+Johnny Mercer - Personality.mp3
+Bob Wills & His Texas Playboys - Steel Guitar Rag.mp3
+Ella Mae Morse - Mister Five By Five.mp3
+Warren Smith - Uranium Rock - Original.mp3
+Dean Martin - All Time Favourites
+Art Mooney - I'm Looking Over a Four Leaf Clover.mp3
+Todd Rhodes Orchestra - Rocket 69.mp3
+Cliff Edwards - When You Wish Upon a Star.mp3
+Guy Mitchel - Singing the Blues.mp3
+Dizzy Gillespie - A Night In Tunisia.mp3
+Thelonious Monk - Round Midnight.mp3
+Frank Sinatra - Dean Martin, Frank Sinatra, Sammy Davis Jr - The Rat Pack
+Johnny Mercer And the Pied Pipers - Personality.mp3
+Wynonie Harris - Grandma Plays the Numbers.mp3
+Sid Phillips and his Melodians - Boogie Man.mp3
+Ben Selvin & His Orchestra - Happy Days Are Here Again (Remastered).mp3
+Roy Brown - Good Rockin' Tonight.mp3
+Frankie Laine - That Lucky Old Sun.mp3
+Vaughan Monroe - There! I've Said It Again.mp3
+Al Jolson - The Anniversary Song.mp3
+Fred Waring and The Pennsylvanians - The Stars And Stripes Forever.mp3
+Jack Shaindlin - I'm Tickled Pink.mp3
+The Harmonicats - Peg O' My Heart.mp3
+Dean Martin - Dean Martin - That's Amore
+Johnny Mercer And the Pied Pipers - On the Atchison Topeka And Santa Fe.mp3
+Tommy Dorsey - Opus One.mp3
+Count Basie - Open the Door, Richard.mp3
+Red Foley - Chattanoogie Shoe Shine Boy.mp3
+Al Trace - You Call Everybody Darlin'.mp3
+Tennessee Ernie Ford - Sixteen Tons (Remastered).mp3
+Wynonie Harris - Grandma Plays The Numbers - Original.mp3
+Vaughan Monroe and His Orchestra - Riders in the Sky (A Cowboy Legend).mp3
+Roy Brown - Mighty, Mighty Man.mp3
+Tommy Dorsey - I'll Never Smile Again.mp3
+The Five Stars - Atom Bomb Baby.mp3
+Harry James - Sleepy Lagoon.mp3
+Ted Lewis & His Band - In A Shanty In Old Shanty Town.mp3
+Warren Smith - Uranium Rock.mp3
+Frankie Laine - That's My Desire.mp3
+Vaughan Monroe - Let It Snow! Let It Snow! Let It Snow!.mp3
+Ed Herlihy - Intro.mp3
+Geek Music - Fallout 76 - Take Me Home, County Roads - Main Theme.mp3
+Lena Horne - Stormy Weather.mp3
+Tommy Dorsey - In the Blue of Evening.mp3
+Fred Astaire - I Won't Dance - The Best of
+Ames Brothers - Rag Mop.mp3
+Harry James - I'll Get By (As Long As I Have You).mp3
+Roy Rogers - Don’t Fence Me In.mp3
+Dion Dimucci - The Wanderer.mp3
+Guy Lombardo - Auld Lang Syne.mp3
+Dick Haymes - You'll Never Know.mp3
+Ray Smith - Right Behind You Baby.mp3
+Frank Sinatra - Frank Sinatra Collection
+Johnny Bond - Stars Of The Midnight Range.mp3
+The Song Spinners - Comin' in On A Wing and a Prayer.mp3
+Tex Williams - Smoke! Smoke! Smoke! (That Cigarette).mp3
+Tommy Dorsey - Opus No. 1.mp3
+cover.jpg
+CD1
+CD2
+cover.jpg
+cover.jpg
+cover.jpg
+cover.jpg
+cover.jpg
+Betty Hutton - He's a Demon, He's a Devil, He's a Doll.mp3
+108 - Betty Hutton - He's A Demon - He's A Devil - He's A Doll.mp3
+Betty Hutton - It's A Man.mp3
+Betty Hutton - He's A Demon - He's A Devil - He's A Doll.mp3
+Betty Hutton - Orange Coloured Sky.mp3
+Betty Hutton - It's a Man.mp3
+072 - Betty Hutton - Doctor, Lawyer, Indian Chief.mp3
+Vera Lynn - I'm Gonna Sit Right Down and Write Myself a Letter.mp3
+Vera Lynn - A Nightingale Sang in Berkeley Square.mp3
+051 - Vera Lynn - We'll Meet Again.mp3
+Vera Lynn - Bless 'Em All _ (We're Gonna Hang out the Washing) on the Siegfried Line _ Kiss Me Goodnight Sergeant Major.mp3
+Vera Lynn - Those Were the Days.mp3
+Vera Lynn - Unforgettable (feat. Roger Webb).mp3
+Vera Lynn - My Way.mp3
+Vera Lynn - When I Grow Too Old to Dream.mp3
+Vera Lynn - My Son, My Son.mp3
+Vera Lynn - Strangers in the Night.mp3
+Vera Lynn - We'll Meet Again.mp3
+Vera Lynn - It Had to Be You.mp3
+Vera Lynn - Amazing Grace.mp3
+Vera Lynn - The Bells of St. Mary.mp3
+Vera Lynn - Land of Hope and Glory (Adapted from 'Pomp & Circumstance' No 1).mp3
+Vera Lynn - I'm Beginning to See the Light.mp3
+Vera Lynn - The London I Love.mp3
+Vera Lynn - When You Wish Upon A Star (From _Pinocchio_ _ 2017 Version).mp3
+Vera Lynn - Where Have All the Flowers Gone.mp3
+Vera Lynn - Bless This House.mp3
+Vera Lynn - Amazing Grace (with the Mike Sammes Singers).mp3
+Vera Lynn - (There'll Be Bluebirds Over) The White Cliffs Of Dover.mp3
+Vera Lynn - If I Had My Way.mp3
+Vera Lynn - There'll Always Be an England.mp3
+Vera Lynn - All Through the Night.mp3
+Vera Lynn - Rose of England.mp3
+Vera Lynn - Auf Weiderseh'n Sweetheart.mp3
+Vera Lynn - Who's Sorry Now.mp3
+Vera Lynn - Harbour Lights.mp3
+Vera Lynn - The Old Rugged Cross.mp3
+Vera Lynn - This Is the Army _ I Left My Heart at the Stage Door Canteen _ It's a Lovely Day Tomorrow.mp3
+Vera Lynn - Now Is the Hour.mp3
+Vera Lynn - I'll Be Seeing You.mp3
+Vera Lynn - Anniversary Waltz.mp3
+Vera Lynn - Auf Wiederseh'n Sweetheart (2017 Version).mp3
+Vera Lynn - Don't Cry My Love.mp3
+Vera Lynn - What a Wonderful World.mp3
+Vera Lynn - You'd Be So Nice to Come Home To.mp3
+Vera Lynn - Love Letters.mp3
+Vera Lynn - Paper Roses.mp3
+Vera Lynn - Land of Hope and Glory.mp3
+Vera Lynn - As Time Goes By.mp3
+Frank Sinatra - Lady Day.mp3
+02 - I'Ve Got My Love To Keep Me Warm.mp3
+06 - Violets For You Furs.mp3
+11 - Lady From 29 Palms.mp3
+Frank Sinatra - Have You Met Miss Jones_.mp3
+02 - The Night we called It A Day.mp3
+Frank Sinatra - I Have Dreamed.mp3
+040 - Frank Sinatra - The Coffee Song.mp3
+Frank Sinatra - The House I Live In.mp3
+07 - I Don't Know Why.mp3
+039 - Frank Sinatra - That's Life.mp3
+004 - Frank Sinatra - Ol' Man River.mp3
+11 I`ve Got You Under My Skin.mp3
+18 - Be Careful, It's My Heart.mp3
+15 - Fools Rush In.mp3
+041 - Frank Sinatra - Call Me Irresponsible (Remastered Album Version).mp3
+Frank Sinatra - It’s Sunday.mp3
+05 The Way You Look Tonight.mp3
+06 - Tenderly.mp3
+Frank Sinatra - I've Got You Under My Skin.mp3
+Frank Sinatra - You Never Had It So Good.mp3
+16 My Way.mp3
+Frank Sinatra - I Love My Wife.mp3
+Frank Sinatra - The Girls I’ve Never Kissed.mp3
+Frank Sinatra - As You Desire Me.mp3
+20 Theme from New York, New York.mp3
+Frank Sinatra - Don’t Take Your Love From Me.mp3
+14 All or Nothing at All.mp3
+08 - How About You_.mp3
+18 - Imagination.mp3
+Frank Sinatra - Everybody’s Twistin’.mp3
+038 - Frank Sinatra - Strangers In The Night.mp3
+078 - Frank Sinatra - Summer Wind (Album).mp3
+Frank Sinatra - Blue Lace.mp3
+Frank Sinatra - It's Always You.mp3
+019 - Frank Sinatra - My Way.mp3
+18 Send in the Clowns.mp3
+Frank Sinatra - Star!.mp3
+03 I Get a Kick Out of You.mp3
+Frank Sinatra - Since Marie Has Left Paree.mp3
+17 The Lady Is a Tramp.mp3
+03 - East Of The Sun.mp3
+12 - Hair Of Gold, Eyes Of Blue.mp3
+021 - Frank Sinatra - Nothing But The Best (Remastered Album Version).mp3
+17 - Light A Candle In The Chapel.mp3
+06 My Kind of Town.mp3
+Frank Sinatra - Nancy.mp3
+19 Nancy (With the Laughing Face).mp3
+17 - All This & Heaven Too.mp3
+19 - Pale Moon.mp3
+Frank Sinatra - Come Waltz With Me.mp3
+12 - This Love Of Mine.mp3
+020 - Frank Sinatra - Come Fly With Me (Remastered).mp3
+19 - In The Blue Of The Evening.mp3
+Frank Sinatra - Just As Though You Were Here.mp3
+111 - Frank Sinatra - I've Got You Under My Skin (Remastered 1998).mp3
+Frank Sinatra - I Only Have Eyes for You.mp3
+01 - S'Wonderful.mp3
+14 - Blue Skies.mp3
+09 - You Lucky People, You.mp3
+Frank Sinatra - Something's Gotta Give (1998 Remaster).mp3
+Frank Sinatra - I Left My Heart In San Francisco.mp3
+Frank Sinatra - Emily.mp3
+Frank Sinatra - In The Blue Of Evening.mp3
+16 - My Happiness.mp3
+062 - Frank Sinatra - Somethin' Stupid.mp3
+Frank Sinatra - You Brought A New Kind Of Love To Me.mp3
+Frank Sinatra - Call Me Irresponsible.mp3
+Frank Sinatra - Love Walked In.mp3
+10 Love and Marriage.mp3
+055 - Frank Sinatra - Blue Moon (1998 Digital Remaster).mp3
+16 - I'll Never Smile Again.mp3
+05 - Without A Song.mp3
+018 - Frank Sinatra - Fly Me To The Moon (Remastered).mp3
+20 - Daybreak.mp3
+13 Summer Wind.mp3
+09 - On The Sunny Side Of The Street.mp3
+13 - It Only Happens When I Dance With You.mp3
+10 - The Didn't Believe Me.mp3
+08 - I'll String Along With You.mp3
+Frank Sinatra - My Funny Valentine.mp3
+Frank Sinatra - Let Us Break Bread Together.mp3
+Frank Sinatra - What Is This Thing Called Love_.mp3
+Frank Sinatra - Early American.mp3
+15 That`s Life.mp3
+05 - Somebody Loves Me.mp3
+Frank Sinatra - Younger Than Springtime.mp3
+Frank Sinatra - Barbara.mp3
+Frank Sinatra - Name It And It's Yours.mp3
+Frank Sinatra - Tina.mp3
+09 It Was a Very Good Year.mp3
+Frank Sinatra - America, I Hear You Singing.mp3
+064 - Frank Sinatra - Swinging On A Star.mp3
+Frank Sinatra - Linda.mp3
+15 - Between The Devil And The Deep Blue Sea.mp3
+07 The Best Is Yet to Come.mp3
+Frank Sinatra - Blue Moon.mp3
+07 - I'll Be Seeing You.mp3
+Frank Sinatra - I'm Beginning to See the Light.mp3
+Frank Sinatra - Bewitched.mp3
+13 - Polka Dots And Moonbeams.mp3
+Frank Sinatra - The Very Thought of You.mp3
+10 - Nancy.mp3
+02 Night and Day.mp3
+022 - Frank Sinatra - My Kind Of Town (Remastered 2008).mp3
+12 Strangers in the Night.mp3
+04 - The Sunshine Of Your Smile.mp3
+Frank Sinatra - Like Someone in Love.mp3
+20 - I Think Of You.mp3
+Frank Sinatra - A Fine Romance.mp3
+Frank Sinatra - Sweet Lorraine.mp3
+04 Luck Be a Lady.mp3
+14 - Nevertheless I'm In Love With You.mp3
+Frank Sinatra - I'll Never Smile Again.mp3
+Frank Sinatra - Everything Happens To Me.mp3
+01 - Oh! Look At Me Now.mp3
+Frank Sinatra - You're A Lucky Fellow, Mr. Smith.mp3
+11 - The One I Love Belongs to Somebody Else.mp3
+04 - Begin The Beguine.mp3
+01 The Last Dance.mp3
+03 - I'm In The Mood For Love.mp3

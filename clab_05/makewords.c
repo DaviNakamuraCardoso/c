@@ -21,7 +21,7 @@ void makewords(FILE* f)
 
     for (int i = 0; (c = fgetc(f)) != EOF; i++)
     {
-        if (!isalpha(c) && c != '\'') { 
+        if (!isalnum(c) && c != '\'') { 
 
             if (c == '\r') continue;
 

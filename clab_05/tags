@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = clang$/;"	m
+CONTEXT	grep.c	4;"	d	file:
+HASHSIZE	hash.h	4;"	d
+Hash	hash.h	/^} Hash;$/;"	t	typeref:struct:_hash
+MARBLE	nim.c	5;"	d	file:
+MAXSIZE	phrase.c	6;"	d	file:
+PHRASES	phrase.c	/^const char* PHRASES[MAXSIZE];$/;"	v
+__HASHH	hash.h	2;"	d
+_hash	hash.h	/^typedef struct _hash {$/;"	s
+add_hash	hash.c	/^void add_hash(Hash** table, char* word)$/;"	f
+create	hash.c	/^Hash* create(char* word)$/;"	f
+create_table	hash.c	/^Hash** create_table(void)$/;"	f
+get	get.c	/^int get(FILE* stream)$/;"	f
+get_phrase	phrase.c	/^void get_phrase(FILE* f)$/;"	f
+grep	grep.c	/^unsigned int grep(FILE *f, char *exp)$/;"	f
+hash	hash.c	/^int hash(char* word)$/;"	f
+loop	mismatch.c	/^void loop(FILE* stream, Hash** dictionary, void (*handler) (Hash**, char*))$/;"	f
+lowercase	lowercase.c	/^void lowercase(FILE* f)$/;"	f
+lowerword	lowercase.c	/^void lowerword(char* word)$/;"	f
+main	cp.c	/^int main(int argc, char** argv)$/;"	f
+main	cp2.c	/^int main(int argc, char** argv)$/;"	f
+main	cs50.c	/^int main(void)$/;"	f
+main	date.c	/^int main(int argc, const char** argv) $/;"	f
+main	echo.c	/^int main(int argc, const char** argv)$/;"	f
+main	get.c	/^int main(int argc, const char** argv)$/;"	f
+main	grep.c	/^int main(int argc, char** argv)$/;"	f
+main	hello.c	/^int main(int argc, char** argv)$/;"	f
+main	lowercase.c	/^int main(int argc, const char** argv)$/;"	f
+main	ls.c	/^int main(int argc, const char** argv)$/;"	f
+main	makewords.c	/^int main(int argc, const char** argv)$/;"	f
+main	mismatch.c	/^int main(int argc, const char** argv)$/;"	f
+main	nim.c	/^int main(void)$/;"	f
+main	nolines.c	/^int main(int argc, char** argv)$/;"	f
+main	p.c	/^int main(int argc, const char** argv)$/;"	f
+main	phrase.c	/^int main(int argc, const char** argv)$/;"	f
+main	stdout.c	/^int main(int argc, char** argv)$/;"	f
+main	unique.c	/^int main(int argc, char** argv)$/;"	f
+main	yes.c	/^int main(int argc, char** argv)$/;"	f
+makewords	makewords.c	/^void makewords(FILE* f)$/;"	f
+mismatch	mismatch.c	/^void mismatch(FILE* f, FILE* dict)$/;"	f
+next	hash.h	/^   struct _hash* next; $/;"	m	struct:_hash	typeref:struct:_hash::_hash
+nims	nim.c	/^unsigned nims(unsigned choice) $/;"	f
+players	nim.c	/^unsigned players(unsigned *choice)$/;"	f
+print_notf	mismatch.c	/^void print_notf(Hash** dictionary, char* word)$/;"	f
+printh	nim.c	/^void printh(unsigned n)$/;"	f
+search_hash	hash.c	/^unsigned int search_hash(Hash** table, char* word)$/;"	f
+skipblank	phrase.c	/^void skipblank(FILE* f)$/;"	f
+strlen	grep.c	/^int strlen(char* str)$/;"	f
+unique	unique.c	/^void unique(FILE* f)$/;"	f
+word	hash.h	/^   char* word;$/;"	m	struct:_hash

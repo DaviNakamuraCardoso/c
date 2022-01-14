@@ -10,7 +10,7 @@ Learning C by using the book *[Head First C](https://www.amazon.com/Head-First-C
 ##### Sharpen your pencil
 1. Prints *"The deck is hot. Increase bet."* to the console.
 2. Prints *"I must not write code in class"* 10 times.
-3. Gets a boyfriend name and prints the message: f"Dear {name}.\n\n You are history."
+3. Gets a boyfriend name and prints the message: "Dear $name.\n\n You are history."
 4. Prints *"Hearts"*
 
 

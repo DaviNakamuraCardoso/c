@@ -19,7 +19,7 @@ int main(void)
         nims(choice);
     }
 
-    puts("Dr. Nim wins.");
+    puts("dr. nim wins.");
 
     return 0;
 }

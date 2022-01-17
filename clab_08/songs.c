@@ -41,7 +41,7 @@ inner:  while ((de = readdir(d)) != NULL)
 
                 paths[sp++] = abspath;
             }
-            printf("%s\n", name); 
+            printf("%s/%s\n", current, name); 
         } 
 
         closedir(d); 

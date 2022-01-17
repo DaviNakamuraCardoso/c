@@ -14,6 +14,8 @@ all: $(OBJS)
 clean: 
 	rm $(OBJS) $(EXE)
 
+install: $(EXE)
+	cp $(EXE) /home/davi/bin
 
 
 

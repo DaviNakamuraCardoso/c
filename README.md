@@ -1,4 +1,6 @@
 # Learning C
+[toc]
+
 Learning C by using the book *[Head First C](https://www.amazon.com/Head-First-C-Brain-Friendly-Guide/dp/1449399916)*, by David Griffiths and Dawn Griffiths
 
 
@@ -1124,3 +1126,9 @@ the same time and end up writing the wrong value;
 
 #### Long exercise
 ![Version B is correct](./ex0.png)
+
+## Other Resources
+* [CS61](https://cs61.seas.harvard.edu/site/2021/)
+* [Garbage Collector Project](http://maplant.com/gc.html)
+* [Baby GC](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)
+
